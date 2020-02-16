@@ -1,0 +1,18 @@
+{{ define "main" }}
+<!-- vedi https://zwbetz.com/make-a-hugo-blog-from-scratch/ -->
+<section class="row td-box td-box--4 td-box--gradient td-box--height-auto">
+  <div class="col">
+    <div class="row paddingrow">
+      <div class="col-12 nopadding">
+        <h2>I tag di T'ansignari</h2>
+        {{ range .Data.Terms.Alphabetical }}
+        <a class="btn btn-outline-dark font-125 listatag" href="{{ .Page.Permalink }}">
+          <span class="badge badge-dark">{{ .Count }}</span> {{ .Page.Title }}
+        </a>&nbsp;
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

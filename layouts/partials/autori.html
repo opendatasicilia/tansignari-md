@@ -1,0 +1,10 @@
+<!-- layouts/partials/autori.html -->
+{{ if .Params.autori }}
+<ul id="autori">A cura di:
+  {{ range .Params.autori }}
+  <li class="horizontal">
+    <a href="/autori/{{ . | urlize }}">{{ . }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

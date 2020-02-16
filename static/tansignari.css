@@ -1,0 +1,32 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.paddingrow {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  flex-direction: row !important;
+}
+
+.horizontal {
+  display: inline;
+}
+
+.listatag {
+  margin-bottom: 5px;
+}
+
+#autori {
+  padding-inline-start: 0px;
+  font-style: italic;
+}
+
+#tagricetta {
+  padding-inline-start: 0px;
+  color: gray;
+}
+
+#tagricetta a {
+  color: #FF8000;
+}
