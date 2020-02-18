@@ -4,7 +4,9 @@
 	<hr>
 	<p id="meta">{{ partial "autori.html" .}}
 		{{ if (.Params.issue) }}
-		| issue correlata <a href="https://github.com/opendatasicilia/tansignari/issues/{{ .Params.issue }}" target="_blank"><code>#{{ .Params.issue }}</code></a>
+		| issue {{ range .Params.issue }}
+		<a href="https://github.com/opendatasicilia/tansignari/issues/{{ . }}" target="_blank"><code>#{{ . }}</code></a>
+		{{ end }}
 		{{ end }}
 	</p>
 	{{ .Content }}

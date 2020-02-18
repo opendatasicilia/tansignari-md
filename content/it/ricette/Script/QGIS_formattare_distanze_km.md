@@ -7,7 +7,7 @@ description: >
 tags:
   - QGIS
   - HfcQGIS
-issue: 59
+issue: [59]
 autori: ["Agostino Ficco"]
 chef: "Totò Fiandaca"
 ---

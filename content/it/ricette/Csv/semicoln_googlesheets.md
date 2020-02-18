@@ -7,7 +7,7 @@ description: >
 tags:
   - csv
   - gsheet
-issue: 89
+issue: [89]
 autori: ["gbvitrano"]
 chef: "gbvitrano"
 ---

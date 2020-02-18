@@ -11,7 +11,7 @@ tags:
   - CSV
   - SQLite
   - geojson
-issue: 46
+issue: [46]
 autori: ["gbvitrano"]
 chef: ["Andrea Borruso","Totò Fiandaca"]
 ---

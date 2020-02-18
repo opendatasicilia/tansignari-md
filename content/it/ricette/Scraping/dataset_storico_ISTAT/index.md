@@ -10,7 +10,7 @@ tags:
   - bash
   - scrape
   - yq
-issue: 78
+issue: [78]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

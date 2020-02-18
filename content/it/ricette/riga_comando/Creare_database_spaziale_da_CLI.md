@@ -11,7 +11,7 @@ tags:
   - csv
   - SpatiaLite
   - SQLite
-issue: 15
+issue: [15]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

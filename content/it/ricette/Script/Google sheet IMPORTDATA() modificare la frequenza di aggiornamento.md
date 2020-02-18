@@ -8,7 +8,7 @@ tags:
   - gsheet
   - script
   - trigger
-issue: 25
+issue: [25]
 autori: ["gbvitrano"]
 chef: "Andrea Borruso"
 ---

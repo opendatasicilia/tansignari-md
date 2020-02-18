@@ -13,7 +13,7 @@ tags:
   - visidata
   - scrape
   - XPATH
-issue: 79
+issue: [79]
 autori: ["Totò Fiandaca"]
 chef: ["Andrea Borruso","gbvitrano"]
 ---

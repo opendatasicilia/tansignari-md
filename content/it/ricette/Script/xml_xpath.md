@@ -12,7 +12,7 @@ tags:
   - bash
   - script
   - yq
-issue: 84
+issue: [84]
 autori: ["gbvitrano"]
 chef: "Andrea Borruso"
 ---

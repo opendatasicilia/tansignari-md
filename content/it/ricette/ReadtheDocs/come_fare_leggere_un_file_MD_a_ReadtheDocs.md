@@ -8,7 +8,7 @@ tags:
   - markdown
   - RTD
   - github
-issue: 106
+issue: [106]
 autori: ["Ciro Spataro"]
 chef: "Andrea Borruso"
 ---

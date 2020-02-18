@@ -6,7 +6,7 @@ description: >
  Messaggio Read the Docs di “build fails”: [cannot import name “PackageFinder” from “pip._internal.index”]
 tags:
   - RTD
-issue: 106
+issue: [106]
 autori: ["Ciro Spataro"]
 chef: "Andrea Borruso"
 ---

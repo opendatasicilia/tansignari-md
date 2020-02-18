@@ -8,7 +8,7 @@ tags:
   - shell
   - babum
   - GDAL/OGR
-issue: 29
+issue: [29]
 autori: ["Lorenzo Perone"]
 chef: "Andrea Borruso"
 ---

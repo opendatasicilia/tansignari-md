@@ -10,7 +10,7 @@ tags:
   - EPSG
   - SQL
   - script
-issue: 54
+issue: [54]
 autori: ["Giuseppe Guarino"]
 chef: "Totò Fiandaca"
 ---

@@ -7,7 +7,7 @@ description: >
 tags:
   - RTD
   - github
-issue: 116
+issue: [116]
 autori: ["Ciro Spataro"]
 chef: "gbvitrano"
 ---

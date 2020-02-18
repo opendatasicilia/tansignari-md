@@ -11,7 +11,7 @@ tags:
   - script
   - latlon
   - draping
-issue: 44
+issue: [44]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

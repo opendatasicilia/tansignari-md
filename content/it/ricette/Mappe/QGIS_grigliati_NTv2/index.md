@@ -9,7 +9,7 @@ tags:
 - SQL
 - SpatiaLite
 - NTv2
-issue: 100
+issue: [100]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Giudiceandrea"
 ---

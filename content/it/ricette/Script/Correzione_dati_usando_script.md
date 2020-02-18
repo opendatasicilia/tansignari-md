@@ -10,7 +10,7 @@ tags:
   - SQLite
   - SpatiaLite
   - SQL
-issue: 8
+issue: [8]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

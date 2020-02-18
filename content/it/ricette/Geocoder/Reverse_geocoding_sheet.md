@@ -8,7 +8,7 @@ tags:
   - geocoding
   - gsheet
   - google maps
-issue: 36
+issue: [36]
 autori: ["Totò Fiandaca"]
 chef: "Totò Fiandaca"
 ---

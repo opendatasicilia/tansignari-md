@@ -11,7 +11,7 @@ tags:
   - Join
   - script
   - bash
-issue: 60
+issue: [60]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

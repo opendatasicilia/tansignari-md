@@ -14,7 +14,7 @@ tags:
   - xmlstarlet
   - Miller
   - XPATH
-issue: 50
+issue: [50]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

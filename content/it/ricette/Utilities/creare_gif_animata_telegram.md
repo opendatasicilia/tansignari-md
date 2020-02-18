@@ -8,7 +8,7 @@ tags:
   - ffmpeg
   - Telegram
   - gif
-issue: 107
+issue: [107]
 autori: ["Andrea Borruso"]
 chef: "Andrea Borruso"
 ---

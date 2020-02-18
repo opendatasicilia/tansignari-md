@@ -11,7 +11,7 @@ tags:
   - KML/KMZ
   - bash
   - script
-issue: 84
+issue: [84]
 autori: ["Totò Fiandaca"]
 chef: ["Andrea Borruso","Totò Fiandaca"]
 ---

@@ -9,7 +9,7 @@ tags:
   - web
   - html
   - feed43
-issue: 5
+issue: [5]
 autori: ["Ciro Spataro"]
 chef: "Andrea Borruso"
 ---

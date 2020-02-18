@@ -11,7 +11,7 @@ tags:
   - curl
   - 7z
   - web
-issue: 112
+issue: [112]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

@@ -8,7 +8,7 @@ tags:
   - git
   - vs code
   - github
-issue: 109
+issue: [109]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---

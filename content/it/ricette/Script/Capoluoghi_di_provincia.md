@@ -10,7 +10,7 @@ tags:
   - SPARQL
   - Miller
   - SQL
-issue: 64
+issue: [64]
 autori: ["Totò Fiandaca"]
 chef: ["Andrea Borruso","Davide Taibi"]
 ---

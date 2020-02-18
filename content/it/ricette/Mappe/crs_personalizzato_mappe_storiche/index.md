@@ -12,7 +12,7 @@ tags:
 - datum
 - ellissoide
 - georeferenziazione
-issue: 113
+issue: [113]
 autori: ["Totò Fiandaca"]
 chef: "Andrea Borruso"
 ---
