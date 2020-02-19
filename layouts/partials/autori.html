@@ -1,7 +1,7 @@
 <!-- layouts/partials/autori.html -->
 {{ if .Params.autori }}
 
-A cura di:
+A cura di
 {{ range .Params.autori }}
 <a href="/autori/{{ . | urlize }}">{{ . }}</a>&nbsp;
 {{ end }}
