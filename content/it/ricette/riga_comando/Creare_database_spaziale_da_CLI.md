@@ -13,7 +13,7 @@ tags:
   - SQLite
 issue: [15]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#15](https://github.com/opendatasicilia/tansignari/issues/15)

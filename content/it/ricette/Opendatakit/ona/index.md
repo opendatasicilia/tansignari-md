@@ -10,7 +10,7 @@ tags:
   - mappa
 issue:
 autori: ["gbvitrano"]
-chef: "gbvitrano"
+chefs: ["gbvitrano"]
 ---
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)

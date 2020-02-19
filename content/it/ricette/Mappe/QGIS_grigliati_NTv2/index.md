@@ -11,7 +11,7 @@ tags:
 - NTv2
 issue: [100]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Giudiceandrea"
+chefs: ["Andrea Giudiceandrea"]
 ---
 
 - issue correlata: [#100](https://github.com/opendatasicilia/tansignari/issues/100)

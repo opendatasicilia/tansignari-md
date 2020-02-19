@@ -10,7 +10,7 @@ tags:
   - Bootstap 4
 issue:
 autore: "Andrea Borruso"
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 # Introduzione

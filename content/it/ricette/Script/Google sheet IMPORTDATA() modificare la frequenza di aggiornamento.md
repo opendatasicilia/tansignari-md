@@ -10,7 +10,7 @@ tags:
   - trigger
 issue: [25]
 autori: ["gbvitrano"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)

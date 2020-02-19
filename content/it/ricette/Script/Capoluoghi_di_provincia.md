@@ -12,7 +12,7 @@ tags:
   - SQL
 issue: [64]
 autori: ["Totò Fiandaca"]
-chef: ["Andrea Borruso","Davide Taibi"]
+chefs: ["Andrea Borruso","Davide Taibi"]
 ---
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_

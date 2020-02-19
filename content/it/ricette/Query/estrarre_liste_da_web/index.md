@@ -10,7 +10,7 @@ tags:
   - shell
 issue: [29]
 autori: ["Lorenzo Perone"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#29](https://github.com/opendatasicilia/tansignari/issues/29)

@@ -9,7 +9,7 @@ tags:
   - HfcQGIS
 issue: [59]
 autori: ["Agostino Ficco"]
-chef: "Totò Fiandaca"
+chefs: ["Totò Fiandaca"]
 ---
 
 * autore: _[Agostino Ficco](https://twitter.com/)_

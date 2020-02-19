@@ -10,7 +10,7 @@ tags:
   - google maps
 issue: [36]
 autori: ["Totò Fiandaca"]
-chef: "Totò Fiandaca"
+chefs: ["Totò Fiandaca"]
 ---
 
 

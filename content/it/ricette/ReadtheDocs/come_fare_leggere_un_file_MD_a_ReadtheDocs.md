@@ -10,7 +10,7 @@ tags:
   - github
 issue: [106]
 autori: ["Ciro Spataro"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 ## Come fare leggere un file in formato .MD a ReadtheDocs (in un progetto su Github)

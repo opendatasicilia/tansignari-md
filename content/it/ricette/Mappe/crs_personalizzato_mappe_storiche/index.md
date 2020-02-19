@@ -14,7 +14,7 @@ tags:
 - georeferenziazione
 issue: [113]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#113](https://github.com/opendatasicilia/tansignari/issues/113)

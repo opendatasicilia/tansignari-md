@@ -13,7 +13,7 @@ tags:
   - web
 issue: [112]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#112](https://github.com/opendatasicilia/tansignari/issues/112)

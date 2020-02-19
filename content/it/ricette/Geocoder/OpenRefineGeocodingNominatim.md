@@ -11,7 +11,7 @@ tags:
   - OpenRefine
   - nominatim
 autori: ["gbvitrano"]
-chef: "gbvitrano"
+chefs: ["gbvitrano"]
 ---
 
 ## Caso d'uso

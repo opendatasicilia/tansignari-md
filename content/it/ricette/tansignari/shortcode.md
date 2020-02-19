@@ -10,7 +10,7 @@ tags:
   - shortcodes
 issue:
 autori: ["Andrea Borruso"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 In T'ansignari è possibile utilizzare gli [`shortcodes` di Docsy](https://www.docsy.dev/docs/adding-content/shortcodes/) e [hugo](https://gohugo.io/content-management/shortcodes/). Consentono di ottenre con stringhe brevi di codice, un output HTML altrimenti più complesso.

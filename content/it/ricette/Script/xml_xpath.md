@@ -14,7 +14,7 @@ tags:
   - yq
 issue: [84]
 autori: ["gbvitrano"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)

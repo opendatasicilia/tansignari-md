@@ -13,7 +13,7 @@ tags:
   - SQL
 issue:
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_

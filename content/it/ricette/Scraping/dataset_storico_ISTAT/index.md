@@ -12,7 +12,7 @@ tags:
   - yq
 issue: [78]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_

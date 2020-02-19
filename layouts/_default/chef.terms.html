@@ -1,0 +1,18 @@
+{{ define "main" }}
+<!-- vedi https://zwbetz.com/make-a-hugo-blog-from-scratch/ -->
+<section class="row td-box td-box--4 td-box--gradient td-box--height-auto">
+  <div class="col">
+    <div class="row paddingrow">
+      <div class="col-12 nopadding">
+        <h2>Gli chef di T'ansignari</h2>
+        {{ range .Data.Terms.Alphabetical }}
+        <ul>
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> | {{ .Count }} 👩‍🍳</li>
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

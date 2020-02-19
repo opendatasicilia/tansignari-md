@@ -7,7 +7,7 @@ description: >
 tags:
   - geocoding
 autori: ["gbvitrano"]
-chef: "gbvitrano"
+chefs: ["gbvitrano"]
 ---
 
 

@@ -12,7 +12,7 @@ tags:
   - script
 issue: [112,111,110]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#112](https://github.com/opendatasicilia/tansignari/issues/112) - [#111](https://github.com/opendatasicilia/tansignari/issues/111) - [#110](https://github.com/opendatasicilia/tansignari/issues/110)

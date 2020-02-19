@@ -9,7 +9,7 @@ tags:
   - gsheet
 issue: [89]
 autori: ["gbvitrano"]
-chef: "gbvitrano"
+chefs: ["gbvitrano"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)

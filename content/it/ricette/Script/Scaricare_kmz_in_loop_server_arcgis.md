@@ -13,7 +13,7 @@ tags:
   - script
 issue: [84]
 autori: ["Totò Fiandaca"]
-chef: ["Andrea Borruso","Totò Fiandaca"]
+chefs: ["Andrea Borruso","Totò Fiandaca"]
 ---
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_

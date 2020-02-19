@@ -10,7 +10,7 @@ tags:
   - github
 issue: [109]
 autori: ["Totò Fiandaca"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: `[#109](https://github.com/opendatasicilia/tansignari/issues/109)`

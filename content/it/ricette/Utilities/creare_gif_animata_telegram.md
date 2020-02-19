@@ -10,7 +10,7 @@ tags:
   - gif
 issue: [107]
 autori: ["Andrea Borruso"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#107](https://github.com/opendatasicilia/tansignari/issues/107)

@@ -11,7 +11,7 @@ tags:
   - feed43
 issue: [5]
 autori: ["Ciro Spataro"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 - issue correlata: [#5](https://github.com/opendatasicilia/tansignari/issues/5)

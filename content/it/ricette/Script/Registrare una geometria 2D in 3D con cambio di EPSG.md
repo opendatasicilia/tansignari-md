@@ -12,7 +12,7 @@ tags:
   - script
 issue: [54]
 autori: ["Giuseppe Guarino"]
-chef: "Totò Fiandaca"
+chefs: ["Totò Fiandaca"]
 ---
 
 * autore: _[Giuseppe Guarino](https://www.linkedin.com/in/guarino-giuseppe/)_

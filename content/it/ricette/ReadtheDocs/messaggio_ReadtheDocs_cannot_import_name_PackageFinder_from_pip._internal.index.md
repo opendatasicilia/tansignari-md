@@ -8,7 +8,7 @@ tags:
   - RTD
 issue: [106]
 autori: ["Ciro Spataro"]
-chef: "Andrea Borruso"
+chefs: ["Andrea Borruso"]
 ---
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)

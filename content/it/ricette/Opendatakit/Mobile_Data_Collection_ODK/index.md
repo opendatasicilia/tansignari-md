@@ -10,7 +10,7 @@ tags:
   - mappa
 issue:
 autori: ["gbvitrano"]
-chef: "gbvitrano"
+chefs: ["gbvitrano"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
