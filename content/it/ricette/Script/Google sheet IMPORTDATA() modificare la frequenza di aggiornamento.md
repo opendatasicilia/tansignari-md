@@ -9,7 +9,7 @@ tags:
   - script
   - trigger
 issue: [25]
-autori: ["gbvitrano"]
+autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
 ---
 

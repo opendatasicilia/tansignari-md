@@ -9,7 +9,7 @@ tags:
   - github
 issue: [116]
 autori: ["Ciro Spataro"]
-chefs: ["gbvitrano"]
+chefs: ["Gianni Vitrano"]
 ---
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)

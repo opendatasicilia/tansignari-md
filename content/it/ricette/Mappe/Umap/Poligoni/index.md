@@ -10,8 +10,8 @@ tags:
 - geojson
 - HfcQGIS
 - QGIS
-autori: ["gbvitrano"]
-chefs: ["gbvitrano"]
+autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)

@@ -13,7 +13,7 @@ tags:
   - script
   - yq
 issue: [84]
-autori: ["gbvitrano"]
+autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
 ---
 

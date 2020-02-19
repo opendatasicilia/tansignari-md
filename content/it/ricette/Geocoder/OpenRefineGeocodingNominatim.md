@@ -10,8 +10,8 @@ tags:
   - latlon
   - OpenRefine
   - nominatim
-autori: ["gbvitrano"]
-chefs: ["gbvitrano"]
+autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 ---
 
 ## Caso d'uso

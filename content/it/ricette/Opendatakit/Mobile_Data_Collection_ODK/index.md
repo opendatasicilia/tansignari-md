@@ -9,8 +9,8 @@ tags:
   - ona
   - mappa
 issue:
-autori: ["gbvitrano"]
-chefs: ["gbvitrano"]
+autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 ---
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
