@@ -33,3 +33,4 @@ Le stiamo raccogliendo in [questa cartella](./ricette) e pubblicando [**qui**](h
 ## Sitografia/Bibliografia
 
 - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html);
+- [How to create a Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example);
