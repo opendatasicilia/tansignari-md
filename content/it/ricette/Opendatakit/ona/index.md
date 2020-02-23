@@ -13,6 +13,8 @@ autori: ["Gianni Vitrano"]
 chefs: ["Gianni Vitrano"]
 ---
 
+---
+
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
 * issue:  [#issue 25](https://github.com/opendatasicilia/tansignari/issues/25)
 

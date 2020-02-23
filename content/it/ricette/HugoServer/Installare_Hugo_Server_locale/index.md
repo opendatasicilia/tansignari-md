@@ -18,6 +18,8 @@ autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
 ---
 
+---
+
 * autore: _[Gianni Vitrano](https://twitter.com/gbvitrano?lang=it)_;  fornitore ricetta: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_;
 * ingredienti: [Install Hugo](https://gohugo.io/getting-started/installing/)
 

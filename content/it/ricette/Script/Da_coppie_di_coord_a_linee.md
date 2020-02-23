@@ -16,6 +16,8 @@ autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso","Totò Fiandaca"]
 ---
 
+---
+
 * autore: _[gbvitrano](https://twitter.com/gbvitano?lang=it)_
 * issue: [#46](https://github.com/opendatasicilia/tansignari/issues/46) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
 * ingredienti: [SQLite](https://www.sqlite.org/index.html), [GDAL/OGR](https://www.gdal.org/ogr2ogr.html)

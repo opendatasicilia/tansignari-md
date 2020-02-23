@@ -12,6 +12,8 @@ autori: ["Gianni Vitrano"]
 chefs: ["Gianni Vitrano"]
 ---
 
+---
+
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
 * issue: [#89](https://github.com/opendatasicilia/tansignari/issues/89) fornitore ricetta [gbvitrano](https://twitter.com/gbvitrano)
 

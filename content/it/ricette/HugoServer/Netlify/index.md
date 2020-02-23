@@ -13,6 +13,8 @@ autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
 ---
 
+---
+
 * autore: _[Gianni Vitrano](https://twitter.com/gbvitrano?lang=it)_; fornitore ricetta: *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*;
 * ingredienti: [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 

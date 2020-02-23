@@ -5,7 +5,7 @@ date: 2019-08-12
 description: >
   Trucco per tematizzare i punti in `uMap`.
 tags:
-- Umap
+- uMap
 - mappa
 - geojson
 - QGIS
@@ -13,8 +13,10 @@ autori: ["Gianni Vitrano"]
 chefs: ["Gianni Vitrano"]
 ---
 
+---
+
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
-* issue:
+* issue correlata:
 
 Abbiamo già visto come tematizzare [velocemente i poligoni](http://tansignari.opendatasicilia.it/it/latest/ricette/mappe/umap/uMap.html), ma possiamo fare la stessa cosa con una mappa puntuale?
 
