@@ -13,12 +13,11 @@ tags:
 - Html
 - Browser
 - localhost
-issue: [4]
+issue: [127]
 autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
 ---
 
-* issue correlata: [#4](https://github.com/opendatasicilia/tansignari-md/issues/4)
 * autore: _[Gianni Vitrano](https://twitter.com/gbvitrano?lang=it)_;  fornitore ricetta: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_;
 * ingredienti: [Install Hugo](https://gohugo.io/getting-started/installing/)
 
