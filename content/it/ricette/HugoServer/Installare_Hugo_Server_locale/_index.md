@@ -5,14 +5,14 @@ date: 2020-02-22
 description: >
   Hugo Server
 tags:
-- Hugo Server
-- webserver
-- riga di comando
-- Bash
-- Shell
-- Html
-- Browser
-- localhost
+  - Hugo Server
+  - webserver
+  - riga di comando
+  - Bash
+  - Shell
+  - Html
+  - Browser
+  - localhost
 issue: [4]
 autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
