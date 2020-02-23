@@ -25,4 +25,3 @@ chefs: ["Andrea Borruso"]
 ![](./netlify.jpg)
 
 work in progress....
-
