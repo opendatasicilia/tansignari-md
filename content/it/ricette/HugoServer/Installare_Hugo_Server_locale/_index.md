@@ -1,9 +1,9 @@
 ---
 title: "Hugo Server, Linux Bash Shell di Windows"
-linkTitle: "Hugo Server "
+linkTitle: "Hugo Server"
 date: 2020-02-22
 description: >
-  Hugo Server
+ Hugo Server
 tags:
   - Hugo Server
   - webserver
