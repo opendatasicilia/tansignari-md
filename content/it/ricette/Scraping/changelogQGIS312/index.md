@@ -21,6 +21,8 @@ chefs: ["Andrea Borruso"]
 
 ---
 
+## Introduzione
+
 **Caso d'uso:** Ogni nuova `Feature` viene proposta, nel repository GitHub di [QGIS](https://github.com/qgis/QGIS), tramite una `PR` (Pull Request) dove si discute, si fanno modifiche e poi, se va bene, viene fatto il `merge` al ramo principale.
 
 Ogni sviluppatore aggiunge il **tag** `Feature` assieme ad altri **tag** più specifici che ne identificano la categoria (`processing`, `expressions`,`label`, ecc..).
