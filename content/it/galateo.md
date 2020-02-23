@@ -26,6 +26,12 @@ E poi:
 - quando **rispondi**, fornisci gli elementi di base utili a comprendere quanto hai scritto;
 - tansignari **non è un servizio per richiedere la scrittura gratuita di script, procedure, testi, ecc.**. Se ci dici cosa hai provato/creato fino ad ora e dove ti sei bloccato, possiamo provare ad aiutarti.
 
-## Ricette
+### Ricette
 
 Le stiamo raccogliendo in [questa cartella](./ricette) e pubblicando [**qui**](https://tansignari.readthedocs.io/it/latest/ricette/index.html). Inserisce le tue qui. Se non sai come si fa, chiedilo con una _issue_; non appena possibile scriveremo una guida.
+
+### Sitografia/Bibliografia
+
+- [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html);
+- [How to create a Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example);
+- [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask).
