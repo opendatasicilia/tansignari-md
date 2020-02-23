@@ -66,3 +66,15 @@ vd merge.csv
 ### Visualizzo statistiche
 
 ![](./img_03.png)
+
+---
+
+## Riferimenti utili
+
+1. [QGIS](https://qgis.org/it/site/)
+2. [Curl](https://curl.haxx.se/)
+3. [Scrape](https://github.com/aborruso/scrape-cli)
+4. [xq](https://github.com/kislyuk/yq)
+5. [GitHub](https://github.com/)
+6. [Miller](https://github.com/johnkerl/miller)
+7. [Visidata](http://visidata.org/man/)
