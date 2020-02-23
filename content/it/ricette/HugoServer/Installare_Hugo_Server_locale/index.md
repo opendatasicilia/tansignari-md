@@ -1,18 +1,18 @@
 ---
 title: "Hugo Server, Linux Bash Shell di Windows"
-linkTitle: "Installare su Windows"
+linkTitle: "Installare su Bash Windows"
 date: 2020-02-22
 description: >
- Hugo Server
+  Hugo Server
 tags:
-  - Hugo Server
-  - webserver
-  - riga di comando
-  - Bash
-  - Shell
-  - Html
-  - Browser
-  - localhost
+- Hugo Server
+- webserver
+- riga di comando
+- Bash
+- Shell
+- Html
+- Browser
+- localhost
 issue: [4]
 autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
@@ -51,8 +51,8 @@ Adesso non resta che digitare `bash` nella bara degli indirizzi di esplora risor
 
 ![](./bash.jpg)
 
-- visualizzare il sito sul web browser: `http://localhost:1313/`
+- visualizzare il sito sul web browser: `http://localhost:1313/` 
 
 ![](./localhost.jpg)
 
-**Aggiornare Hugo** è facile come scaricare e sostituire l'eseguibile che hai inserito nel **PERCORSO**
+**Aggiornare Hugo** è facile come scaricare e sostituire l'eseguibile che hai inserito nel **PERCORSO** 
