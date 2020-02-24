@@ -14,6 +14,8 @@ tags:
   - curl
   - Miller
   - Visidata
+  - JSON
+  - HTML
 issue: [125]
 autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
@@ -42,7 +44,7 @@ ottengo tutte le **PR** (con `tag:feature`) per la nuova versione di **QGIS**.
 
 ## In Bash
 
-Lo script che scarica (`curl`), gratta (`scrape`), filtra (`xq`), ordina (`mlr`), mergia (`mlr`) e visualizza (`vd`):
+Lo script che scarica (`curl`), gratta (`scrape`), converte (`xq`) HTML in JSON, converte (`mlr`) JSON in CSV, mergia (`mlr`) e visualizza (`vd`):
 
 ```bash
 #!/bin/bash
