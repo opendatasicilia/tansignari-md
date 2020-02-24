@@ -31,7 +31,7 @@ Dopo aver visto come installare [Hugo](../installare_hugo_server_locale/) nel pc
 
 Aprire il sito [app.netlify.com](app.netlify.com) e selezionare il metodo di iscrizione preferito. Questo sarà probabilmente il provider che ospita il Git, c'è anche la possibilità di registrarti con un indirizzo email.
 
-Nel mio caso mi sono registrato usando l'accontu di GitHub, anche gli altri provider git seguono un processo simile.
+Nel mio caso mi sono registrato usando l'account di GitHub, anche gli altri provider git seguono un processo simile.
 
 ![](./login.png)
 
@@ -56,7 +56,7 @@ A questo punto basta selezionare il repository che si desidera utilizzare per la
 ![](./create_02.png)
 
 Una volta selezionato, si apre la una schermata per la configurazione di base. Qui si può selezionare il ramo che vuole pubblicare, il comando **build** e la directory publishing (ovvero deploy). 
-La directory di pubblicazione dove rispecchiare quella si è impostata nella configurazione del sito, il cui valore predefinito è pubblico.
+La directory di pubblicazione deve rispecchiare quella impostata nella configurazione del sito, il cui valore predefinito è pubblico.
 
 ## Configurare la versione di Hugo in Netlify
 
