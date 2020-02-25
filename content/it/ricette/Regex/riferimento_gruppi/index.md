@@ -51,6 +51,9 @@ ma non funziona perché sto usando il carattere generico `$`. Visidata è scritt
 - `$` generico
 - `\` python
 
+## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
+
+- [Blog Post](https://pigrecoinfinito.com/2020/02/25/qgis-e-i-changelog-3-12-scraping-da-repo-github/) su Pigrecoinfinito by Totò Fiandaca
 ---
 
 ## Riferimenti utili
