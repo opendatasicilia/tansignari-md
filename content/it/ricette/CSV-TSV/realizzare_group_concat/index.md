@@ -1,17 +1,16 @@
 ---
-title: "Concatenare campi con Visidata"
-linkTitle: "Concatenare campi con Visidata"
-date: 2020-02-27
+title: "Come realizzare un Group concat"
+linkTitle: "Come realizzare un Group concat"
+date: 2020-02-23
 description: >
-  Concatenare campi usando un separatore diverso dal _tab_.
+  Data una colonna (tags) che contiene più volte lo stesso valore, raggruppare per questa e concatenare i valori di un'altra (pr).
 tags:
-- Visidata
+- Miller
 - csv
 - tsv
 - csv-tsv
 - bash
-- python
-issue: [128]
+issue: [131]
 autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
@@ -20,41 +19,21 @@ chefs: ["Andrea Borruso"]
 
 ## Introduzione
 
-Alcune volte è utile concatenare più campi in modo da crearne uno. Questa operazione è molto semplice e rapida da realizzarsi con **Visidata** in due modi diversi; il primo utilizzando il _foglio delle colonne_, il secondo usando le _espressioni Python_. Di seguito vedemo entrambi i modi.
+La funzione `group_concat` è molto usata nei database, è una funzione di aggregazione che consente di concatenare, in un’unica stringa, un gruppo di valori che normalmente si trovano su record differenti.
 
-## Foglio delle colonne
-
-Per visualizzare con **Visidata** un file csv basta avviare la **bash** di linux e:
-
-`vd nomefile.csv`
-
-subito dopo digitare:
-
-`shift+c`
-
-che visualizzarea una tabella dove le righe rappresentano le colonne del file csv;
-
-selezionare, usando il tasto `s` le righe da concatenare e digitare `&`
-
-![](./concatenare.gif)
-
-## Espressioni Python
-
-Visualizzo il file con:
-
-`vd nomefile.csv`
-
-![](./concatenare2.gif)
-
-l'espressione python usata è:
+## Soluzione con Miller
 
 ```
-tag_0 + ';' + tag_1 + ';' + tag_2 + ';' + tag_3
+mlr --csv cut -f tags,pr then nest --implode --values --across-records -f pr cha312_tags.csv >out.csv
 ```
 
-dove è possibile scegliere il separatore, in questo caso `;`
+dove:
+
+- `cut -f tags,pr` per estrarre i due campi;
+- `nest --implode --values --across-records -f pr` per implodere i valori, attraverso le righe della colonna `pr`.
+
+![](./img1.jpg)
 
 ## Riferimenti utili
 
-1. [Visidata](http://visidata.org/man/)
-2. [Guida Visidata ITA](https://github.com/ondata/guidaVisiData/blob/master/testo/README.md)
+- [Miller](http://johnkerl.org/miller/doc/reference-verbs.html#nest)
