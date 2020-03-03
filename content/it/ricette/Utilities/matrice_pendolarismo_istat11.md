@@ -7,7 +7,7 @@ description: >
 tags:
   - csv
   - tsv
-  - tsv-csv
+  - csv-tsv
   - miller
   - visidata
   - sqlite
