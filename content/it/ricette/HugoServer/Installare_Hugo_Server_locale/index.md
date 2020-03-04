@@ -28,13 +28,13 @@ chefs: ["Andrea Borruso"]
 
 
 
-## Come installare Hugo Server,  Linux Bash Shell di Windows 10
+## Come installare Hugo Server, Linux Bash Shell di Windows 10 con distribuzione Pengwin
 
 - dal repository [hugo](https://github.com/gohugoio/hugo), [releases ](https://github.com/gohugoio/hugo/releases), copiare il link : https://github.com/gohugoio/hugo/releases/download/v0.65.2/hugo_extended_0.65.2_Linux-64bit.tar.gz
 - lanciare la shell di Linux da una nuova cartella:
 `wget https://github.com/gohugoio/hugo/releases/download/v0.65.2/hugo_extended_0.65.2_Linux-64bit.tar.gz`
 - dopo il download, lanciare: ` tar -xzf hugo_extended_0.65.2_Linux-64bit.tar.gz`
-- dopo aver unzippato, lanciare : `which jq` per capire in che cartella spostare il programma `hugo`
+- dopo aver unzippato, lanciare per verifica la tua installazione: `which jq` per capire in che cartella spostare il programma `hugo`
 - spostare il file, lanciare : ` sudo cp ./hugo /usr/bin/`
 - inserire la password di amiministratore: `********`
 - dare i permessi, lanciare: `sudo chmod +x ./hugo`
@@ -57,3 +57,25 @@ Adesso non resta che digitare `bash` nella bara degli indirizzi di esplora risor
 ![](./localhost.jpg)
 
 **Aggiornare Hugo** è facile come scaricare e sostituire l'eseguibile che hai inserito nel **PERCORSO** 
+
+## Pengwin
+
+[Pengwin](https://www.html.it/12/04/2019/pengwin-1-2-porta-gli-sviluppatori-sul-windows-subsystem-for-linux/) è distribuzione Linux sviluppata appositamente per funzionare in Windows 10 WSL (Windows Subsystem for Linux)
+
+
+
+---
+## Come installare Hugo Server, Linux Bash Shell di Windows 10 con distribuzione Debian o Ubuntu
+
+Con Debian e Ubuntu l'installazione è più semplice, il Debian Go Packaging Team mantengono un pacchetto Debian hugo ufficiale che è condiviso con Ubuntu ed è installabile tramite **apt-get**:
+
+`sudo apt-get install hugo`
+
+In alternativa si può installere scaricando l'ultimo pacchetto **.deb** da [Hugo Github Respo](https://github.com/gohugoio/hugo/releases)
+
+- scarica l'ultima versione tramite il metodo wget ` wget https://github.com/gohugoio/hugo/releases/download/v0.66.0/hugo_extended_0.66.0_Linux-64bit.deb`
+- estrarre il pacchetto hugo_extended_0.66.0_Linux-64bit.deb scaricato `sudo dpkg -i hugo_extended_0.66.0_Linux-64bit.deb`
+- rimuovi il pacchetto scaricato `rm hugo_extended_0.66.0_Linux-64bit.deb`
+- verifica la tua installazione `which hugo` e dopo `hugo version`
+
+**Per disinstallare Hugo su Ubuntu e Debian** `sudo apt-get remove --auto-remove hugo`
