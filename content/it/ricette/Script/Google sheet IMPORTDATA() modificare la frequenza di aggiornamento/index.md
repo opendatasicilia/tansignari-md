@@ -24,15 +24,15 @@ Supponiamo di voler importare i dati di un file .csv da remoto, https://api.ona.
 ```=IMPORTDATA("https://api.ona.io/api/v1/data/388501.csv")``` <br><br>
 in un attimo i dati saranno caricati.
 
-![](/img/google/google_sheet2.png)
+![](google_sheet2.png)
 
 Per forzare l'aggiornamento della funzione basta usare un semplice script
 
-![](/img/google/google_sheet3.png)
+![](google_sheet3.png)
 
 Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
 
-![](/img/google/google_sheet7.png)
+![](google_sheet7.png)
 
 ## Script tipo da copiare ed incollare nell'editor di script <br>
 **Attenzione** modificate il nome del foglio di lavoro inserito nello script "**NOME FOGLIO DI LAVORO**" con il nome del vostro foglio di lavoro, se il nome del foglio di lavoro inserito nello script non esiste, lo script non si avvia e vi restituisce un errore.
@@ -53,23 +53,23 @@ sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 ## Come attivare lo script…?
 Si attiva semplicemente cliccando su **esegui** (icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è sicura etc etc… per bypassare tutto questo, cliccare su applicazione avanzate e confermare i permessi per poter lavorare…
 
-![](/img/google/google_sheet13.png)
+![](google_sheet13.png)
 
 Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da **Trigger**
 
-![](/img/google/google_sheet5.png)
+![](google_sheet5.png)
 
 Per personalizzare i valori del **Trigger**, bisogna cliccare su **I miei attivatori** e selezionare quello dedicato allo script appena creato importData() e modificarne i valori. In questa modo lo script attiverà una verifica di nuovi dati (dalla fonte CSV pre impostata nel trigger) con una frequenza temporale del singolo minuto.
 
-![](/img/google/google_sheet8.png)
+![](google_sheet8.png)
 
 Se tutto è andato a buon fine, la funzione ```=IMPORTDATA("https://api.ona.io/api/v1/data/388501.csv")``` che abbiamo scritto precedentemente nella cella **A1** sarà sparita, in quanto adesso è lo script a gestire tutto, e come programmato nel **Trigger** i dati verranno aggiornati ogni minuto.
 
-![](/img/google/google_sheet9.png)
+![](google_sheet9.png)
 
 ## Controllare allo stesso tempo più fogli di lavoro
 
-![](/img/google/google_sheet11.png)
+![](google_sheet11.png)
 
 Con qualche piccola modifica alle variabili si possono aggiornare contemporaneamente più fogli di lavoro.
 
