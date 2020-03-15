@@ -54,6 +54,7 @@ Dal menu `File` → `Scarica` → `Valori separati da virgola`
 ![](img_05.png)
 
 **NB:** per impostazioni `italiane` di gsheet, nel comando di sopra, occorre usare il `;` altrimenti per impostazioni internazionli `,`.
+
 ---
 
 ## Riferimenti utili
