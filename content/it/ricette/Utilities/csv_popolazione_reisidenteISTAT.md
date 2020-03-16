@@ -8,7 +8,7 @@ tags:
   - csv
   - ISTAT
   - visidata
-  - riga di comando
+  - "riga di comando"
 issue: [135]
 autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
