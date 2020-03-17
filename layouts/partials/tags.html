@@ -4,9 +4,9 @@
 {{ with .Param $taxonomy }}
   <ul id="tagricetta"><i class="fas fa-tags"></i>
     {{ range $index, $tag := . }}
-      {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+      {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy (urlize $tag)) -}}
         <li class="horizontal">
-          <a href="{{ .Permalink }}">{{ $tag }}</a>
+          <a href="{{ .Permalink }}">{{ $tag | urlize}}</a>
         </li>
       {{- end -}}
     {{- end -}}
