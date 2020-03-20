@@ -3,7 +3,7 @@ title: "Scaricare dati sulla popolazione residente dal sito ISTAT"
 linkTitle: "Scaricare dati sulla popolazione residente dal sito ISTAT"
 date: 2020-03-03
 description: >
-  Scaricare dati sulla popolazione residente per regione dal sito ISTAT.
+  Scaricare dati sulla popolazione residente per regione (e province) dal sito ISTAT.
 tags:
   - csv
   - ISTAT
@@ -18,7 +18,7 @@ chefs: ["Andrea Borruso"]
 
 ## Introduzione
 
-l'[ISTAT](https://www.istat.it/) mette a disposizione molti dataset, quello di questa ricetta riguarda la **Popolazione residente al 1° gennaio 2019** per ogni Regine italiana. L'interfaccia messa a disposizione dall'[I.STAT](http://dati.istat.it/Index.aspx) è molto complessa e lenta, quindi, spesso, è più veloce scaricare l'intero dataset e poi filtrarlo in locale con altri applicativi, per esempio **Visidata**.
+l'[ISTAT](https://www.istat.it/) mette a disposizione molti dataset, quello di questa ricetta riguarda la **Popolazione residente al 1° gennaio 2019** per ogni Regione (e provincia) italiana. L'interfaccia messa a disposizione dall'[I.STAT](http://dati.istat.it/Index.aspx) è molto complessa e lenta, quindi, spesso, è più veloce scaricare l'intero dataset e poi filtrarlo in locale con altri applicativi, per esempio **Visidata**.
 
 Da questo link :  http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1# scarico l'intero dataset
 
@@ -41,7 +41,7 @@ la logica da seguire è quella di filtrare i campi che contengolo la voce `total
 5. con `shift+"` filtra le righe selezionate e crea nuovo foglio;
 6. sposta il cursore su `ETA1` e pigia `shift+f`;
 7. pigia `gj` per andare all'ultima riga SUL VALORE `TOTALE`, pigia `invio` per ottenere un nuovo foglio con i `TOTALI`;
-8. posiziona il cursore sulla prima colonna, pigia `|` e digita `^....$` per filtrare le Regioni.
+8. posiziona il cursore sulla prima colonna, pigia `|` e digita `^....$` per filtrare le Regioni (`^.....$` per le province).
 9. per nascondere i campi non utili, pigiare `-` sul campo;
 10. per salvare il foglio, pigiare `shift+s` e digita il nome del file.
 
