@@ -6,7 +6,7 @@ description: >
   Come scrivere una ricetta su Tansignari.
 tags:
   - ricetta
-  - vscode
+  - vs code
   - tansignari
 issue: [120]
 autori: ["Totò Fiandaca"]
