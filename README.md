@@ -1,6 +1,6 @@
 # Cosa è T'ansignari
 
-## Uno spazio per mettere fattore comune scambi di conoscenza/esperienza
+## Uno spazio per mettere a fattore comune scambi di conoscenza/esperienza
 
 Molto spesso **disperdiamo richieste di aiuto** («Come faccio a …») e le relative preziose risposte in **chat**, **social network**, ***email*** tra due persone, ecc.. <br>
 Così facendo, **dopo pochi minuti** sono già **«perdute»**, **confinate** in **spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi mai indicizzati dai motori di ricerca.
