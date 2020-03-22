@@ -37,3 +37,9 @@ Un modo di dire spesso usato nel rapporto tra nonne/i e nipoti.
 ## Come nasce
 
 Nasce da una [proposta](https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) fatta nella mailing list di **OpenDataSicilia**.
+
+## C'è già StackExchange
+
+T'ansignari non vuole sostituire o replicare l'eccezionale [StackExchange](https://stackexchange.com/), che rimane lo spazio ideale dove fare domande e quello da cui partire.
+
+La comunità però cercava uno spazio "personale" in cui attivare queste dinamiche e in qualche modo riconoscersi.
