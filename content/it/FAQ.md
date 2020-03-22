@@ -1,3 +1,10 @@
+---
+title: FAQ
+linkTitle: FAQ
+type: statico
+
+---
+
 ## FAQ -- in costruzione
 
 1. **Che cosa è lo spazio T'ansignari e T'appeddiri.**
