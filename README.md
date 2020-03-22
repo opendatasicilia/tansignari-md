@@ -28,7 +28,7 @@ Per punti:
 
 «***T’ansignari e t’appeddiri!***», ti devo insegnare a fare qualcosa e ti devo perdere.
 
-È un proverbio presente in molti dialetti italiani (in Campania ad esempio è T’aggià mbarà e tt’àggia pèrdë!), per sottolineare il valore dei buoni consigli che una persona può dare a un'altra. Quest'ultima dopo averli ricevuti acquisterà indipendenza e forza, e in questo senso potrà "perdersi", allontanarsi dalla prima.
+È un proverbio (qui in siciliano) presente in molti altri dialetti italiani (in Campania ad esempio è T’aggià mbarà e tt’àggia pèrdë!), per sottolineare il valore dei buoni consigli che una persona può dare a un'altra. Quest'ultima dopo averli ricevuti acquisterà indipendenza e forza, e in questo senso potrà "perdersi", allontanarsi dalla prima.
 
 È un invito asciutto e diretto a chi riceve un **insegnamento**, affinché lo **valorizzi** e non lo **disperda**, un incoraggiamento a **prendersi cura** del **legame** tra chi si sta scambiando conoscenza e esperienza.
 
