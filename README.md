@@ -50,4 +50,4 @@ La comunità però cercava uno spazio "personale" in cui attivare queste dinamic
 
 ## Credits
 
-È un progetto di OpenDataSicilia progettato e realizzato da [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca), [Gianni Vitrano](https://twitter.com/gbvitrano) e [Ciro Spataro](https://twitter.com/cirospat).
+È un progetto di OpenDataSicilia, ideato e realizzato da [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca), [Gianni Vitrano](https://twitter.com/gbvitrano) e [Ciro Spataro](https://twitter.com/cirospat).
