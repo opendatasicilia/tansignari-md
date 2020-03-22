@@ -38,10 +38,6 @@ Un modo di dire spesso usato nel rapporto tra nonne/i e nipoti.
 
 Nasce da una [proposta](https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) fatta nella mailing list di **OpenDataSicilia**.
 
-## Credits
-
-È un progetto di OpenDataSicilia progettato e realizzato da [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca), [Gianni Vitrano](https://twitter.com/gbvitrano) e [Ciro Spataro](https://twitter.com/cirospat).
-
 ## C'è già StackExchange
 
 T'ansignari non vuole sostituire o replicare l'eccezionale [StackExchange](https://stackexchange.com/), che rimane lo spazio ideale dove fare domande e quello da cui partire.
@@ -51,3 +47,7 @@ La comunità però cercava uno spazio "personale" in cui attivare queste dinamic
 ## Tecnologia
 
 È basato su [docsy](https://github.com/google/docsy) un template di [Hugo](https://gohugo.io/) per pubblicare siti di documentazione.
+
+## Credits
+
+È un progetto di OpenDataSicilia progettato e realizzato da [Andrea Borruso](https://twitter.com/aborruso), [Totò Fiandaca](https://twitter.com/totofiandaca), [Gianni Vitrano](https://twitter.com/gbvitrano) e [Ciro Spataro](https://twitter.com/cirospat).
