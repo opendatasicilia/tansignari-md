@@ -6,7 +6,7 @@
 
 2. **Perché è importante leggere il **Galateo** di T'ansignari**.
 
-È importante perché ti guida a rispettare delle regole importanti da rispettare nell'uso di questo spazio.
+È importante perché ti guida a rispettare le regole importanti nell'uso di questo spazio.
 
 3. **Come chiedo aiuto.**
 
