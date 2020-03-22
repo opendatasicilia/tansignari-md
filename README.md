@@ -5,7 +5,7 @@
 Molto spesso **disperdiamo richieste di aiuto** («Come faccio a …») e le relative preziose risposte in **chat**, **social network**, ***email*** tra due persone, ecc.. <br>
 Così facendo, **dopo pochi minuti** sono già **«perdute»**, **confinate** in **spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi mai indicizzati dai motori di ricerca.
 
-Questo spazio nasce per evitare tutto questo e mettere a **fattor comune** s**cambi di conoscenza/esperienza**, in modalità che li **valorizzino**, li facciano **durare** nel tempo e diano spazio a ulteriori scambi.
+Questo spazio nasce per evitare tutto questo e mettere a **fattor comune** **scambi di conoscenza/esperienza**, in modalità che li **valorizzino**, li facciano **durare** nel tempo e diano spazio a ulteriori scambi.
 
 **Non su tutto**, ma su temi vicini a quelli che esplora la comunità **OpenDataSicilia**: i dati aperti, la trasparenza amministrativa, il *civic tech*.
 
