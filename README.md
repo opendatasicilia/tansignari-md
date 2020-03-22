@@ -1,58 +1,39 @@
-# Docsy Example
+# Cosa è T'ansignari
 
-[Docsy](https://github.com/google/docsy) is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more. This **Docsy Example Project** uses the Docsy theme, as well as providing a skeleton documentation structure for you to use. You can either copy this project and edit it with your own content, or use the theme in your projects like any other [Hugo theme](https://gohugo.io/themes/installing-and-using-themes/).
+## Uno spazio per mettere fattore comune scambi di conoscenza/esperienza
 
-This Docsy Example Project is hosted at [https://example.docsy.dev/](https://example.docsy.dev/).
+Molto spesso **disperdiamo richieste di aiuto** («Come faccio a …») e le relative preziose risposte in **chat**, **social network**, ***email*** tra due persone, ecc.. <br>
+Così facendo, **dopo pochi minuti** sono già **«perdute»**, **confinate** in **spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi mai indicizzati dai motori di ricerca.
 
-You can find detailed theme instructions in the Docsy user guide: https://docsy.dev/docs/
+Questo spazio nasce per evitare tutto questo e mettere a **fattor comune** s**cambi di conoscenza/esperienza**, in modalità che li **valorizzino**, li facciano **durare** nel tempo e diano spazio a ulteriori scambi.
 
-This is not an officially supported Google product. This project is currently maintained.
+**Non su tutto**, ma su temi vicini a quelli che esplora la comunità **OpenDataSicilia**: i dati aperti, la trasparenza amministrativa, il *civic tech*.
 
-## Cloning the Docsy Example Project
+## Come funziona
 
-The following will give you a project that is set up and ready to use (don't forget to use `--recurse-submodules` or you won't pull down some of the code you need to generate a working site). The `hugo server` command builds and serves the site. If you just want to build the site, run `hugo` instead.
+Per punti:
 
-```bash
-git clone --recurse-submodules --depth 1 https://github.com/google/docsy-example.git
-cd docsy-example
-hugo server
-```
-
-The theme is included as a Git submodule:
-
-```bash
-▶ git submodule
- a053131a4ebf6a59e4e8834a42368e248d98c01d themes/docsy (heads/master)
-```
-
-If you want to do SCSS edits and want to publish these, you need to install `PostCSS` (not needed for `hugo server`):
-
-```bash
-npm install
-```
-
-<!--### Cloning the Example from the Theme Project
+- se non lo hai già fatto, [**leggi il galateo**](https://festive-bohr-4ac225.netlify.com/galateo/);
+- fai la tua [**domanda qui**](https://github.com/opendatasicilia/tansignari/issues/new) (se non hai un account github, createlo);
+- se sei **soddisfatta/o** della risposta, sei **invitata/o a rimborsare**, **creando** un testo, una **ricetta**, in cui descrivere il problema/dubbio che avevi e come si possa risolvere.
 
 
-```bash
-git clone --recurse-submodules --depth 1 https://github.com/docsy.git
-cd tech-doc-hugo-theme/exampleSite
-HUGO_THEMESDIR="../.." hugo server
-```
+## Glossario minimo di T'ansignari
 
+- **ricetta**: è il cuore del progetto, è un testo, una miniguida che descrive come si fa una determinata cosa (convertire un JSON in CSV, esportare da OpenStreetMap le fontane, ecc.);
+- **chef**: sono i "maestri di ricetta", quelli che rispondendo a una domanda (a una issue), danno una mano a chi l'ha fatta nel comprendere i propri dubbi;
+- **autore**: è colui che scrive la ricetta, che nella gran parte dei casi lo farà dopo avere fatto una domanda.
 
-Note that the Hugo Theme Site requires the `exampleSite` to live in a subfolder of the theme itself. To avoid recursive duplication, the example site is added as a Git subtree:
+## Perché questo nome
 
-```bash
-git subtree add --prefix exampleSite https://github.com/google/docsy.git  master --squash
-```
+«***T’ansignari e t’appeddiri!***», ti devo insegnare a fare qualcosa e ti devo perdere.
 
-To pull in changes, see `pull-deps.sh` script in the theme.-->
+È un proverbio presente in molti dialetti italiani (in Campania ad esempio è T’aggià mbarà e tt’àggia pèrdë!), per sottolineare il valore dei buoni consigli che una persona può dare a un'altra. Quest'ultima dopo averli ricevuti acquisterà indipendenza e forza, e in questo senso potrà "perdersi", allontanarsi dalla prima.
 
-## Running the website locally
+È un invito asciutto e diretto a chi riceve un **insegnamento**, affinché lo **valorizzi** e non lo **disperda**, un incoraggiamento a **prendersi cura** del **legame** tra chi si sta scambiando conoscenza e esperienza.
 
-Once you've cloned the site repo, from the repo root folder, run:
+Un modo di dire spesso usato nel rapporto tra nonne/i e nipoti.
 
-```
-hugo server
-```
+## Come nasce
+
+Nasce da una [proposta](https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) fatta nella mailing list di **OpenDataSicilia**.
