@@ -15,9 +15,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#38](https://github.com/opendatasicilia/tansignari/issues/38) [#39](https://github.com/opendatasicilia/tansignari/issues/39) [#42](https://github.com/opendatasicilia/tansignari/issues/42)
-- autore: [Totò Fiandaca](https://twitter.com/totofiandaca?lang=it) e script di [Andrea Borruso](https://twitter.com/aborruso?lang=it)
-
 ---
 
 ![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Openstreetmap_logo.svg/150px-Openstreetmap_logo.svg.png) Usando [Nominatim](https://wiki.openstreetmap.org/wiki/Nominatim), ricavare **l'indirizzo** partendo da coppie di coordinate **lat lon** e usando la riga di comando (CLI).
