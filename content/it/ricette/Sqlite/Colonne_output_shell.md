@@ -13,10 +13,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#95](https://github.com/opendatasicilia/tansignari/issues/95)
-- autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_; fornitore ricetta: *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*;
-- ingredienti: [Shell](https://it.wikipedia.org/wiki/Shell_(informatica)), [Bash](https://it.wikipedia.org/wiki/Bash), [SQLite](https://www.sqlite.org/index.html)
-
 ---
 
 ## formato output di default

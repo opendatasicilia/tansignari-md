@@ -14,11 +14,7 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Giudiceandrea"]
 ---
 
-- issue correlata: [#100](https://github.com/opendatasicilia/tansignari/issues/100)
-- autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Giudiceandrea](https://github.com/agiudiceandrea);
-- ingredienti: [QGIS](https://qgis.org/it/site/), [SQL](https://it.wikipedia.org/wiki/Structured_Query_Language), [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index), [NTv2](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ntv2.php)
-
-
+---
 
 Lo standard **NTv2** (_National Transformation versione 2_) è stato definito nel 1995 dal [servizio geodetico del governo canadese](http://webapp.geod.nrcan.gc.ca/geod/) per archiviare le traslazioni da apportare alle coordinate geografiche per il passaggio tra datum diversi (originariamente da NAD27 a NAD83). Questo standard si è ora diffuso in tutto il mondo ed è utilizzato da tutti i più diffusi software GIS, sia [proprietari](https://it.wikipedia.org/wiki/Software_proprietario) che [Open Source](https://it.wikipedia.org/wiki/Open_source).
 
@@ -100,6 +96,10 @@ La presente ricetta spiega come usare i file NTv2, per le caratteristiche del gr
 - [Lista gvSIG Italian 2009](https://lists.osgeo.org/pipermail/gvsig-italian/2009-July/000757.html)
 - [Lista QGIS-it](http://osgeo-org.1560.x6.nabble.com/Integrare-i-grigliati-NTv2-in-QGIS-3-10-futura-LTR-td5426354.html)
 - [Trasformazione tra Sistemi di riferimento e GIS: quali precisioni? di Mattia De Agostino](https://github.com/opendatasicilia/tansignari/raw/master/ricette/mappe/De%20Agostino%20et%20al.%20-%20Trasformazione%20tra%20SR.pdf)
+- [QGIS](https://qgis.org/it/site/)
+- [SQL](https://it.wikipedia.org/wiki/Structured_Query_Language)
+- [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index)
+- [NTv2](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ntv2.php)
 
 
 ---
