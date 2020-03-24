@@ -15,10 +15,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso","Davide Taibi"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#64](https://github.com/opendatasicilia/tansignari/issues/64) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e *[Davide Taibi](https://twitter.com/dataibi?lang=it)*
-* ingredienti: [geonames](http://www.geonames.org/), [wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page),[SPARQL](https://it.wikipedia.org/wiki/SPARQL), [Miller](https://github.com/johnkerl/miller)
-
 ---
 
 **Caso d'uso:** Creare un dataset che rappresenti i Capoluoghi di provincia italiani in forma puntuale.
@@ -93,6 +89,13 @@ SELECT ?UA ?UALabel ?tipoLabel ?istatIDUA ?capoluogo ?capoluogoLabel ?istatIDCap
 order by ?istatIDUA
 ```
 ---
+
+## Riferimenti utili
+
+- [**geonames**](http://www.geonames.org/)
+- [**wikidata**](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+- [**SPARQL**](https://it.wikipedia.org/wiki/SPARQL)
+- [**Miller**](https://github.com/johnkerl/miller)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

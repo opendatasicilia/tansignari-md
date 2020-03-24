@@ -16,9 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#15](https://github.com/opendatasicilia/tansignari/issues/15)
-- autore: [_Totò Fiandaca_](https://github.com/pigreco)
-
 ---
 
 ## Dataset

@@ -19,10 +19,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#63](https://github.com/opendatasicilia/tansignari/issues/63) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
-* ingredienti: [QGIS](https://qgis.org/it/site/), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
-
 ---
 
 **Caso d'uso:** A partire da un file `QML` (file di tematizzazione di QGIS) ottenere un file **QGIS Palette** in formato `gpl` da riutilizzare in QGIS per la tematizzazione feature e legenda.
@@ -445,4 +441,12 @@ Columns: 4
 
 - il file QML `tema.qml` è scaricabile da [qui](https://github.com/opendatasicilia/tansignari/files/3055033/tema.zip)
 - il file CSV `out_regioni_xpath.tsv` è scaricabile da [qui](https://github.com/opendatasicilia/tansignari/files/3084977/out_regioni_xpath.zip)
+
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**xmlstarlet**](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html)
+- [**XPATH**](https://www.w3schools.com/xml/xpath_intro.asp)
+- [**Miller**](https://github.com/johnkerl/miller)
+
 

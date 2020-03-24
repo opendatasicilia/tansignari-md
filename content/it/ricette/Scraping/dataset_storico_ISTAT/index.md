@@ -15,10 +15,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#78](https://github.com/opendatasicilia/tansignari/issues/78) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
-* ingredienti: [scrape](https://github.com/aborruso/scrape-cli), [yq](https://github.com/kislyuk/yq)
-
 ---
 
 **Caso d'uso:** Scaricare archivi ISTAT in formato *.zip
@@ -62,6 +58,11 @@ grep '/generalizzato'
 # passa l'output a xargs e usalo per lanciare un download per ogni riga di output
 xargs -I _ wget _
 ```
+
+## Riferimenti utili
+
+- [**scrape**](https://github.com/aborruso/scrape-cli)
+- [**yq**](https://github.com/kislyuk/yq)
 
 ---
 

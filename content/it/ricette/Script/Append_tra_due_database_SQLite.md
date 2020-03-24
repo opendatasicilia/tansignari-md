@@ -16,8 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-
 ---
 
 ## caso d'uso

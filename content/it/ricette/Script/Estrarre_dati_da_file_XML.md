@@ -19,10 +19,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
-* ingredienti: [QGIS](https://qgis.org/it/site/), [yq](https://github.com/kislyuk/yq), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
-
 ---
 
 **Caso d'uso:** il file di tematizzazione di un layer (in [QGIS](https://qgis.org/it/site/)) è un file [XML](https://it.wikipedia.org/wiki/XML), alcune volte è necessario reperire i codici colore (in [rgba](https://it.wikipedia.org/wiki/RGBA)) direttamente dal file di tematizzazione: questa ricetta estrae i codici colori utilizzati e crea una tabella, in [CSV](https://it.wikipedia.org/wiki/Comma-separated_values), pronta per essere utilizzata in QGIS e messa in join con il layer in esame.
@@ -103,6 +99,14 @@ il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/ta
 * ricetta è raggiungibile [qui](http://tansignari.opendatasicilia.it/it/latest/ricette/script/xml_xpath.html)
 
 ---
+
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**yq**](https://github.com/kislyuk/yq)
+- [**xmlstarlet**](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html)
+- [**XPATH**](https://www.w3schools.com/xml/xpath_intro.asp)
+- [**Miller**](https://github.com/johnkerl/miller)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

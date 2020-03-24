@@ -17,9 +17,7 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#113](https://github.com/opendatasicilia/tansignari/issues/113)
-- autore: [Totò Fiandaca](https://twitter.com/totofiandaca); chef: [Andrea Borruso](https://github.com/aborruso);
-- ingredienti: [PROJ](https://proj.org/about.html), [GDAL](https://gdal.org/)
+---
 
 ## Introduzione
 
@@ -122,7 +120,9 @@ gdalwarp -r near -order 1 -co COMPRESS=PACKBITS  -t_srs "+proj=longlat +ellps=be
 
 ---
 
-## Riferimenti
+## Riferimenti utili
 
 - [**gis.stackexchange**](https://gis.stackexchange.com/questions/349635/setting-proj-parameters-of-old-map)
 - [**Geodetic datums of the Italian cadastral systems**](https://www.researchgate.net/profile/Gabor_Timar/publication/233406023_Geodetic_datums_of_the_Italian_cadastral_systems/links/0fcfd50a4ac50986ef000000/Geodetic-datums-of-the-Italian-cadastral-systems.pdf)
+- [**PROJ**](https://proj.org/about.html)
+- [**GDAL**](https://gdal.org/)

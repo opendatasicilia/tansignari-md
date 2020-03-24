@@ -12,10 +12,6 @@ autori: ["Agostino Ficco"]
 chefs: ["Totò Fiandaca"]
 ---
 
-* autore: _[Agostino Ficco](https://twitter.com/)_
-* issue: [#59](https://github.com/opendatasicilia/tansignari/issues/59) fornitore ricetta *[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)*
-* ingredienti: [QGIS](https://qgis.org/it/site/), [Calcolatore di campi](http://hfcqgis.opendatasicilia.it/it/latest/index.html), [CASE](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/case.html)
-
 ---
 
 **Caso d'uso:** Vettore lineare (strade), la tabella attributi ha un campo **prog** che rappresenta le `distanze progressive` espresse in metri, in questa ricetta popoleremo - usando il calcolatore di campi di QGIS - un nuovo campo (prog_km) con le `distanze chilometriche progressive` in stile autostrade ovvero: da questi numeri interi 6320, 11, 743, 25931 espressi in metri, in questo formato 6+320, 0+011, 0+742, 25+931 che diventano testuale.
@@ -46,6 +42,12 @@ id|prog|prog_km
 6|105000|105+000
 
 ---
+
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**Calcolatore di campi**](http://hfcqgis.opendatasicilia.it/it/latest/index.html)
+- [**CASE**](http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/case.html)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

@@ -15,9 +15,7 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#112](https://github.com/opendatasicilia/tansignari/issues/112) - [#111](https://github.com/opendatasicilia/tansignari/issues/111) - [#110](https://github.com/opendatasicilia/tansignari/issues/110)
-- autore:  _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_ fornitore ricetta [Andrea Borruso](https://twitter.com/aborruso)
-- ingredienti: [bash](https://it.wikipedia.org/wiki/Bash), [sed](https://it.wikipedia.org/wiki/Sed_(Unix)), [7z](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html), [curl](https://curl.haxx.se/)
+---
 
 ## Introduzione
 
@@ -83,6 +81,10 @@ cd ../../../../
 - [**repository**](https://github.com/pigreco/QGIS_portable_3x)
 - [**Impara X in Y minuti**](https://learnxinyminutes.com/docs/it-it/bash-it/)
 - [**QGIS**](https://qgis.org/it/site/)
+- [**bash**](https://it.wikipedia.org/wiki/Bash)
+- [**sed**](https://it.wikipedia.org/wiki/Sed_(Unix))
+- [**7z**](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html)
+- [**curl**](https://curl.haxx.se/)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

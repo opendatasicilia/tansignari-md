@@ -13,8 +13,6 @@ autori: ["Lorenzo Perone"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#29](https://github.com/opendatasicilia/tansignari/issues/29)
-- autore: [Lorenzo Perone](https://github.com/lorenzoperone); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso);
 ---
 
 ![image](./demetra_articolo.png)

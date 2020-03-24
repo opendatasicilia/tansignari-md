@@ -15,9 +15,6 @@ chefs: ["Andrea Borruso"]
 
 ---
 
-* autore: _[Gianni Vitrano](https://twitter.com/gbvitrano?lang=it)_; fornitore ricetta: *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*;
-* ingredienti: [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
-
 ## Pubblicare il sito online
 Dopo aver visto come installare [Hugo](../installare_hugo_server_locale/) nel pc locale, in questa ricetta affronteremo il tema della pubblicazione online del sito. Per farlo useremo l'app [Netlify](https://app.netlify.com) 
 
@@ -83,3 +80,7 @@ Dopo aver pubblicato il sito, cliccanso sui pulsati (1) **Site setting**  e  (2)
 Buon lavoro :-) 
 
 ![](./online.jpg)
+
+## Riferimenti utili
+
+- [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)

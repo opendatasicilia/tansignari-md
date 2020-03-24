@@ -16,10 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso","Totò Fiandaca"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#84](https://github.com/opendatasicilia/tansignari/issues/84) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e *[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)*
-* ingredienti: [curl](https://curl.haxx.se/), [GDAL/OGR](https://gdal.org/programs/ogr2ogr.html), [7z](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html)
-
 ---
 
 **Caso d'uso:** Scaricare la viabilità storica della Regione Siciliana dal server arcgis
@@ -102,3 +98,9 @@ done;
 #cancello i file kml e kmz che non mi servono
 rm ./toto*.km*
 ```
+
+## Riferimenti utili
+
+- [**curl**](https://curl.haxx.se/)
+- [**GDAL/OGR**](https://gdal.org/programs/ogr2ogr.html)
+- [**7z**](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html)

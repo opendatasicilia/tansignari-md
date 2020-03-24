@@ -20,9 +20,6 @@ chefs: ["Andrea Borruso"]
 
 ---
 
-* autore: _[Gianni Vitrano](https://twitter.com/gbvitrano?lang=it)_;  fornitore ricetta: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_;
-* ingredienti: [Install Hugo](https://gohugo.io/getting-started/installing/)
-
 ## HUGO Server che cos’è?
 È un programma, è disponibile praticamente per qualsiasi [piattaforma](https://github.com/gohugoio/hugo/releases/tag/v0.65.2),  in questa ricetta verrà spiegato passo dopo passo come installarlo su nel [bash di Windows](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/), ma se desiderate installarlo direttamente su [Windows](https://www.youtube.com/watch?v=G7umPCU-8xc) o e [Mac OS](https://www.youtube.com/watch?v=WvhCGlLcrF8) ci sono molte guide in inglese online,
 
@@ -79,3 +76,7 @@ In alternativa si può installere scaricando l'ultimo pacchetto **.deb** da [Hug
 - verifica la tua installazione `which hugo` e dopo `hugo version`
 
 **Per disinstallare Hugo su Ubuntu e Debian** `sudo apt-get remove --auto-remove hugo`
+
+## Riferimenti utili
+
+- [Install Hugo](https://gohugo.io/getting-started/installing/)

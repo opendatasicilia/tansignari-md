@@ -12,9 +12,6 @@ autori: ["Ciro Spataro"]
 chefs: ["Gianni Vitrano"]
 ---
 
-* autore: [Ciro Spataro](https://twitter.com/cirospat)
-* issue: [#116](https://github.com/opendatasicilia/tansignari/issues/116) fornitore ricetta [Giovan Battista Vitrano](https://twitter.com/gbvitrano?lang=it)
-
 ---
 
 ## Obiettivo

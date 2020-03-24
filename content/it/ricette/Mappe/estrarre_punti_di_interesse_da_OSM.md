@@ -13,9 +13,9 @@ autori: ["Gabriele Francescotto"]
 chefs: ["Gabriele Francescotto"]
 ---
 
+--
 
 - PR correlata: [#35](https://github.com/opendatasicilia/tansignari/pull/35)
-- autore: [Gabriele Francescotto](https://github.com/gabrielefrancescotto)
 
 **[Overpass turbo](https://overpass-turbo.eu/)** è uno strumento web-based per l'estrazione di dati OpenStreetMap.
 

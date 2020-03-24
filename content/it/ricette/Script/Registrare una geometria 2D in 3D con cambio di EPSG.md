@@ -15,10 +15,6 @@ autori: ["Giuseppe Guarino"]
 chefs: ["Totò Fiandaca"]
 ---
 
-* autore: _[Giuseppe Guarino](https://www.linkedin.com/in/guarino-giuseppe/)_
-* issue: [#54](https://github.com/opendatasicilia/tansignari/issues/54) fornitore ricetta *[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)*
-* ingredienti: [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index)
-
 ---
 
 Come crare una geo-tabella 3D con EPSG 6708 a partire da uno shapefile 2D importato in SpatiaLite con campi X, Y e Z.
@@ -73,3 +69,7 @@ a partire dalla precedente geo-tabella (**nome_tabella**) con EPSG trasformato, 
 ```sql
 SELECT RecoverGeometryColumn('nome_tabella_new', 'geom',6708, 'POINT', 'XYZ');
 ```
+
+## Riferimenti utili
+
+- [**SpatiaLite**](https://www.gaia-gis.it/fossil/libspatialite/index)

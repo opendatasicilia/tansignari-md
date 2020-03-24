@@ -13,6 +13,8 @@ autori: ["Andrea Borruso"]
 chefs: ["Andrea Borruso"]
 ---
 
+---
+
 # Introduzione
 
 Docsy, il motore di questo spazio, sfrutta [Bootstap 4](https://getbootstrap.com/), e quindi di base gli stili di questa piattaforma sono utilizzabili anche qui

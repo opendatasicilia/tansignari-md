@@ -13,6 +13,8 @@ autori: ["Andrea Borruso"]
 chefs: ["Andrea Borruso"]
 ---
 
+---
+
 <div class="alert alert-secondary" role="alert">
   <b>Questo testo è al momento una bozza incompleta</b>
 </div>

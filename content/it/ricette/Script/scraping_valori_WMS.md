@@ -16,9 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#44](https://github.com/opendatasicilia/tansignari/issues/44) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_
-
 ---
 
 ## Caso d'uso

@@ -8,15 +8,12 @@ tags:
   - ODK
   - ona
   - mappa
-issue:
-autori: ["Gianni Vitrano"]
-chefs: ["Gianni Vitrano"]
+issue: [25]
+autori: ["Ciro Spataro"]
+chefs: ["Ciro Spataro"]
 ---
 
 ---
-
-* autore: [Ciro Spataro](https://twitter.com/cirospat)
-* issue:  [#issue 25](https://github.com/opendatasicilia/tansignari/issues/25)
 
 ## 1 - Creare un modulo per raccolta dati in mobilità
 

@@ -15,9 +15,6 @@ chefs: ["Gianni Vitrano"]
 
 ---
 
-* autore: [gbvitrano](https://twitter.com/gbvitrano)
-* issue correlata:
-
 Abbiamo già visto come tematizzare [velocemente i poligoni](http://tansignari.opendatasicilia.it/it/latest/ricette/mappe/umap/uMap.html), ma possiamo fare la stessa cosa con una mappa puntuale?
 
 Prendendo spunto dalla domanda posta da [Piersoft](https://twitter.com/Piersoft) su [facebook](https://www.facebook.com/piersoft/posts/10214546139942792)

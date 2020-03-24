@@ -18,10 +18,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Giovanni Pirrotta","Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#58](https://github.com/opendatasicilia/tansignari/issues/58) fornitore ricetta *[Giovanni Pirrotta](https://twitter.com/gpirrotta?lang=it)* e *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
-* ingredienti: [QGIS](https://qgis.org/it/site/),[Python](https://www.python.org/), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
-
 ---
 
 **Caso d'uso:** Partendo da un file XML la cui struttura è quella di un file **QML** (proveniente dalla tematizzazione - metodo categorizzato - di un layer vettoriale in QGIS) sostituire/modificare alcuni valori presenti nel file.
@@ -132,6 +128,15 @@ Per ottenere il file `tema.xml` da QGIS: tasto destro del mouse sul layer temati
 il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/tansignari/files/3055033/tema.zip)
 
 ---
+
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**Python**](https://www.python.org/)
+- [**xmlstarlet**](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html)
+- [**XPATH**](https://www.w3schools.com/xml/xpath_intro.asp)
+- [**Miller**](https://github.com/johnkerl/miller)
+
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

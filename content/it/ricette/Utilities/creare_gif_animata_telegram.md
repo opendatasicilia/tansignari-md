@@ -13,9 +13,6 @@ autori: ["Andrea Borruso"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#107](https://github.com/opendatasicilia/tansignari/issues/107)
-- ingredienti: [ffmpeg](https://www.ffmpeg.org/)
-
 ---
 
 Questa ricetta nasce perché se si fa l'**upload** diretto di una GIF animata su Telegram, questa perde in qualità e diventa poco leggibile; sopratutto dopo lo zoom.
@@ -31,3 +28,6 @@ Questo il comando:
 ffmpeg -f gif -i input.gif -filter_complex "loop=1:32767:0,scale=trunc(iw/2)*2:trunc(ih/2)*2" -preset slow -pix_fmt yuv420p output.mp4
 ```
 
+## Riferimenti utili
+
+- [**ffmpeg**](https://www.ffmpeg.org/)

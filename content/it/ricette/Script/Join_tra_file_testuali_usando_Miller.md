@@ -16,10 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#60](https://github.com/opendatasicilia/tansignari/issues/60) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
-* ingredienti: [Miller](https://github.com/johnkerl/miller), CSV, TSV
-
 ---
 
 **Caso d'uso:** Partendo da due file di testo, con diverso numero di colonne, fare un `join` tra il campo 3 del primo e 1 del secondo file mantenendo solo alcuni campi e non tutti, tenendo presente che il primo file è un CSV con intestazione e il secondo un TSV senza intestazione.
@@ -40,3 +36,7 @@ mlr --nidx --fs "\t" join -j 3 -r 1 --rp r -f out_regioni_xpath.tsv then cut -f 
 
 - [primo file testuale CSV](https://github.com/opendatasicilia/tansignari/files/3084976/layer.zip)
 - [secondo file testuale TSV](https://github.com/opendatasicilia/tansignari/files/3084977/out_regioni_xpath.zip)
+
+## Riferimenti utili
+
+- [**Miller**](https://github.com/johnkerl/miller)

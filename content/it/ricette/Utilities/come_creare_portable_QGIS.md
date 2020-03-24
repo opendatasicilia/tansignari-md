@@ -16,10 +16,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: [#112](https://github.com/opendatasicilia/tansignari/issues/112)
-- autore:  _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_ fornitore ricetta [Andrea Borruso](https://twitter.com/aborruso)
-- ingredienti: [QGIS](https://qgis.org/it/site/), [bash](https://it.wikipedia.org/wiki/Bash), [sed](https://it.wikipedia.org/wiki/Sed_(Unix)), [7z](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html), [curl](https://curl.haxx.se/)
-
 ---
 
 ## Che cosa è una versione Portable
@@ -71,6 +67,14 @@ cd ../../../../
 * [**QGIS 3.4.10 LTR Madeira Portable**](https://mega.nz/#!IN5VWaJY!nMUkHxy1krLLm9h1LdISTEVAcTRHyQumpPMDF927CpU) (da unzippare in una pen drive F:\OSGeo4W e eseguire punto 5)
 * [**QGIS 3.8.0 Zanzibar Portable**](https://mega.nz/#!xNoUDSKZ!j3yRI0DOGI6AtP_NdqLLsIDSXYX0dbXcaLsoIOcHHFQ) (da unzippare in una pen drive F:\OSGeo4W e eseguire punto 5)
 * [**QGIS 2.18.28-3 LTR Las Palmas Portable**](https://mega.nz/#!dFRCAAwC!x3hx-EazfFCHsWXNrUE4zQbzDp8FIXEQzRcoxMIOz7g) (da unzippare in una pen drive F:\OSGeo4W e eseguire punto 5)
+
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**bash**](https://it.wikipedia.org/wiki/Bash)
+- [**sed**](https://it.wikipedia.org/wiki/Sed_(Unix))
+- [**7z**](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html)
+- [**curl**](https://curl.haxx.se/)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 

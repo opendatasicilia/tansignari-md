@@ -18,7 +18,7 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- autore: _Totò Fiandaca_
+---
 
 ## Dataset
 

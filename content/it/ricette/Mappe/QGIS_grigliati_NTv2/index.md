@@ -85,7 +85,14 @@ A questo punto in **QGIS**, nel tuo progetto, dal menu `Project→Properties→C
 
 La presente ricetta spiega come usare i file NTv2, per le caratteristiche del grigliato e per approfondimenti, si rimanda ai vari URL.
 
-## RINGRAZIAMENTI
+## Riferimenti utili
+
+- [**QGIS**](https://qgis.org/it/site/)
+- [**SQL**](https://it.wikipedia.org/wiki/Structured_Query_Language)
+- [**SpatiaLite**](https://www.gaia-gis.it/fossil/libspatialite/index)
+- [**NTv2**](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ntv2.php)
+
+## Ringraziamenti
 
 - [Andrea Giudiceandrea](https://github.com/agiudiceandrea)
 - [Ing. E. Sferlazza](https://www.facebook.com/ernesto.sferlazza)

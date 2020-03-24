@@ -60,3 +60,9 @@ gid         len
 ```
 
 in questo secondo caso ho aggiunto, nella prima riga, le opzioni: `-column` `-header`
+
+## Riferimenti utili
+
+- [**Shell**](https://it.wikipedia.org/wiki/Shell_(informatica))
+- [**Bash**](https://it.wikipedia.org/wiki/Bash)
+- [**SQLite**](https://www.sqlite.org/index.html)

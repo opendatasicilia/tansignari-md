@@ -13,10 +13,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
 ---
 
-- issue correlata: `[#109](https://github.com/opendatasicilia/tansignari/issues/109)`
-- autore:  _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_ fornitore ricetta [Andrea Borruso](https://twitter.com/aborruso)
-- ingredienti: [git](https://it.wikipedia.org/wiki/Git_(software))
-
 ---
 
 Per chiudere una issue è possibile seguire due vie:
@@ -32,3 +28,7 @@ Per chiudere una issue è possibile seguire due vie:
 ## Esempio
 
 Per chiudere questa issue ho scritto, nel messaggio di commit, `close #109`
+
+## Riferimenti utili
+
+- [**git**](https://it.wikipedia.org/wiki/Git_(software))

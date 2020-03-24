@@ -18,10 +18,6 @@ autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso","Gianni Vitrano"]
 ---
 
-* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#79](https://github.com/opendatasicilia/tansignari/issues/79) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e *[gbvitrano](https://twitter.com/gbvitrano)*
-* ingredienti: [scrape](https://github.com/aborruso/scrape-cli), [XPATH](https://it.wikipedia.org/wiki/XPath), [VisiData](http://visidata.org/man/)
-
 ---
 
 **Caso d'uso:** Come scaricare una tabella da un sito web con molte tabelle html
@@ -93,6 +89,12 @@ per visualizzare la tabella premere `invio`
 | Lettonia             | Unione Europea          | 541     | 2.372   | 2.913     | 0,06%  |
 +----------------------+-------------------------+---------+---------+-----------+--------+
 ```
+
+## Riferimenti utili
+
+- [**scrape**](https://github.com/aborruso/scrape-cli)
+- [**XPATH**](https://it.wikipedia.org/wiki/XPath)
+- [**VisiData**](http://visidata.org/man/)
 ---
 
 Per maggiori dettagli leggere Issue correlata [#79](https://github.com/opendatasicilia/tansignari/issues/79)
