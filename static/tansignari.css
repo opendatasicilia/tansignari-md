@@ -30,3 +30,60 @@
 #tagricetta a {
   color: #FF8000;
 }
+
+
+/* link td-navbar*/
+.td-navbar a:link {text-decoration:none; color: #fffffe!important;}
+.td-navbar a:visited {text-decoration: none;	color: #fffffe!important;}
+.td-navbar a:hover {text-decoration: none; color: #eaddcf!important;}
+.td-navbar a:active {    text-decoration: none;	color: #fffffe!important;}
+
+/* Colore barra navigazione*/
+.td-navbar {    background: #094067!important;}
+.navbar-bg-onscroll {  background: #094067!important;  opacity: inherit; }
+
+/* link*/
+a:link {text-decoration:underline; color: #fff!important;  }
+a:visited {text-decoration: underline;	color: #fff!important;}
+a:hover {text-decoration: underline; color: #ef4565!important;}
+a:active {text-decoration: none;	color: #fff!important;}
+
+/* Colore box testo */
+.td-box--primary { color: #fff!important; background-color: #094067!important; }
+
+.td-box--1 {  color: #fff; background-color: #094067!important; }
+
+.td-box--4 { color: #094067!important; background-color: #90b4ce!important;	background-image: url(sf_04.png); background-attachment: scroll; background-blend-mode: soft-light; background-repeat: no-repeat; background-size: cover;}
+
+.td-box--7 { color: #094067!important; background-color: #90b4ce!important; background-image: url(sf_07_1.png); background-attachment: scroll; background-blend-mode: soft-light; background-repeat: no-repeat; background-size: cover;}
+
+
+/*RICETTE*/
+/* box menu ricette  background-color */
+.td-sidebar { background-color: #fffffe!important;  }
+.td-sidebar-nav a:link {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:visited {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:active  {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:hover {color: #ef4565!important; text-decoration:underline;}
+
+/* link ricette  sx*/
+.td-main main { background-color: #fffffe!important;  }
+.td-main main p, H1, H2, H3, H4, H5, H6 { color: #094067!important; }{color: #094067! important;}
+.td-main main a:link {text-decoration:none; color: #094067! important;  }
+.td-main main a:visited {text-decoration: underline;	color: #094067!important;}
+.td-main main a:hover {text-decoration: underline; color: #ef4565!important;}
+.td-main main a:active {text-decoration: none;	color: #094067!important;}
+.flex-xl-nowrap {background-color: #fffffe!important;}
+
+/* link modifica ricetta*/
+.td-toc { background-color: #fffffe!important;  }
+.td-toc a:link {text-decoration:none; color: #094067! important;}
+.td-toc a:visited {text-decoration: underline;	color: #094067!important;}
+.td-toc a:hover {text-decoration: underline; color: #ef4565!important;}
+.td-toc a:active {text-decoration: none;	color: #094067!important;}
+
+/*pop-up risultati ricerca*/
+.popover-body a:link {text-decoration:underline; color: #094067!important;  }
+.popover-body a:visited {text-decoration: underline;	color: #094067!important;}
+.popover-body a:hover {text-decoration: underline; color: #094067!important;}
+.popover-body a:active {text-decoration: none;	color: #094067!important;}
