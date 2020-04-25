@@ -21,7 +21,7 @@ menu:
 
 3. **Come chiedo aiuto.**
 
-Puoi chiedere aiuto utilizzando le `issue` del repository, apri una nuova `issue` e attieniti al **[Galateo](/galateo/ "attienti al Galateo")**.
+Puoi chiedere aiuto utilizzando le `issue` del repository, apri una nuova `issue` e attieniti al **[Galateo](/galateo/ "attieniti al Galateo")**.
 
 
 4. **Cosa posso chiedere a T'ansignari.**
