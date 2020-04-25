@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<a class="td-offset-anchor"></a>
+<section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
+	<div class="container text-center td-arrow-down">
+		<span class="h4 mb-0">
+			<p align="center"> <a href="http://opendatasicilia.it/" target="_blank"><img src="http://wp.ondata.it/sicilia/wp-content/uploads/sites/2/2018/07/opendatasicilia.png" width="150" class="immagonobox"   title="opendatasicilia.it"></a>
+</p>
+		<h10>OpenDataSicilia</h10>
+	<p1><a href="http://opendatasicilia.it/" title="OpenDataSicilia" target="_blank">OpenDataSicilia</a> è una iniziativa civica che si propone di far conoscere e diffondere le prassi dell'open data e la cultura dell'open government e nel territorio e aprire una discussione pubblica partecipata.<br>
+È un gruppo di cittadini con diverse storie, competenze, professioni, accomunate dalla volontà di contribuire a migliorare la qualità della vita delle persone, con spirito di collaborazione e concretezza.</p1>
+<h10>Come nasce questo contenitore</h10>
+<p1>Da una <a href="https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ" title="proposta"  class="community1" target="_blank">proposta</a> nella <a href="https://groups.google.com/forum/#!forum/opendatasicilia" class="community"  title="mailing list di OpenDataSicilia" target="_blank">mailing list di OpenDataSicilia.</a>	</p1>	<br><br>
+<h10>Unisciti a {{ .Site.Title }} community</h10>
+<p1>{{ .Site.Title }} è un progetto open source che chiunque nella comunità può utilizzare, migliorare e apprezzare. Ci piacerebbe che tu ti unissi a noi! Ecco alcuni modi per scoprire cosa sta succedendo e essere coinvolti.</p>
+</span>
+	</div>
+</section>
+{{ partial "community_links.html" . }}
+
+<div class="td-content">
+{{ .Content }}
+</div>
+
+{{ end }}

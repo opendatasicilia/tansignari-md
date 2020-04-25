@@ -1,0 +1,29 @@
+{{ $links := .Site.Params.links }}
+
+<section class="row td-box td-box--7 td-box--gradient td-box--height-auto linkbox">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<h2>Impara e connettiti</h2>
+<p>Vuoi usare {{ .Site.Title }}? Scopri di più qui:
+{{ with index $links "user"}}
+{{ template "community-links-list"  . }}
+{{ end }}
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<h2>Sviluppa e contribuisci</h2>
+<p>Se vuoi essere più coinvolto contribuendo a {{ .Site.Title }}, unisciti a noi qui:
+{{ with index $links "developer"}}
+{{ template "community-links-list"  . }}
+{{ end }}
+<p>Puoi scoprire come contribuire a questi documenti leggendo il nostro <a href="/galateo/" title="Il nostro Galateo">Galateo</a>.
+</div>
+</section>
+
+{{ define "community-links-list" }}
+<ul>
+ {{ range . }}
+ <li title="{{ .name }}">
+   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a> {{ .desc }}
+ </li>
+  {{ end }}
+</ul>
+{{ end }}

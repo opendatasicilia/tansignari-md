@@ -1,3 +1,20 @@
+/* home */
+#titolohome {
+  color: white !important;
+}
+
+.messaggiohome {
+  color: #fff!important;
+  background-color: #094067a4 !important;
+  text-align: left !important;
+  padding: 25px !important;
+  border-radius: 15px;
+  moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 1px solid #094067c4;
+}
+/* home */
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -87,3 +104,5 @@ a:active {text-decoration: none;	color: #fff!important;}
 .popover-body a:visited {text-decoration: underline;	color: #094067!important;}
 .popover-body a:hover {text-decoration: underline; color: #094067!important;}
 .popover-body a:active {text-decoration: none;	color: #094067!important;}
+
+

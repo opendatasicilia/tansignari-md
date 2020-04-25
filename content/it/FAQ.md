@@ -2,10 +2,14 @@
 title: FAQ
 linkTitle: FAQ
 type: statico
+menu:
+  main:
+    weight: -16
+
 
 ---
 
-## FAQ -- in costruzione
+# FAQ -- in costruzione
 
 1. **Che cosa è lo spazio T'ansignari e T'appeddiri.**
 
@@ -17,17 +21,17 @@ type: statico
 
 3. **Come chiedo aiuto.**
 
-Puoi chiedere aiuto utilizzando le `issue` del repository, apri una nuova `issue` e attieniti al **Galateo**.
+Puoi chiedere aiuto utilizzando le `issue` del repository, apri una nuova `issue` e attieniti al **[Galateo](/galateo/ "attienti al Galateo")**.
 
 
 4. **Cosa posso chiedere a T'ansignari.**
 
-Puoi chiedere tutto ciò che rientra nel **Galateo** di questo spazio, quindi leggi il **Galateo**.
+Puoi chiedere tutto ciò che rientra nel **[Galateo](/galateo/ "leggi il Galateo")** di questo spazio, quindi leggi il **[Galateo](/galateo/ "leggi il Galateo")**.
 
 
 5. **Come scrivo una ricetta.**
 
-Puoi scrivere la tua ricetta seguendo questo [template](https://festive-bohr-4ac225.netlify.com/ricette/tansignari/come_scrivere_una_ricetta/). È necessario account a Github, un editor di testo avanzato e una minima conoscenza del linguaggio `markdowm`.
+Puoi scrivere la tua ricetta seguendo questo **[template](/ricette/tansignari/come_scrivere_una_ricetta/ "Come scrivere una ricetta")**. È necessario account a Github, un editor di testo avanzato e una minima conoscenza del linguaggio `markdowm`.
 
 6. **Cosa occorre per scrivere una ricetta.**
 

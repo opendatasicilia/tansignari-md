@@ -55,7 +55,7 @@ anchor = "smart"
 
 [languages]
 [languages.it]
-title = "Tansignari"
+title = "T'ansignari"
 description = "Uno spazio per mettere a fattore comune scambi di conoscenza/esperienza sopratutto su dati aperti, strumenti per elaborarli, Linked Open Data, analisi e trasformazione di dati."
 languageName ="Italiano"
 time_format_default = "02/01/2006"
@@ -146,35 +146,36 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "User mailing list"
-	url = "https://example.org/mail"
+	url = "https://groups.google.com/forum/#!forum/opendatasicilia"
 	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+        desc = "Discussione e aiuto agli utenti"
 [[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/opendatasicilia"
 	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
+        desc = "Seguici su Twitter!"
 [[params.links.user]]
-	name = "Stack Overflow"
-	url = "https://example.org/stack"
-	icon = "fab fa-stack-overflow"
-        desc = "Practical questions and curated answers"
+	name = "Facebook"
+	url = "https://www.facebook.com/groups/opendatasicilia/"
+	icon = "fab fa-facebook-f"
+      desc = "Groups Facebook"
+
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "http://opendatasicilia.it/"
 	icon = "fab fa-github"
-        desc = "Development takes place here!"
+        desc = "opendatasicilia.it"
 [[params.links.developer]]
-	name = "Slack"
-	url = "https://example.org/slack"
-	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
+	name = "GitHub"
+	url = "https://github.com/opendatasicilia/tansignari-md"
+	icon = "fab fa-github"
+        desc = "Lo sviluppo avviene qui!"
 [[params.links.developer]]
-	name = "Developer mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
-        desc = "Discuss development issues around the project"
+	name = "Telegram"
+	url = "https://t.me/opendatasicilia."
+	icon = "fab ab fa-telegram-plane"
+      desc = "Groups Telegram"
 
 [taxonomies]
   tag = "tags"

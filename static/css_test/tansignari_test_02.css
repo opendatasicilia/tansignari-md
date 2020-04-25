@@ -1,0 +1,174 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.paddingrow {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  flex-direction: row !important;
+}
+
+.horizontal {
+  display: inline;
+}
+
+.listatag {
+  margin-bottom: 5px;
+}
+
+#autori {
+  padding-inline-start: 0px;
+  font-style: italic;
+}
+
+#tagricetta {
+  padding-inline-start: 0px;
+  color: gray;
+}
+
+#tagricetta a {
+  color: #FF8000;
+}
+
+/* body   background-color */
+body {background-color:  #90b4ce!important; }
+
+/* colore testo 
+.td-content p, .td-content li, .td-content td, p, H1, H2, H3, H4, H5, H6 {font-weight: 400; color: #094067!important; }*/
+
+/* display none */
+.display_no {display: none !important;}
+
+.-bg-white {color: #fff!important;  background-color: #33000078 !important; text-align: left !important; padding: 25px !important; border-radius: 15px;	moz-border-radius: 15px; -webkit-border-radius: 15px;	/*border: 1px solid  #33000078;*/}
+/* bottone ricette background */
+.btn-primary {color: #fff!important; background: #094067 linear-gradient(180deg, #094067, #094067) repeat-x; border-color: #094067;
+ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+.btn-primary:hover {color:#fffffe!important; background: #ef4565 linear-gradient(180deg, #ef4565,#ef4565) repeat-x;border-color: #ef4565;}
+
+/* bottone github background */
+.btn-secondary {  color: #fff!important; background: #ef4565 linear-gradient(180deg, #ef4565,#ef4565) repeat-x;border-color: #ef4565;}
+ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+.btn-secondary:hover {color: #fff!important;  background: #094067 linear-gradient(180deg, #094067, #094067) repeat-x; border-color: #094067;
+ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+
+/* Colore barra navigazione*/
+.td-navbar {    background: #094067!important;}
+.navbar-bg-onscroll {  background: #094067!important;  opacity: inherit; }
+
+/* link*/
+a:link {text-decoration:none; color: #fff! important;  }
+a:visited {text-decoration: underline;	color: #fff!important;}
+a:hover {text-decoration: underline; color: #ef4565!important;}
+a:active {text-decoration: none;	color: #fff!important;}
+
+/* link td-navbar*/
+.td-navbar a:link {text-decoration:none; color: #fffffe!important;}
+.td-navbar a:visited {text-decoration: none;	color: #fffffe!important;}
+.td-navbar a:hover {text-decoration: none; color: #eaddcf!important;}
+.td-navbar a:active {    text-decoration: none;	color: #fffffe!important;}
+
+/* link .community*/
+
+h10 {color: #fff!important;    display: block;    font-size: 1.5em;   margin-block-start: 0.67em;    margin-block-end: 0.67em;   margin-inline-start: 0px;    margin-inline-end: 0px;
+    font-weight: bold;}
+h11 {color: #fff!important;    display: block;    font-size: 2.8em;   margin-block-start: 0.67em;    margin-block-end: 0.67em;   margin-inline-start: 0px;    margin-inline-end: 0px;
+    font-weight: bold;}
+
+.community p1, color: #fff!important; }
+.community a:link {text-decoration:underline; color: #fff!important;}
+.community a:visited {text-decoration: underline; color: #fff!important;}
+.community a:hover {text-decoration: underline; color: #fff!important;}
+.community a:active { text-decoration: underline;color: #fff!important;}  
+/* @http://tansignari.opendatasicilia.it*/
+
+/* Colore sfondo orangee*/
+.-bg-orange {  color: #fff; background-color: #094067!important; }
+
+/* Colore sfondo dark*/
+.td-box--dark {color: #094067!important; background-color:  #90b4ce!important;}
+
+/* Colore sfondo dark footer*/
+.bg-dark {color: #094067!important; background-color:#b5d0e3!important; }
+
+/* link dark footer
+.bg-darkr a:link {text-decoration:none; color: #fffffe!important;}
+.bg-dark a:visited {text-decoration: none;	color: #fffffe!important;}
+.bg-dark a:hover {text-decoration: none; color: #eaddcf!important;}
+.bg-dark a:active {text-decoration: none;	color: #fffffe!important;}*/
+
+/* Colore box testo */
+.td-box--primary { color: #fff!important; background-color: #094067!important; }
+.td-box--1 {  color: #fff; background-color: #094067!important; }
+
+.td-box--3 { color: #094067!important; background-color: #90b4ce !important;}
+.td-box--4 { color: #094067!important; background-color: #90b4ce !important;}
+
+/* freccia blocchi  */
+.td-box--primary .td-arrow-down::before { border-color: #094067 transparent transparent transparent;}
+.td-box--1 .td-arrow-down::before { border-color: #094067 transparent transparent transparent;}
+.td-box--4 p > a {  color: #094067!important; }
+
+/*RICETTE*/
+/* box menu ricette  background-color */
+.td-sidebar { background-color: #d8eefe!important;  }
+.td-sidebar-nav a:link {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:visited {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:active  {color: #094067!important; text-decoration:none;}
+.td-sidebar-nav a:hover {color: #ef4565!important; text-decoration:underline;}
+
+/* link ricette  sx*/
+.td-main main { background-color: #d8eefe!important;  }
+.td-main main p, H1, H2, H3, H4, H5, H6 { color: #094067!important; }{color: #094067! important;}
+.td-main main a:link {text-decoration:none; color: #094067! important;  }
+.td-main main a:visited {text-decoration: underline;	color: #094067!important;}
+.td-main main a:hover {text-decoration: underline; color: #ef4565!important;}
+.td-main main a:active {text-decoration: none;	color: #094067!important;}
+/*.flex-xl-nowrap {flex-wrap: nowrap !important; background-color: #d8eefe !important;}*/
+
+/* link modifica ricetta*/
+.td-toc { background-color: #d8eefe!important;  }
+.td-toc a:link {text-decoration:none; color: #094067! important;}
+.td-toc a:visited {text-decoration: underline;	color: #094067!important;}
+.td-toc a:hover {text-decoration: underline; color: #ef4565!important;}
+.td-toc a:active {text-decoration: none;	color: #094067!important;}
+
+/* immagine no bordo/ no ombra */
+.immagonobox {	max-width:98%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
+
+.immagobox {max-width:98%!important;    height: auto!important;	box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FFF;	padding: 1px;background-color: #fff;}
+
+img {display: block; margin: 0 auto; box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FFF;	padding: 1px;background-color: #fff;}
+
+a.text-info:hover, a.text-info:focus {color:  #094067!important; }
+
+/* Disattiva wordart-attribution */
+.wordart-attribution, .tagul-attribution  {display: none !important;}
+
+.navbar-expand .navbar-nav .nav-link {padding-right: 0.3rem !important; padding-left: 0.3rem !important; }
+/* Modalità mobile */
+@media (min-width: 200px) and (max-width: 850px) {.display-1 { font-size: 2.3rem !important;}}
+@media (min-width: 200px) and (max-width: 850px) {.lead {font-size: 1.25rem;  font-weight: 300;  padding-left: 0.5rem!important;   padding-right: 0.5rem!important; }}
+@media (min-width: 200px) and (max-width: 850px) {.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    min-height: 1px; padding-right: 0px !important;     padding-left: 0px !important;}}
+	
+@media (min-width: 200px) and (max-width: 850px) {.td-box .row {padding-left: 2rem!important; padding-right: 2rem!important; flex-direction: row;}}
+@media (min-width: 200px) and (max-width: 850px) {.td-block-padding, .td-default main section { padding-top: 2rem!important;   padding-bottom: 2rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {.mb-5, .my-5 {margin-bottom: 1.25rem !important;}}
+
+@media (min-width: 200px) and (max-width: 850px) {h1, .h1 {font-size: 1.65rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {h2, .h2 {font-size: 1.7rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {h10, .h10 {font-size: 1.35rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {h11, .h11 {font-size: 1.35rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {.td-content > h2 { margin-bottom: 1rem;  padding-left: 1.25rem!important;   padding-right: 1.25rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {.td-content p, .td-content li, .td-content td {font-weight: 400;  padding-left: 1.25rem!important; padding-right: 1.25rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {#tagricetta { padding-left: 1.25rem!important;}}
+
+@media (min-width: 200px) and (max-width: 850px) {.td-content > h1 {text-align: center!important; padding-left: 1.25rem !important; padding-right: 1.25rem !important;}}
+
+@media (min-width: 200px) and (max-width: 850px) {.text-muted {    padding-left: 1.25rem!important;   padding-right: 1.25rem!important;}}
+
+@media (min-width: 200px) and (max-width: 850px) {#td-cover-block-0 { background-image: url(background_mobile.jpg)!important;}}
+@media (min-width: 851px) and (max-width: 2560px) {#td-cover-block-0 { background-image: url(background.jpg)!important;}}
+@media (min-width: 200px) and (max-width: 850px) {.pb-5, .py-5 {padding-left: 1.25rem!important; padding-right: 1.25rem!important;}}
+@media (min-width: 200px) and (max-width: 850px) {.td-sidebar__search { padding: 1rem 15px!important;   margin-right: -15px!important;    margin-left: -5px!important;}}
