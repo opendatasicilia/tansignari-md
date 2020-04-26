@@ -145,7 +145,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "User mailing list"
+	name = "Mailing list OpenDataSicilia"
 	url = "https://groups.google.com/forum/#!forum/opendatasicilia"
 	icon = "fa fa-envelope"
         desc = "Discussione e aiuto agli utenti"
