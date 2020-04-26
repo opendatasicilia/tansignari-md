@@ -161,7 +161,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
       desc = "Gruppo Facebook"
 [[params.links.user]]
 	name = "Telegram"
-	url = "https://t.me/opendatasicilia."
+	url = "https://t.me/opendatasicilia"
 	icon = "fab ab fa-telegram-plane"
       desc = "Gruppo Telegram"
 
