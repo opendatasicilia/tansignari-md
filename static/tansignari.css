@@ -5,7 +5,7 @@
 
 .messaggiohome {
   color: #fff !important;
-  background-color: #094067a4 !important;
+  background-color: #094067ce !important;
   text-align: left !important;
   padding: 25px !important;
   border-radius: 15px;
@@ -84,12 +84,12 @@
 /* link*/
 a:link {
   text-decoration: underline;
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 a:visited {
   text-decoration: underline;
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 a:hover {
@@ -99,7 +99,7 @@ a:hover {
 
 a:active {
   text-decoration: none;
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 /* Colore box testo */
@@ -114,13 +114,13 @@ a:active {
 }
 
 .td-box--4 {
-  color: #094067 !important;
+  /* color: #094067 !important;
   background-color: #90b4ce !important;
   background-image: url(sf_04.png);
   background-attachment: scroll;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .td-box--7 {

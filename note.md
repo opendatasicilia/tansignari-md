@@ -1,10 +1,15 @@
 - [template](#template)
+  - [home](#home)
   - [footer](#footer)
   - [Pagina che lista ricette per tag](#pagina-che-lista-ricette-per-tag)
   - [Pagina che lista ricette per autore](#pagina-che-lista-ricette-per-autore)
   - [Pagina che lista ricette per chef](#pagina-che-lista-ricette-per-chef)
 
 # template
+
+## home
+
+Il file per la home è `content/it/_index.html`
 
 ## footer
 
