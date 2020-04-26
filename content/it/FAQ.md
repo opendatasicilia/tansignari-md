@@ -9,7 +9,7 @@ menu:
 
 ---
 
-# FAQ -- in costruzione
+# FAQ
 
 1. **Che cosa è lo spazio T'ansignari e T'appeddiri.**
 
@@ -40,8 +40,3 @@ Puoi scrivere una ricetta se hai un account Github, altrimenti devi crearlo. È 
 7. **Cosa significa l'immagine di copertina?**
 
 È un nonno che segue il nipote. È il motto di questo spazio.
-
----
-
-riferimento seguito (poi lo toglo):
-<https://www.jimdo.com/it/2019/06/11/come-scrivere-le-faq-per-il-tuo-sito/>
