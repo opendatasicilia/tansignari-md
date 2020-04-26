@@ -130,7 +130,7 @@ sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
 navbar_logo = true
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+footer_about_disable = true
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
@@ -158,24 +158,19 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	name = "Facebook"
 	url = "https://www.facebook.com/groups/opendatasicilia/"
 	icon = "fab fa-facebook-f"
-      desc = "Groups Facebook"
+      desc = "Gruppo Facebook"
+[[params.links.user]]
+	name = "Telegram"
+	url = "https://t.me/opendatasicilia."
+	icon = "fab ab fa-telegram-plane"
+      desc = "Gruppo Telegram"
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
-	name = "GitHub"
-	url = "http://opendatasicilia.it/"
-	icon = "fab fa-github"
-        desc = "opendatasicilia.it"
 [[params.links.developer]]
 	name = "GitHub"
 	url = "https://github.com/opendatasicilia/tansignari-md"
 	icon = "fab fa-github"
         desc = "Lo sviluppo avviene qui!"
-[[params.links.developer]]
-	name = "Telegram"
-	url = "https://t.me/opendatasicilia."
-	icon = "fab ab fa-telegram-plane"
-      desc = "Groups Telegram"
 
 [taxonomies]
   tag = "tags"
