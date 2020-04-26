@@ -258,3 +258,8 @@ H6 {
 .td-box--primary {
   text-align: left !important;
 }
+
+.footerpadding {
+  padding-top: 15px !important;
+  padding-bottom: 1rem !important;
+}
