@@ -6,7 +6,7 @@ description: >
   Per **utilizzare una shell linux su windows** ci sono diversi modi, in questa ricetta vediamo un approccio adatto a chi sul proprio    computer, con sistema operativo Windows 10, non dispone dei privilegi di amministratore.
 tags:
   - shell
-  - babum
+  - babun
   - GDAL/OGR
 issue: [29]
 autori: ["Lorenzo Perone"]
