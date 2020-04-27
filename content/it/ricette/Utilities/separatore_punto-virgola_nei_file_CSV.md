@@ -8,7 +8,7 @@ tags:
   - csv
 issue: [82]
 autori: ["Ciro Spataro"]
-chefs: ["Giovan Battista Vistrano"] ; ["Andrea Borruso"]
+chefs: ["Giovan Battista Vistrano","Andrea Borruso"]
 ---
 
 
