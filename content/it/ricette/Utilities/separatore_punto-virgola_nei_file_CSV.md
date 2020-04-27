@@ -14,11 +14,9 @@ chefs: ["Giovan Battista Vistrano","Andrea Borruso"]
 
 ## Introduzione
 
-E' importante sapere come fare diventare il ";" separatore di campi al posto della "," in un file scaricato in formato CSV da Google spreadsheet.
+È utile ad esempio sapere come fare diventare il ";" separatore di campi al posto della ",", in un file scaricato in formato CSV da Google spreadsheet.
 
-## Descrizione
-
-Ottenuto il file **CSV**, avviare **Visidata** e seguire questo video:
+## libreoffice
 
 Se usi **libreoffice**:
 - salva in formato ODS da google sheet;
@@ -29,7 +27,9 @@ Appena clicchi su salva si aprirà la tendina che ti permette di cambiare alcuni
 
 ![](https://user-images.githubusercontent.com/30607/62115840-6550d180-b2b9-11e9-8df5-cc8e67849972.png)
 
+## Google sheet
+
 Se vuoi lavorare dentro Google spreadsheets direttamente qui c'è uno [script](https://stackoverflow.com/questions/49248498/how-can-i-export-to-csv-with-pipe-delimiter) che puoi usare. Nello sheet Parameters dei sostituire il pipe | con il semicolon.
 
-La soluzione più semplice e alla portata di tutti resta la riscrittura con libreoffice.
+
 
