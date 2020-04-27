@@ -171,6 +171,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	url = "https://github.com/opendatasicilia/tansignari-md"
 	icon = "fab fa-github"
         desc = "Lo sviluppo avviene qui!"
+[[params.links.developer]]
+	name = "RSS"
+	url = "https://rsshub.app/github/issue/opendatasicilia/tansignari"
+	icon = "fab fa-rss"
+        desc = "Il feed RSS delle richieste"
 
 [taxonomies]
   tag = "tags"
