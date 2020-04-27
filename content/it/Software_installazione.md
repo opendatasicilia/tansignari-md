@@ -15,17 +15,21 @@ Spesso è nella richiesta di aiuto, altre volte è consigliato dallo chef, qui d
 
 ## Software da installare in locale
 
-- Visidata
-- Miller
-- SQLite
-- QGIS
-- 
+Software | link ufficiale | Come installarlo
+---------|----------------|-------------
+Visidata|<https://www.visidata.org/>| riga di comando
+Miller|<https://johnkerl.org/miller/doc/reference.html> | riga di comando
+SQLite|<https://www.sqlite.org/index.html>| Multi piattaforma
+QGIS|<https://qgis.org/it/site/>| Multi piattaforma
+Mapshaper|<https://github.com/mbloch/mapshaper/wiki/Command-Reference>|Multi piattaforma
+
 
 ## Software da usare via Web
 
-- data.world
-- Miller
-- OpenStreetMap
-- Google Sheet
-- Regex101
-- 
+Software | link ufficiale | Serve account
+---------|----------------|-------------
+data.world|<https://data.world/> | Sì
+Mapshaper| <https://mapshaper.org/> | No
+OpenStreetMap|<https://www.openstreetmap.org | Sì
+Google Sheet|<https://www.google.com/sheets/about/> | Sì
+Regex101|<https://regex101.com/> | No
