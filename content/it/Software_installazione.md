@@ -5,6 +5,7 @@ type: statico
 menu:
   main:
     weight: -16
+draft: true
 
 
 ---
@@ -30,6 +31,6 @@ Software | link ufficiale | Serve account
 ---------|----------------|-------------
 data.world|<https://data.world/> | Sì
 Mapshaper| <https://mapshaper.org/> | No
-OpenStreetMap|<https://www.openstreetmap.org | Sì
+OpenStreetMap|<https://www.openstreetmap.org> | Sì
 Google Sheet|<https://www.google.com/sheets/about/> | Sì
 Regex101|<https://regex101.com/> | No
