@@ -3,8 +3,9 @@
 
 A cura di
 {{ range .Params.autori }}
-<a href="/autori/{{ . | urlize }}">{{ . }}</a>&nbsp;
+<a href="/autori/{{ . | urlize }}"><strong>{{ . }}</strong></a>&nbsp;
 {{ end }}
 
 
 {{ end }}
+
