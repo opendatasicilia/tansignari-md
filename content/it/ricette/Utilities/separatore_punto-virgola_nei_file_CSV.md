@@ -1,6 +1,6 @@
 ---
-title: "fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet"
-linkTitle: "fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet"
+title: "fare diventare `;` separatore di campi al posto di `,` in un file scaricato come formato CSV da Google Spreadsheet"
+linkTitle: "modificare separatore di campo da ; a , di un CSV, da Google Spreadsheet"
 date: 2020-03-03
 description: >
   fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet
