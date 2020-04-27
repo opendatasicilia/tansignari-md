@@ -3,7 +3,7 @@ title: "fare diventare ";" separatore di campi al posto di "," in un file scaric
 linkTitle: "fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet"
 date: 2020-03-03
 description: >
-  fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet
+  fare diventare il punto e virgola ";" separatore di campi al posto della virgola "," in un file scaricato come formato CSV da Google Spreadsheet
 tags:
   - csv
   - ;
