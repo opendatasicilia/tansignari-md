@@ -1,6 +1,6 @@
 ---
-title: "Fare diventare `;` separatore di campi al posto di `,` in un file scaricato come formato CSV da Google Spreadsheet"
-linkTitle: "Modificare separatore di campo di un CSV da , a ;"
+title: "Modificare separatore di campo di un CSV"
+linkTitle: "Modificare separatore di campo di un CSV"
 date: 2020-04-27
 description: >
   Fare diventare il punto e virgola ";" separatore di campi al posto della virgola "," in un file scaricato come formato CSV da Google Spreadsheet
