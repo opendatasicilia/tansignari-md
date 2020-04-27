@@ -6,8 +6,7 @@ description: >
   fare diventare ";" separatore di campi al posto di "," in un file scaricato come formato CSV da Google Spreadsheet
 tags:
   - csv
-  - ;
-  - ,
+  - googlesheet
 issue: [82]
 autori: ["Ciro Spataro"]
 chefs: ["Giovan Battista Vistrano"]
