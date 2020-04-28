@@ -2,8 +2,8 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ if (isset .Params "featured_image") }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Permalink }}{{ .Params.featured_image }}"/>
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Permalink }}{{ .Params.featured_image }}">
+    <meta name="twitter:image" content="{{ .Permalink }}{{ .Params.featured_image }}"/>
+    <meta property="og:image" content="{{ .Permalink }}{{ .Params.featured_image }}">
     {{ else }}
     <meta property="og:image" content="{{ .Site.BaseURL }}imgs/t'ansignari opengraph.png">
     <meta name="twitter:image" content="{{ .Site.BaseURL }}imgs/t'ansignari twitter social card.png">
