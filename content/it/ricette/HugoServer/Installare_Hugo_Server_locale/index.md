@@ -16,7 +16,7 @@ tags:
 issue: [127]
 autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
-featured_image: "./bash.jpg"
+featured_image: "bash.jpg"
 ---
 
 ## HUGO Server che cos’è?
