@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
+    {{ with .Params.featured_image }}
+    <meta name="twitter:image" content="{{ . }}"/>
+    <meta property="og:image" content="{{ . }}">
+    {{ else }}
     <meta property="og:image" content="/imgs/t'ansignari opengraph.png">
-    <meta name="twitter:image" content="/imgs/t'ansignari%20twitter%20social%20card.png"/>
+    <meta name="twitter:image" content="/imgs/t'ansignari twitter social card.png">
+    {{ end }}
     {{ partial "head.html" . }}
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
   </head>

@@ -16,8 +16,7 @@ tags:
 issue: [127]
 autori: ["Gianni Vitrano"]
 chefs: ["Andrea Borruso"]
----
-
+featured_image: "./bash.jpg"
 ---
 
 ## HUGO Server che cos’è?
@@ -47,13 +46,13 @@ Adesso non resta che digitare `bash` nella bara degli indirizzi di esplora risor
 
 - lanciare il server: `hugo server`
 
-![](./bash.jpg)
+![](./featured-bash.jpg)
 
-- visualizzare il sito sul web browser: `http://localhost:1313/` 
+- visualizzare il sito sul web browser: `http://localhost:1313/`
 
 ![](./localhost.jpg)
 
-**Aggiornare Hugo** è facile come scaricare e sostituire l'eseguibile che hai inserito nel **PERCORSO** 
+**Aggiornare Hugo** è facile come scaricare e sostituire l'eseguibile che hai inserito nel **PERCORSO**
 
 ## Pengwin
 
