@@ -16,34 +16,34 @@ Spesso è nella richiesta di aiuto, altre volte è consigliato dallo chef, qui d
 
 ## Software da installare in locale
 
-Software | link ufficiale | Come installarlo
----------|----------------|-------------
-Visidata|<https://www.visidata.org/>| riga di comando
-Miller|<https://johnkerl.org/miller/doc/reference.html> | riga di comando
-SQLite|<https://www.sqlite.org/index.html>| Multi piattaforma
-QGIS|<https://qgis.org/it/site/>| Multi piattaforma
-Mapshaper|<https://github.com/mbloch/mapshaper/wiki/Command-Reference>|Multi piattaforma
-Bash | <https://it.wikipedia.org/wiki/Bash> | riga di comando
-ffmpeg | <https://www.ffmpeg.org/> | Multi piattaforma
-ImageMagick | <https://imagemagick.org/index.php> | Multi piattaforma
-OpenRefine | <https://openrefine.org/> | 
-Spatialite | <https://www.gaia-gis.it/fossil/libspatialite/index>| Multi piattaforma
+Software | link ufficiale | Come installarlo| ambito
+---------|----------------|-----------------|----------
+Visidata|<https://www.visidata.org/>| riga di comando (CLI) | Testo strutturato
+Miller|<https://johnkerl.org/miller/doc/reference.html> | riga di comando (CLI) | Testo strutturato
+SQLite|<https://www.sqlite.org/index.html>| Multi piattaforma (CLI/GUI) | Database
+QGIS|<https://qgis.org/it/site/>| Multi piattaforma (CLI/GUI) |GIS
+Mapshaper|<https://github.com/mbloch/mapshaper/wiki/Command-Reference>|Multi piattaforma (CLI/GUI) | GIS
+Bash | <https://it.wikipedia.org/wiki/Bash> | riga di comando (CLI) | Shell Linux
+ffmpeg | <https://www.ffmpeg.org/> | Multi piattaforma (CLI/GUI) | Audio/Video
+ImageMagick | <https://imagemagick.org/index.php> | Multi piattaforma (CLI/GUI) | Immagini
+OpenRefine | <https://openrefine.org/> | | Pulizia dati
+Spatialite | <https://www.gaia-gis.it/fossil/libspatialite/index>| Multi piattaforma (CLI/GUI) | GIS
 
 
 ## Software da usare via Web
 
-Software | link ufficiale | Serve account
----------|----------------|-------------
-data.world|<https://data.world/> | Sì
-Mapshaper| <https://mapshaper.org/> | No
-OpenStreetMap|<https://www.openstreetmap.org> | Sì
-Google Sheet|<https://www.google.com/sheets/about/> | Sì
-Regex101|<https://regex101.com/> | No
-uMap | <https://umap.openstreetmap.fr/it/> | Sì
-Overpas Turbo |<https://overpass-turbo.eu/> | No
-gis.stackexchange |<https://gis.stackexchange.com/>| Sì
-GitHub | <https://github.com/> | Sì
-ODK | <https://opendatakit.org/> | Sì
-ONA | <https://ona.io/home/> | Sì
-Two-way Geocoding | componente aggiuntivo gsheet| Sì
+Software | link ufficiale | Serve account | ambito
+---------|----------------|:--------------:|------
+data.world|<https://data.world/> | Sì | Dati strutturati
+Mapshaper| <https://mapshaper.org/> | No | GIS
+OpenStreetMap|<https://www.openstreetmap.org> | Sì | GIS/mappe
+Google Sheet|<https://www.google.com/sheets/about/> | Sì | Dati strutturati
+Regex101|<https://regex101.com/> | No | Testo strutturato
+uMap | <https://umap.openstreetmap.fr/it/> | Sì | GIS/mappe
+Overpas Turbo |<https://overpass-turbo.eu/> | No | GIS/mappe
+gis.stackexchange |<https://gis.stackexchange.com/>| Sì | Forum
+GitHub | <https://github.com/> | Sì | Hosting/Versioning
+ODK | <https://opendatakit.org/> | Sì | GIS/mappe| GIS/mappe
+ONA | <https://ona.io/home/> | Sì | GIS/mappe
+Two-way Geocoding | componente aggiuntivo gsheet| Sì | Geocoding
 
