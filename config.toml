@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://festive-bohr-4ac225.netlify.app"
 title = "Tansignari"
 
 enableRobotsTXT = true
