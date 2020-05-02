@@ -5,7 +5,7 @@ type: statico
 menu:
   main:
     weight: -16
-
+draft: true
 
 ---
 
