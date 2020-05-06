@@ -6,9 +6,12 @@ description: >
   Fare diventare il punto e virgola ";" separatore di campi al posto della virgola "," in un file scaricato come formato CSV da Google Spreadsheet
 tags:
   - csv
+  - libreoffice
+  - gsheet
+  - script
 issue: [82]
 autori: ["Ciro Spataro"]
-chefs: ["Giovan Battista Vistrano","Andrea Borruso"]
+chefs: ["Gianni Vitrano","Andrea Borruso"]
 ---
 
 
