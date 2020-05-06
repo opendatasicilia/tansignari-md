@@ -1,13 +1,14 @@
 ---
-title: "Cerca e sostituisci con Miller"
-linkTitle: "Cerca e sostituisci con Miller"
+title: "Trova e sostituisci con Miller"
+linkTitle: "Trova e sostituisci con Miller"
 date: 2020-05-06
 description: >
-  Cerca e sostituisci usando la riga di comando e Miller.
+  Trova e sostituisci usando la riga di comando e Miller.
 tags:
   - bash
   - Miller
   - csv
+  - regex
 issue: [146]
 autori: ["Totò Fiandaca"]
 chefs: ["Andrea Borruso"]
