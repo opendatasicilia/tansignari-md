@@ -1,7 +1,7 @@
 ---
 title: "Concatenare campi con Miller"
 linkTitle: "Concatenare campi con Miller"
-date: 2020-01-30
+date: 2020-05-06
 description: >
   Come concatenare campi usando la riga di comando e Miller.
 tags:
