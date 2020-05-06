@@ -7,7 +7,6 @@ description: >
 tags:
   - bash
   - Miller
-  - curl
   - csv
 issue: [144]
 autori: ["Totò Fiandaca"]
