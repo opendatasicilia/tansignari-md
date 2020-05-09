@@ -17,14 +17,14 @@ chefs: ["Gianni Vitrano","Andrea Borruso"]
 
 ## Introduzione
 
-È utile ad esempio sapere come fare diventare il `;` separatore di campi al posto della ",", in un file scaricato in formato CSV da Google spreadsheet.
+È utile, ad esempio, sapere come fare diventare il `;` separatore di campi al posto della `,` in un file scaricato in formato CSV da Google spreadsheet.
 
 ## libreoffice
 
 Se usi **libreoffice**:
 - salva in formato ODS da google sheet;
 - apri il file ODS con libreoffice;
-- fai salva con nome in CSV e scegli il ; come separatore.
+- fai salva con nome in CSV e scegli il `;` come separatore.
 
 Appena clicchi su salva si aprirà la tendina che ti permette di cambiare alcuni parametri. A questo punto bisogna selezionare il punto e virgola al posto della virgola.
 
