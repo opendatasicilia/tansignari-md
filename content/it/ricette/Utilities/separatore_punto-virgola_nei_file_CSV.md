@@ -17,7 +17,7 @@ chefs: ["Gianni Vitrano","Andrea Borruso"]
 
 ## Introduzione
 
-È utile ad esempio sapere come fare diventare il ";" separatore di campi al posto della ",", in un file scaricato in formato CSV da Google spreadsheet.
+È utile ad esempio sapere come fare diventare il `;` separatore di campi al posto della ",", in un file scaricato in formato CSV da Google spreadsheet.
 
 ## libreoffice
 
