@@ -17,7 +17,7 @@ chefs: ["Andrea Borruso"]
 
 ## Caso d'uso
 
-Dato un file CSV/TSV con un campo `count` (che rappresenta il numero delle volte in cui è presente il valore presente in `tags`), creare un campo `histogram` popolato con `*` che simuli un Istogramma dei valori `count`.
+Dato un file CSV/TSV con un campo `count` (che rappresenta il numero delle volte in cui è presente il valore in `tags`), creare un campo `histogram` popolato con `*` che simuli un Istogramma dei valori `count`.
 
 file di _**input.txt**_
 
