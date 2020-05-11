@@ -1,9 +1,9 @@
 ---
-title: "Come creare la colonna histrogram"
-linkTitle: "Come creare la colonna histrogram"
+title: "Come creare la colonna histogram"
+linkTitle: "Come creare la colonna histogram"
 date: 2020-05-11
 description: >
-  Come creare la colonna histrogram in un CSV/TSV usando Miller.
+  Come creare la colonna histogram in un CSV/TSV usando Miller.
 tags:
   - bash
   - Miller
