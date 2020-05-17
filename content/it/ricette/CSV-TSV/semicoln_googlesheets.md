@@ -14,9 +14,6 @@ chefs: ["Gianni Vitrano"]
 
 ---
 
-* autore: [gbvitrano](https://twitter.com/gbvitrano)
-* issue: [#89](https://github.com/opendatasicilia/tansignari/issues/89) fornitore ricetta [gbvitrano](https://twitter.com/gbvitrano)
-
 Come importare da remoto un file csv  in google sheet che usa il **semicolon** (**;**) come separatore di campo?
 
 Di default google sheet con **IMPORTDATA**  importa i dati di un **url** specificato in formato .csv (valori **separati da virgole**) o .tsv (valori **delimitati da tabulazioni**).
