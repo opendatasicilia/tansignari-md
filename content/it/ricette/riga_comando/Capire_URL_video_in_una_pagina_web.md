@@ -36,9 +36,9 @@ https://www.google.com/url?q=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F347700231&
 
 È un pò più leggibile se lo fai dalla console di sviluppo del browser:
 - F12 per aprirla;
-- poi (in Chrome) vai nel tab Elements;
-- in questo CTRL + F e cerca vimeo.
-In questo modo è più leggibile e si vede la struttura, è un <dive> che contiene un <iframe>. Dentro l'<iframe> si vede l'URL.
+- poi (**in Chrome**) vai nel tab Elements;
+- in questo `CTRL` + `F` e cerca vimeo.
+In questo modo è più leggibile e si vede la struttura, è un `div` che contiene un `iframe`. Dentro l'`iframe` si vede l'URL.
 
 
 ## Un ulteriore aiuto da Totò Fiandaca (un altra procedura)
