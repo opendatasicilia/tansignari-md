@@ -53,4 +53,4 @@ curl "https://sites.google.com/regione.veneto.it/progetto-vela/formazione/lavora
 
 ```
 
-Totò Fiandaca a questo [link](https://www.loom.com/share/50c7264d37294f95b133ff1f3e9870d3) illustra la procedura.
+Totò Fiandaca in questo [brevissimo video](https://www.loom.com/share/50c7264d37294f95b133ff1f3e9870d3) illustra la procedura.
