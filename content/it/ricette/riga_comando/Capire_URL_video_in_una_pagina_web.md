@@ -35,6 +35,8 @@ Se si cerca "vimeo", si trova.
 Ad esempio:
 https://www.google.com/url?q=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F347700231&sa=D&sntz=1&usg=AFQjCNHgiHEnE1IQ3IPvx143oW_AvUUF2g
 
+che contiene l'URL https://player.vimeo.com/video/347700231 che è quello cercato sin dall'inizio.
+
 È un pò più leggibile se lo fai dalla console di sviluppo del browser:
 - F12 per aprirla;
 - poi (**in Chrome**) vai nel tab Elements;
