@@ -17,7 +17,7 @@ chefs: ["Ciro Spataro"]
 
 ---
 
-## titolo
+## Titolo
 
 Come faccio a capire l'url di origine dei video VIMEO in questa pagina:
 https://sites.google.com/regione.veneto.it/progetto-vela/formazione/lavorare-smart
@@ -26,13 +26,27 @@ Ho creato un issue: https://github.com/opendatasicilia/tansignari/issues/149# e 
 
 ## Procedimento
 
-.........
+- aprire il sito (ad esempio con un browser);
+- aprire la vista codice con CTRL + U;
+- cercare dentro al codice.
+Se si cerca "vimeo", si trova.
+È poco comprensibile la struttura, ma l'URL si vede ed è copiabile. Ad esempio:
+https://www.google.com/url?q=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F347700231&sa=D&sntz=1&usg=AFQjCNHgiHEnE1IQ3IPvx143oW_AvUUF2g
 
-## Un ulteriore aiuto da Totò Fiandaca
+È un pò più leggibile se lo fai dalla console di sviluppo del browser:
+- F12 per aprirla;
+- poi (in Chrome) vai nel tab Elements;
+- in questo CTRL + F e cerca vimeo.
+In questo modo è più leggibile e si vede la struttura, è un <div> che contiene un <iframe>
+
+
+## Un ulteriore aiuto da Totò Fiandaca (un altra procedura)
+
+Usando la shell di linux basterebbe scrivere questo comando per avere subito un file csv con i link
 
 ```Bash
-#!/bin/bash
-
+curl "https://sites.google.com/regione.veneto.it/progetto-vela/formazione/lavorare-smart" | scrape -be "//div[iframe]"  | xq -r '.html.body.div[]."@data-url"' >vivaAndy.csv
 
 ```
 
+Totò Fiandaca a questo [link](https://www.loom.com/share/50c7264d37294f95b133ff1f3e9870d3) illustra la procedura.
