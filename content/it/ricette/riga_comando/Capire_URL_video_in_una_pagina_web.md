@@ -1,15 +1,14 @@
 ---
-title: "..............."
-linkTitle: "................"
+title: "Capire url di origine di video VIMEO in pagina web"
+linkTitle: "Capire url di origine di video VIMEO in pagina web"
 date: 2020-05-18
 description: >
-  .................................
+  L'obiettivo è capire gli URL di origine di video VIMEO dentro una pagina [web](https://sites.google.com/regione.veneto.it/progetto-vela/formazione/lavorare-smart)
 tags:
   - sorgente
   - riga di comando
   - link
   - url 
-  - .......
 issue: [149]
 autori: ["Totò Fiandaca","Ciro Spataro"]
 chefs: ["Ciro Spataro"]
