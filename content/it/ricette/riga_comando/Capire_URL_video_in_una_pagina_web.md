@@ -26,10 +26,12 @@ Ho creato un issue: https://github.com/opendatasicilia/tansignari/issues/149# e 
 ## Procedimento
 
 - aprire il sito (ad esempio con un browser);
-- aprire la vista codice con CTRL + U;
+- aprire la vista codice con `CTRL` + `U`;
 - cercare dentro al codice.
 Se si cerca "vimeo", si trova.
+
 È poco comprensibile la struttura, ma l'URL si vede ed è copiabile. 
+
 Ad esempio:
 https://www.google.com/url?q=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F347700231&sa=D&sntz=1&usg=AFQjCNHgiHEnE1IQ3IPvx143oW_AvUUF2g
 
