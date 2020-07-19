@@ -13,7 +13,7 @@ tags:
 - ellissoide
 - georeferenziazione
 issue: [113]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

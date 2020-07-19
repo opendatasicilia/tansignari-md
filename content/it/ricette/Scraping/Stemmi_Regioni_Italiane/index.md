@@ -13,7 +13,7 @@ tags:
   - wikipedia
   - gsheet
 issue: [134]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

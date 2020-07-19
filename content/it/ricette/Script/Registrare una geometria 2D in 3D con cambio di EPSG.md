@@ -11,7 +11,7 @@ tags:
   - SQL
   - script
 issue: [54]
-autori: ["Giuseppe Guarino"]
+chefs: ["Giuseppe Guarino"]
 guide: ["Totò Fiandaca"]
 ---
 

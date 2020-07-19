@@ -10,7 +10,7 @@ tags:
   - latlon
   - OpenRefine
   - nominatim
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Gianni Vitrano"]
 ---
 

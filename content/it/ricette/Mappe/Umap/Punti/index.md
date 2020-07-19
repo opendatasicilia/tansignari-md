@@ -9,7 +9,7 @@ tags:
 - mappa
 - geojson
 - QGIS
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Gianni Vitrano"]
 ---
 

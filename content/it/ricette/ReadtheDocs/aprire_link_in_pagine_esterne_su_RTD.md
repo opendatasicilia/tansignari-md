@@ -8,7 +8,7 @@ tags:
   - RTD
   - github
 issue: [116]
-autori: ["Ciro Spataro"]
+chefs: ["Ciro Spataro"]
 guide: ["Gianni Vitrano"]
 ---
 

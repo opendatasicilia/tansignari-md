@@ -12,7 +12,7 @@ tags:
   - SpatiaLite
   - SQL
 issue:
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

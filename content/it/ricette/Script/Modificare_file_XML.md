@@ -14,7 +14,7 @@ tags:
   - XML
   - bash
 issue: [58]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Giovanni Pirrotta","Andrea Borruso"]
 ---
 

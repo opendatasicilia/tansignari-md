@@ -9,7 +9,7 @@ tags:
   - vs code
   - tansignari
 issue: [120]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 
@@ -51,7 +51,7 @@ tags:
   - visidata
   - sqlite
 issue: [105]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 riga vuota

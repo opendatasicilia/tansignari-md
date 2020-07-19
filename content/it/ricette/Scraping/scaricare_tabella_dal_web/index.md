@@ -14,7 +14,7 @@ tags:
   - scrape
   - XPATH
 issue: [79]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso","Gianni Vitrano"]
 ---
 

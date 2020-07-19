@@ -9,7 +9,7 @@ tags:
   - docsy
   - tansignari
 issue:
-autori: ["Andrea Borruso"]
+chefs: ["Andrea Borruso"]
 guide: ["Andrea Borruso"]
 ---
 
@@ -38,7 +38,7 @@ tags:
   - docsy
   - Bootstap 4
 issue: [5]
-autori: ["Andrea Borruso"]
+chefs: ["Andrea Borruso"]
 guide: ["Andrea Borruso"]
 ---
 ```
@@ -63,7 +63,7 @@ tags:
   - docsy
   - tansignari
 issue:
-autori: ["Andrea Borruso"]
+chefs: ["Andrea Borruso"]
 guide: ["Andrea Borruso"]
 ---
 

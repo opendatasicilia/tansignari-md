@@ -15,7 +15,7 @@ tags:
   - fixed width
   - libreCalc
 issue: [105]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

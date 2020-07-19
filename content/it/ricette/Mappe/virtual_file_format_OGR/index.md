@@ -10,7 +10,7 @@ tags:
 - CSV
 - virtuallayerOGR
 issue: [133]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

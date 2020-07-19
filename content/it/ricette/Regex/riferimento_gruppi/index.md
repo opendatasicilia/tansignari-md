@@ -9,7 +9,7 @@ tags:
   - python
   - visidata
 issue: [129]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

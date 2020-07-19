@@ -11,7 +11,7 @@ tags:
   - query
   - CSV
 issue: [141]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -11,7 +11,7 @@ tags:
   - 7z
   - script
 issue: [112,111,110]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

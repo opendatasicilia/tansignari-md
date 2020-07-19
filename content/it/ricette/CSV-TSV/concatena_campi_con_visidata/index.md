@@ -12,7 +12,7 @@ tags:
 - bash
 - python
 issue: [128]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

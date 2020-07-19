@@ -13,7 +13,7 @@ tags:
   - Regex
   - Script
 issue: [139]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

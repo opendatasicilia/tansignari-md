@@ -12,7 +12,7 @@ tags:
   - script
   - bash
 issue: [60]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

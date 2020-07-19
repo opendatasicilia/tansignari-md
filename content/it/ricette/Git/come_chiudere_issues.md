@@ -9,7 +9,7 @@ tags:
   - vs code
   - github
 issue: [109]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

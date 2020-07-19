@@ -17,7 +17,7 @@ tags:
   - JSON
   - HTML
 issue: [125]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

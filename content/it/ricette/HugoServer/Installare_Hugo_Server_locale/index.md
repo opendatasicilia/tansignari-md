@@ -14,7 +14,7 @@ tags:
 - Browser
 - localhost
 issue: [127]
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Andrea Borruso"]
 featured_image: "bash.jpg"
 ---

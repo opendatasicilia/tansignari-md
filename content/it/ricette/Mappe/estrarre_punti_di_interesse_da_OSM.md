@@ -9,7 +9,7 @@ tags:
   - Overpass turbo
   - api
 issue:
-autori: ["Gabriele Francescotto"]
+chefs: ["Gabriele Francescotto"]
 guide: ["Gabriele Francescotto"]
 ---
 

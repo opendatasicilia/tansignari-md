@@ -8,7 +8,7 @@ tags:
   - csv
   - gsheet
 issue: [89]
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Gianni Vitrano"]
 ---
 

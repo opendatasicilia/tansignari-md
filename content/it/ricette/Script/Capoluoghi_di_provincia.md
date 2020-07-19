@@ -11,7 +11,7 @@ tags:
   - Miller
   - SQL
 issue: [64]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso","Davide Taibi"]
 ---
 

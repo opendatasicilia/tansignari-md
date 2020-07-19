@@ -12,7 +12,7 @@ tags:
   - latlon
   - draping
 issue: [44]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -10,7 +10,7 @@ tags:
   - link
   - url
 issue: [149]
-autori: ["Totò Fiandaca","Ciro Spataro"]
+chefs: ["Totò Fiandaca","Ciro Spataro"]
 guide: ["Ciro Spataro"]
 ---
 

@@ -9,7 +9,7 @@ tags:
   - css
   - shell
 issue: [29]
-autori: ["Lorenzo Perone"]
+chefs: ["Lorenzo Perone"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -12,7 +12,7 @@ tags:
   - SQLite
   - geojson
 issue: [46]
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Andrea Borruso","Totò Fiandaca"]
 ---
 

@@ -10,7 +10,7 @@ tags:
 - SpatiaLite
 - NTv2
 issue: [100]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Giudiceandrea"]
 ---
 

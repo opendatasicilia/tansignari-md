@@ -12,7 +12,7 @@ tags:
   - 7z
   - web
 issue: [112]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -9,7 +9,7 @@ tags:
   - ona
   - mappa
 issue: [25]
-autori: ["Ciro Spataro"]
+chefs: ["Ciro Spataro"]
 guide: ["Ciro Spataro"]
 ---
 

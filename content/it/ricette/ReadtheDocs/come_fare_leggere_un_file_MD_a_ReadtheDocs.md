@@ -9,7 +9,7 @@ tags:
   - RTD
   - github
 issue: [106]
-autori: ["Ciro Spataro"]
+chefs: ["Ciro Spataro"]
 guide: ["Andrea Borruso"]
 ---
 

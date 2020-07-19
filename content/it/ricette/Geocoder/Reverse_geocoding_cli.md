@@ -11,7 +11,7 @@ tags:
   - script
   - bash
 issue: [38,39,42]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

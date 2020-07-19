@@ -8,7 +8,7 @@ tags:
   - QGIS
   - HfcQGIS
 issue: [59]
-autori: ["Agostino Ficco"]
+chefs: ["Agostino Ficco"]
 guide: ["Totò Fiandaca"]
 ---
 

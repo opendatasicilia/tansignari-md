@@ -10,7 +10,7 @@ tags:
   - riga di comando
   - visidata
 issue: [135]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

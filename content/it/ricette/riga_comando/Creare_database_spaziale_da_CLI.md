@@ -12,7 +12,7 @@ tags:
   - SpatiaLite
   - SQLite
 issue: [15]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

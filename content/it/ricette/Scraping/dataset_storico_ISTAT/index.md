@@ -11,7 +11,7 @@ tags:
   - scrape
   - yq
 issue: [78]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

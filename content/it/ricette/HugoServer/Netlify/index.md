@@ -9,7 +9,7 @@ tags:
 - WebApp
 - Html
 issue: [126]
-autori: ["Gianni Vitrano"]
+chefs: ["Gianni Vitrano"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -14,7 +14,7 @@ tags:
   - riga di comando
   - bash
 issue: [93]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso","Gianni Vitrano"]
 ---
 

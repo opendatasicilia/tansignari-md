@@ -15,7 +15,7 @@ tags:
   - GIMP
   - tsv
 issue: [63]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

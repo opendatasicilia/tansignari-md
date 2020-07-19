@@ -14,7 +14,7 @@ tags:
   - CSV
   - shapefile
 issue:
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

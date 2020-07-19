@@ -11,7 +11,7 @@ tags:
 - csv-tsv
 - bash
 issue: [131]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

@@ -9,7 +9,7 @@ tags:
   - Miller
   - csv/tsv
 issue: [148]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 

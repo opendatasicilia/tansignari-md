@@ -10,7 +10,7 @@ tags:
   - GDAL/OGR
   - QGIS
 issue: [142]
-autori: ["gimmybruce"]
+chefs: ["gimmybruce"]
 guide: ["Andrea Borruso"]
 ---
 

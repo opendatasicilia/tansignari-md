@@ -10,7 +10,7 @@ tags:
   - gsheet
   - script
 issue: [82]
-autori: ["Ciro Spataro"]
+chefs: ["Ciro Spataro"]
 guide: ["Gianni Vitrano","Andrea Borruso"]
 ---
 

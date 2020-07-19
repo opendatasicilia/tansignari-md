@@ -10,7 +10,7 @@ tags:
   - csv
   - regex
 issue: [146]
-autori: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
 ---
 
