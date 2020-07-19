@@ -10,13 +10,13 @@ tags:
 - Html
 issue: [126]
 autori: ["Gianni Vitrano"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
 
 ## Pubblicare il sito online
-Dopo aver visto come installare [Hugo](../installare_hugo_server_locale/) nel pc locale, in questa ricetta affronteremo il tema della pubblicazione online del sito. Per farlo useremo l'app [Netlify](https://app.netlify.com) 
+Dopo aver visto come installare [Hugo](../installare_hugo_server_locale/) nel pc locale, in questa ricetta affronteremo il tema della pubblicazione online del sito. Per farlo useremo l'app [Netlify](https://app.netlify.com)
 
 ## Cos'è Netlify?
 [Netlify](https://app.netlify.com)  è un sistema di gestione dei contenuti open source per il flusso di lavoro Git. Fornisce agli editor un’interfaccia utente intuitiva e facile anche a chi non ha dimestichezza con i codici.
@@ -40,7 +40,7 @@ Selezionando GitHub verrà visualizzato un finestra di autorizzazione per l'aute
 
 ![](./new_site.png)
 
-Aggiungere un nuovo sito alla dashboard è semplicissimo, basta cliccare sul punto (1) **New site from git.** 
+Aggiungere un nuovo sito alla dashboard è semplicissimo, basta cliccare sul punto (1) **New site from git.**
 
 ![](./create.png)
 
@@ -52,7 +52,7 @@ A questo punto basta selezionare il repository che si desidera utilizzare per la
 
 ![](./create_02.png)
 
-Una volta selezionato, si apre la una schermata per la configurazione di base. Qui si può selezionare il ramo che vuole pubblicare, il comando **build** e la directory publishing (ovvero deploy). 
+Una volta selezionato, si apre la una schermata per la configurazione di base. Qui si può selezionare il ramo che vuole pubblicare, il comando **build** e la directory publishing (ovvero deploy).
 La directory di pubblicazione deve rispecchiare quella impostata nella configurazione del sito, il cui valore predefinito è pubblico.
 
 ## Configurare la versione di Hugo in Netlify
@@ -73,11 +73,11 @@ Ps. il valore **new variable** 0.64.1 indica la versione di [Hugo](../installare
 
 ![](./create_04.png)
 
-Dopo aver pubblicato il sito, cliccanso sui pulsati (1) **Site setting**  e  (2) **Domain setting** si possono modificare e migliorare una serire di parametri, come il nome del sito, aggiungere un dominio, attivare o disattivare la pubblicazione automatica ad ogni **commits** 
+Dopo aver pubblicato il sito, cliccanso sui pulsati (1) **Site setting**  e  (2) **Domain setting** si possono modificare e migliorare una serire di parametri, come il nome del sito, aggiungere un dominio, attivare o disattivare la pubblicazione automatica ad ogni **commits**
 
 ![](./create_05.png)
 
-Buon lavoro :-) 
+Buon lavoro :-)
 
 ![](./online.jpg)
 

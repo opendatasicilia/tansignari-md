@@ -11,7 +11,7 @@ tags:
   - visidata
 issue: [135]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

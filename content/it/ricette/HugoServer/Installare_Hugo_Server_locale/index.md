@@ -15,7 +15,7 @@ tags:
 - localhost
 issue: [127]
 autori: ["Gianni Vitrano"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 featured_image: "bash.jpg"
 ---
 

@@ -11,7 +11,7 @@ tags:
   - QGIS
 issue: [142]
 autori: ["gimmybruce"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -27,7 +27,7 @@ A partire da questo CSV presente in gsheet ( https://docs.google.com/spreadsheet
 ogrinfo CSV:"/vsicurl/https://docs.google.com/spreadsheets/d/e/2PACX-1vT89Gvg-StE8M0zapI3A-WYRR1EbrnbUMZSi4QGFpJy5P4aM5r1HJ3I3Ro_OJceWZBygmFbLZVMJok6/pub?gid=1205794028&single=true&output=csv"
 ```
 
-In questo modo è possibile vedere il nome del layer, che è `pub?gid=1205794028&single=true&output=csv`. 
+In questo modo è possibile vedere il nome del layer, che è `pub?gid=1205794028&single=true&output=csv`.
 
 Per vedere altre informazioni:
 
@@ -57,7 +57,7 @@ Ecco due possibilità:
     <Field name="localita" type="String" />
     <GeometryField encoding="PointFromColumns" x="LON" y="LAT"/>
   </OGRVRTLayer>
-</OGRVRTDataSource> 
+</OGRVRTDataSource>
 ```
 
 
@@ -80,4 +80,4 @@ Ecco due possibilità:
 ```
 
 
-In tutti e due i casi riesco a spazializzare i punti ma nel caso 2 non leggo in tabella eventuali valori di altre colonne aggiuntive a LAT e LON. Appena possibile riprenderò e magari aggionerò la ricetta. 
+In tutti e due i casi riesco a spazializzare i punti ma nel caso 2 non leggo in tabella eventuali valori di altre colonne aggiuntive a LAT e LON. Appena possibile riprenderò e magari aggionerò la ricetta.

@@ -10,7 +10,7 @@ tags:
   - regex
 issue:
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

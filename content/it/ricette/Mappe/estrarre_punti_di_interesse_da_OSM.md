@@ -10,7 +10,7 @@ tags:
   - api
 issue:
 autori: ["Gabriele Francescotto"]
-chefs: ["Gabriele Francescotto"]
+guide: ["Gabriele Francescotto"]
 ---
 
 - PR di riferimento: [#35](https://github.com/opendatasicilia/tansignari/pull/35)

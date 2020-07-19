@@ -10,7 +10,7 @@ tags:
   - gif
 issue: [107]
 autori: ["Andrea Borruso"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

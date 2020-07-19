@@ -12,7 +12,7 @@ tags:
   - CSV
 issue: [141]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -24,9 +24,9 @@ Per creare una tabella PIVOT è stato usato il sito `data.world`, importato un f
 
 ```sql
 WITH andamentoProvince AS (
-    SELECT CAST(dpc_covid19_ita_province.codice_provincia as STRING), 
+    SELECT CAST(dpc_covid19_ita_province.codice_provincia as STRING),
                 dpc_covid19_ita_province.denominazione_provincia ,
-                "data"||CAST(DATE_FORMAT(CAST(data AS DATE), "yyyyMMdd") as STRING) AS datee, 
+                "data"||CAST(DATE_FORMAT(CAST(data AS DATE), "yyyyMMdd") as STRING) AS datee,
                 dpc_covid19_ita_province.totale_casi FROM dpc_covid19_ita_province
                 WHERE dpc_covid19_ita_province.denominazione_provincia  NOT LIKE "In fase di%"
     ORDER BY data

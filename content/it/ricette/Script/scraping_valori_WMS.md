@@ -13,7 +13,7 @@ tags:
   - draping
 issue: [44]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

@@ -12,7 +12,7 @@ tags:
   - bash
 issue: [38,39,42]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

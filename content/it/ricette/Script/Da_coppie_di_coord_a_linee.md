@@ -13,7 +13,7 @@ tags:
   - geojson
 issue: [46]
 autori: ["Gianni Vitrano"]
-chefs: ["Andrea Borruso","Totò Fiandaca"]
+guide: ["Andrea Borruso","Totò Fiandaca"]
 ---
 
 ---

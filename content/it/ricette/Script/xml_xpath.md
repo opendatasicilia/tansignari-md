@@ -14,7 +14,7 @@ tags:
   - yq
 issue: [84]
 autori: ["Gianni Vitrano"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

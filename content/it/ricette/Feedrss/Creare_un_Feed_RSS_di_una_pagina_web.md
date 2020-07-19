@@ -11,7 +11,7 @@ tags:
   - feed43
 issue: [5]
 autori: ["Ciro Spataro"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

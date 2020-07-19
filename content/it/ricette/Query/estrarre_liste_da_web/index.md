@@ -10,7 +10,7 @@ tags:
   - shell
 issue: [29]
 autori: ["Lorenzo Perone"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

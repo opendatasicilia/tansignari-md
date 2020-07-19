@@ -10,7 +10,7 @@ tags:
   - SQLite
   - query
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

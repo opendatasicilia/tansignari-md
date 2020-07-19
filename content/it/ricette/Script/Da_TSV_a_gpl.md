@@ -16,7 +16,7 @@ tags:
   - tsv
 issue: [63]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

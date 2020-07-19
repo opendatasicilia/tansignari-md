@@ -13,7 +13,7 @@ tags:
   - SQLite
 issue: [15]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

@@ -11,7 +11,7 @@ tags:
   - OpenRefine
   - nominatim
 autori: ["Gianni Vitrano"]
-chefs: ["Gianni Vitrano"]
+guide: ["Gianni Vitrano"]
 ---
 
 ## Caso d'uso

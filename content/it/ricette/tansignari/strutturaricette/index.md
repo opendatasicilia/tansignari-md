@@ -10,7 +10,7 @@ tags:
   - tansignari
 issue:
 autori: ["Andrea Borruso"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -39,7 +39,7 @@ tags:
   - Bootstap 4
 issue: [5]
 autori: ["Andrea Borruso"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 ```
 
@@ -64,7 +64,7 @@ tags:
   - tansignari
 issue:
 autori: ["Andrea Borruso"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 # Titolo 1

@@ -12,7 +12,7 @@ tags:
   - SQL
 issue: [8]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

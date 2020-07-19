@@ -11,7 +11,7 @@ tags:
 - virtuallayerOGR
 issue: [133]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

@@ -14,7 +14,7 @@ tags:
 - georeferenziazione
 issue: [113]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

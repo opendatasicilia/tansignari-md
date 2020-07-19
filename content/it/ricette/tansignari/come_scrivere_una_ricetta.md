@@ -10,7 +10,7 @@ tags:
   - tansignari
 issue: [120]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -52,7 +52,7 @@ tags:
   - sqlite
 issue: [105]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 riga vuota
 ---
@@ -67,10 +67,10 @@ subito sotto, il corpo della ricetta (vedi template).
 - `linkTitle:` quello che compare nel menu a destra del `Docsy`, quindi puo' essere uguale al titolo, meglio se più corto.
 - `date:` data nel formato `YYYY-mm-dd` della ricetta;
 - `description: >` descrizione della ricetta, utile per semplificare il titolo della stessa;
-- `tags:` parolo chiavi utilizzate nella ricetta, una sotto l'altra;
+- `tags:` parole chiave utilizzate nella ricetta, una sotto l'altra;
 - `issue:` numero della issue di riferimento, scritte dentro parentesi quadre e separate da virgola [1,2];
 - `autori:` autore della ricetta, scritte dentro parentesi quadre e separate da virgola ["a","b"];
-- `chefs:` fornitore della ricetta, scritte dentro parentesi quadre e separate da virgola ["c","d"]
+- `guide:` fornitore della ricetta, scritte dentro parentesi quadre e separate da virgola ["c","d"]
 
 ### file `_index.md`
 

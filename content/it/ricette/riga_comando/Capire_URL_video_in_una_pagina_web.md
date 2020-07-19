@@ -8,10 +8,10 @@ tags:
   - sorgente
   - riga di comando
   - link
-  - url 
+  - url
 issue: [149]
 autori: ["Totò Fiandaca","Ciro Spataro"]
-chefs: ["Ciro Spataro"]
+guide: ["Ciro Spataro"]
 ---
 
 ---
@@ -30,7 +30,7 @@ Ho creato un issue: https://github.com/opendatasicilia/tansignari/issues/149# e 
 - cercare dentro al codice.
 Se si cerca "vimeo", si trova.
 
-È poco comprensibile la struttura, ma l'URL si vede ed è copiabile. 
+È poco comprensibile la struttura, ma l'URL si vede ed è copiabile.
 
 Ad esempio:
 https://www.google.com/url?q=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F347700231&sa=D&sntz=1&usg=AFQjCNHgiHEnE1IQ3IPvx143oW_AvUUF2g

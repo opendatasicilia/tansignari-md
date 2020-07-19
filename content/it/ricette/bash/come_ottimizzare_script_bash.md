@@ -12,7 +12,7 @@ tags:
   - script
 issue: [112,111,110]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

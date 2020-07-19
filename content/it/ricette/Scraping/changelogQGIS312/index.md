@@ -18,7 +18,7 @@ tags:
   - HTML
 issue: [125]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -48,7 +48,7 @@ Lo script che scarica (`curl`), gratta (`scrape`), converte (`xq`) HTML in JSON,
 
 ```bash
 #!/bin/bash
-# filtro github: is:pr is:closed label:feature merged:2019-10-25T00:00:00Z..2020-02-21T00:00:00Z 
+# filtro github: is:pr is:closed label:feature merged:2019-10-25T00:00:00Z..2020-02-21T00:00:00Z
 set -x
 # rimuovo file csv
 rm *.csv

@@ -11,7 +11,7 @@ tags:
   - latlon
   - OSM
 autori: ["Gianni Vitrano"]
-chefs: ["Gianni Vitrano"]
+guide: ["Gianni Vitrano"]
 ---
 
 Se si ha un file tabellare con in un colonna l'indirizzo è possibile ottenere i dati di latitudine e longitudine sfruttando un API di Openstreetmap denominata: **Nominatim**.

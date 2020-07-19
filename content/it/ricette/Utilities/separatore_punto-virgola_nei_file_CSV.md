@@ -11,7 +11,7 @@ tags:
   - script
 issue: [82]
 autori: ["Ciro Spataro"]
-chefs: ["Gianni Vitrano","Andrea Borruso"]
+guide: ["Gianni Vitrano","Andrea Borruso"]
 ---
 
 

@@ -16,7 +16,7 @@ tags:
   - libreCalc
 issue: [105]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -26,14 +26,14 @@ chefs: ["Andrea Borruso"]
 La matrice del pendolarismo, per vari motivi, ha questa forma:
 
 ```
-L 1 001 001  1 1 1 001 001 000 04 2 1 0000005.00         ND  
-L 1 001 001  1 1 1 001 001 000 05 1 3 0000001.00         ND  
-L 1 001 001  1 1 1 001 001 000 05 2 2 0000001.00         ND  
-L 1 001 001  1 1 1 001 001 000 06 2 1 0000009.00         ND  
-L 1 001 001  1 1 1 001 001 000 06 2 2 0000002.00         ND  
-L 1 001 001  1 1 1 001 001 000 07 1 1 0000002.00         ND  
-L 1 001 001  1 1 1 001 001 000 08 1 1 0000001.00         ND  
-L 1 001 001  1 1 1 001 001 000 08 2 1 0000052.00         ND  
+L 1 001 001  1 1 1 001 001 000 04 2 1 0000005.00         ND
+L 1 001 001  1 1 1 001 001 000 05 1 3 0000001.00         ND
+L 1 001 001  1 1 1 001 001 000 05 2 2 0000001.00         ND
+L 1 001 001  1 1 1 001 001 000 06 2 1 0000009.00         ND
+L 1 001 001  1 1 1 001 001 000 06 2 2 0000002.00         ND
+L 1 001 001  1 1 1 001 001 000 07 1 1 0000002.00         ND
+L 1 001 001  1 1 1 001 001 000 08 1 1 0000001.00         ND
+L 1 001 001  1 1 1 001 001 000 08 2 1 0000052.00         ND
 ....
 ....
 ```
@@ -76,7 +76,7 @@ Nei fogli elettronici si importa come sotto, fissando a mano i separatori di cam
 
 ![image](https://user-images.githubusercontent.com/30607/72565302-dad54c00-38b1-11ea-8df1-114e82010606.png)
 
-Il file del Pendolarismo ha _oltre 4 milioni di righe_, quindi non è importabile in un foglio elettronico. Una soluzione potrebbe essere quella di filtrare tutto ciò che riguarda Palermo (`pro_com_t=082053`), con 
+Il file del Pendolarismo ha _oltre 4 milioni di righe_, quindi non è importabile in un foglio elettronico. Una soluzione potrebbe essere quella di filtrare tutto ciò che riguarda Palermo (`pro_com_t=082053`), con
 
 ```
 <matrix_pendo2011_10112014.txt grep -E '082.+053' >palermo.txt
@@ -126,7 +126,7 @@ FROM "Com2011_g_WGS84" c,
 SELECT t.source AS source, count(*) AS nro, sum (valore) AS valore_tot
 FROM
 (
-SELECT "prov_stud_lav"||"com_stud_lav" AS destination,"prov_resid"||"com_resid" AS source, 
+SELECT "prov_stud_lav"||"com_stud_lav" AS destination,"prov_resid"||"com_resid" AS source,
 CASE WHEN "tipo_record" = 'S' THEN cast ("nro_indiv" AS real)
      ELSE cast ("stima_nro_indiv" AS real)
      END valore
@@ -144,8 +144,8 @@ WHERE q.source = e."pro_com_t"
 SELECT *,
 makeline(
 	 makepoint("X_WGS84_32N", "Y_WGS84_32N"),
-	 makepoint((SELECT "X_WGS84_32N" FROM toto ORDER BY nro desc limit 1), 
-		     (SELECT "Y_WGS84_32N" FROM toto ORDER BY nro desc limit 1)) 
+	 makepoint((SELECT "X_WGS84_32N" FROM toto ORDER BY nro desc limit 1),
+		     (SELECT "Y_WGS84_32N" FROM toto ORDER BY nro desc limit 1))
          )	as geom
 FROM toto;
 ```

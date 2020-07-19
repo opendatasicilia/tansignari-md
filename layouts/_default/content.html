@@ -8,10 +8,10 @@
 		<a href="https://github.com/opendatasicilia/tansignari/issues/{{ . }}" target="_blank"><code>#{{ . }}</code></a>
 		{{ end }}
 		{{ end }}
-		{{ if (.Params.chefs) }}
-		| chef
-		{{ range .Params.chefs }}
-		<a href="/chefs/{{ . | urlize }}"><strong>{{ . }}</strong></a>
+		{{ if (.Params.guide) }}
+		| guida/e
+		{{ range .Params.guide }}
+		<a href="/guide/{{ . | urlize }}"><strong>{{ . }}</strong></a>
 		{{ end }}
 		{{ end }}
 	</p>

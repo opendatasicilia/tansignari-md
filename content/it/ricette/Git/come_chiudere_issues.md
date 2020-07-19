@@ -10,7 +10,7 @@ tags:
   - github
 issue: [109]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

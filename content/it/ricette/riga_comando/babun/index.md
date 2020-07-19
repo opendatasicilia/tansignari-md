@@ -10,7 +10,7 @@ tags:
   - GDAL/OGR
 issue: [29]
 autori: ["Lorenzo Perone"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

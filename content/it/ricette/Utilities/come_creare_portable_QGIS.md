@@ -13,7 +13,7 @@ tags:
   - web
 issue: [112]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

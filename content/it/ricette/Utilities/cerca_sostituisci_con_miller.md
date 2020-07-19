@@ -11,7 +11,7 @@ tags:
   - regex
 issue: [146]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
@@ -35,10 +35,10 @@ mlr --csv put '$field1=gsub($field1,";","");$filed2=gsub($filed2,"-k","")' input
 
 output:
 
-| id  | field1 | filed2 | 
+| id  | field1 | filed2 |
 | --- | ------ | ------ |
-| 1   | A      | B      | 
-| 2   | a      | b      | 
+| 1   | A      | B      |
+| 2   | a      | b      |
 
 
 ## Riferimenti utili

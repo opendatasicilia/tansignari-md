@@ -10,7 +10,7 @@ tags:
   - shortcodes
 issue:
 autori: ["Andrea Borruso"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

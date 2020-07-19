@@ -15,7 +15,7 @@ tags:
   - XPATH
 issue: [79]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso","Gianni Vitrano"]
+guide: ["Andrea Borruso","Gianni Vitrano"]
 ---
 
 ---

@@ -11,7 +11,7 @@ tags:
 - HfcQGIS
 - QGIS
 autori: ["Gianni Vitrano"]
-chefs: ["Gianni Vitrano"]
+guide: ["Gianni Vitrano"]
 ---
 
 ---

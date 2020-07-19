@@ -11,7 +11,7 @@ tags:
 - NTv2
 issue: [100]
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Giudiceandrea"]
+guide: ["Andrea Giudiceandrea"]
 ---
 
 ---

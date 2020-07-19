@@ -15,7 +15,7 @@ tags:
   - bash
 issue: [58]
 autori: ["Totò Fiandaca"]
-chefs: ["Giovanni Pirrotta","Andrea Borruso"]
+guide: ["Giovanni Pirrotta","Andrea Borruso"]
 ---
 
 ---

@@ -15,7 +15,7 @@ tags:
   - shapefile
 issue:
 autori: ["Totò Fiandaca"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---

@@ -10,7 +10,7 @@ tags:
   - trigger
 issue: [25]
 autori: ["Gianni Vitrano"]
-chefs: ["Andrea Borruso"]
+guide: ["Andrea Borruso"]
 ---
 
 ---
