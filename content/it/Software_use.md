@@ -12,7 +12,7 @@ draft: true
 
 # Software utilizzati, come usarli e/o installarli
 
-Spesso è nella richiesta di aiuto, altre volte è consigliato dallo chef, qui di seguito un elenco di software utilizzati nelle ricette con link all'installazione e consigli sulle APP usate via Web.
+Spesso è nella richiesta di aiuto, altre volte è consigliato dalla guida, qui di seguito un elenco di software utilizzati nelle ricette con link all'installazione e consigli sulle APP usate via Web.
 
 ## Software da installare in locale
 

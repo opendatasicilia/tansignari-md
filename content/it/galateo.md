@@ -28,7 +28,7 @@ E poi:
 
 ### Ricette
 
-Le stiamo raccogliendo in [questa cartella](./ricette) e pubblicando [**qui**](https://tansignari.readthedocs.io/it/latest/ricette/index.html). Inserisce le tue qui. Se non sai come si fa, chiedilo con una _issue_; non appena possibile scriveremo una guida.
+Le stiamo raccogliendo in [questa cartella](https://github.com/opendatasicilia/tansignari-md/tree/master/content/it/ricette) e pubblicando [**qui**](/ricette). Inserisce le tue qui. Se non sai come si fa, chiedilo con una _issue_; non appena possibile scriveremo una guida.
 
 ### Sitografia/Bibliografia
 

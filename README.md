@@ -21,8 +21,8 @@ Per punti:
 ## Glossario minimo di T'ansignari
 
 - **ricetta**: è il cuore del progetto, è un testo, una miniguida che descrive come si fa una determinata cosa (convertire un JSON in CSV, esportare da OpenStreetMap le fontane, ecc.);
-- **chef**: sono i "maestri di ricetta", quelli che rispondendo a una domanda (a una issue), danno una mano a chi l'ha fatta nel comprendere i propri dubbi;
-- **autore**: è colui che scrive la ricetta, che nella gran parte dei casi lo farà dopo avere fatto una domanda.
+- **guide**: sono i "maestri di ricetta", quelli che rispondendo a una domanda (a una issue), danno una mano a chi l'ha fatta nel comprendere i propri dubbi;
+- **chef**: è colui che scrive la ricetta, che nella gran parte dei casi lo farà dopo avere fatto una domanda.
 
 ## Perché questo nome
 
