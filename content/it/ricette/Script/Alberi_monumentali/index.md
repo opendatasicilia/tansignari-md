@@ -8,11 +8,8 @@ tags:
   - script
   - riga di comando
   - miller
-  - visidata
   - CSV/TSV
-  - mappe
   - pyexcel
-  - QGIS
 issue: [155]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
@@ -28,6 +25,15 @@ Le difficoltà presenti sono legati alla presenza di 21 file (da scaricare) in f
 
 ```bash
 #/bin/bash
+
+### requisiti ###
+# miller https://github.com/johnkerl/miller
+# scrape https://github.com/aborruso/scrape-cli
+# pyexcel-cli https://github.com/pyexcel/pyexcel-cli
+# pyexcel-xls https://github.com/pyexcel/pyexcel-xls
+# yq https://github.com/kislyuk/yq
+# parallel https://www.gnu.org/software/parallel/
+### requisiti ###
 
 set -x
 
