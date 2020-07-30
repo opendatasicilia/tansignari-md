@@ -1,6 +1,6 @@
 ---
 title: "Alberi Monumentali"
-linkTitle: "ALberi Monumentali"
+linkTitle: "Alberi Monumentali"
 date: 2020-07-29
 description: >
  Come scaricare elenco degli alberi monumentali d'Italia ai sensi della Legge n. 10/2013 e del Decreto 23 ottobre 2014.
