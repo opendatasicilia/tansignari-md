@@ -8,11 +8,8 @@ tags:
   - script
   - riga di comando
   - miller
-  - visidata
   - CSV/TSV
-  - mappe
   - pyexcel
-  - QGIS
 issue: [155]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
