@@ -98,7 +98,7 @@ Mapsharper è molto rapido e “stampa” in output alcune informazioni:
 [join] 6595/7904 source records could not be joined
 [o] Wrote alberiMonumentaliISTAT.csv
 ```
-### RIferimento
+### Riferimento
 
 - Mapshaper : <https://github.com/mbloch/mapshaper/wiki/Command-Reference>
 
