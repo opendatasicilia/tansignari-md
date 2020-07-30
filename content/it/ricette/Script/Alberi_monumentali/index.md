@@ -10,6 +10,7 @@ tags:
   - miller
   - CSV/TSV
   - pyexcel
+  - Mapshaper
 issue: [155]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
@@ -69,6 +70,34 @@ mlr --csv unsparsify then clean-whitespace ./processing/*.csv >./alberi.csv
 # dalle coordinate rimuovi spazi e sostituisci "," con "."
 mlr -I --csv put '${LATITUDINE SU GIS}=gsub(${LATITUDINE SU GIS}," ","");${LONGITUDINE SU GIS}=gsub(${LONGITUDINE SU GIS}," ","");${LATITUDINE SU GIS}=gsub(${LATITUDINE SU GIS},",",".");${LONGITUDINE SU GIS}=gsub(${LONGITUDINE SU GIS},",",".")' ./alberi.csv
 ```
+## Nota
+
+Al file finale è stato aggiunto il campo `PRO_COM_T` che contiene il codice testuale ISTAT del Comune dove ricade l'albero monumentale, l'aggiunta è stata realizzatoa usando `Mapshaper`.
+
+### Mapshaper
+
+È un’utility “geografica” straordinaria, purtroppo non troppo nota. Consente di modificare Shapefile, GeoJSON, TopoJSON, CSV e altri formati e supporta diversi task essenziali come la semplificazione di forme (è la caratteristica per cui è più noto), la modifica di attributi, il clipping, il dissolve, il filtraggio e anche il join spaziale (che è ciò che serve qui).
+Il comando ha questa struttura di base
+
+```
+mapshaper alberiMonumentali.geojson -join ./risorse/comuni.shp fields=PRO_COM_T -o alberiMonumentaliISTAT.csv
+```
+
+Per punti:
+
+* si definisce il layer a cui si vogliono associare dati (in questo caso quello degli alberi);
+* si definisce l’operatore, qui `join`;
+* si definisce il layer che contiene le informazione da associare al layer di destinazione (qui i limiti comunali);
+* si definisce quale campo del file sorgente si vuole passare a quello di destinazione (qui il codice `PRO_COM_T`);
+* si definisce il file di output.
+Mapsharper è molto rapido e “stampa” in output alcune informazioni:
+
+```
+[join] Joined data from 1,309 source records to 3,550 target records
+[join] 5/3555 target records received no data
+[join] 6595/7904 source records could not be joined
+[o] Wrote alberiMonumentaliISTAT.csv
+```
 
 ## Visualizzazione
 
@@ -78,4 +107,4 @@ mlr -I --csv put '${LATITUDINE SU GIS}=gsub(${LATITUDINE SU GIS}," ","");${LONGI
 
 1. file **CSV** (UTF-8, delimitatore=",") (su gdrive): [visualizza/scarica](https://docs.google.com/spreadsheets/d/1Hfmpm6yO8Ma7EfFVQSo4GAReXZAFaSlgKeeROvIEcRw/edit?usp=sharing)
 2. file **geojson** (gist) : [visualizza/scarica](https://gist.github.com/pigreco/c9e5680d7db7e6e7c405f73dce2c3c47)
-3. file **CSV** zippato : [scarica](https://gist.github.com/pigreco/e0f38a1cf6bd90b6f8258f01fda828cc/archive/9b2746c7e02de37b7aed58de9e9ab62615ac5cc3.zip)
+3. file **CSV** zippato : [scarica](https://gist.github.com/pigreco/e0f38a1cf6bd90b6f8258f01fda828cc/archive/d3957ba4855a729370db6117e7e5d634cf1832fe.zip)
