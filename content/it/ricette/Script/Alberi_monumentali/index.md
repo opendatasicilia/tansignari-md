@@ -72,9 +72,10 @@ mlr -I --csv put '${LATITUDINE SU GIS}=gsub(${LATITUDINE SU GIS}," ","");${LONGI
 
 ## Visualizzazione
 
-![](qgis.jpg)
+![](alberi.png)
 
 ## Dati
 
-1. file **CSV** : <https://github.com/opendatasicilia/tansignari/files/4995648/merge_fine.txt>
-2. file **geojson** : <https://gist.github.com/pigreco/c9e5680d7db7e6e7c405f73dce2c3c47>
+1. file **CSV** (UTF-8, delimitatore=",") (su gdrive): [visualizza/scarica](https://docs.google.com/spreadsheets/d/1Hfmpm6yO8Ma7EfFVQSo4GAReXZAFaSlgKeeROvIEcRw/edit?usp=sharing)
+2. file **geojson** (gist) : [visualizza/scarica](https://gist.github.com/pigreco/c9e5680d7db7e6e7c405f73dce2c3c47)
+3. file **CSV** zippato : [scarica](https://gist.github.com/pigreco/e0f38a1cf6bd90b6f8258f01fda828cc/archive/9b2746c7e02de37b7aed58de9e9ab62615ac5cc3.zip)
