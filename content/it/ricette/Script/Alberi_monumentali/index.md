@@ -126,3 +126,7 @@ mapshaper alberi.geojson -join ./processing/comuni.shp fields=PRO_COM_T -o alber
 1. file **CSV** (UTF-8, delimitatore=",") (su gdrive): [visualizza/scarica](https://docs.google.com/spreadsheets/d/1Hfmpm6yO8Ma7EfFVQSo4GAReXZAFaSlgKeeROvIEcRw/edit?usp=sharing)
 2. file **geojson** (gist) : [visualizza/scarica](https://gist.github.com/pigreco/c9e5680d7db7e6e7c405f73dce2c3c47)
 3. file **CSV** zippato : [scarica](https://gist.github.com/pigreco/e0f38a1cf6bd90b6f8258f01fda828cc/archive/d3957ba4855a729370db6117e7e5d634cf1832fe.zip)
+
+## Riferimenti
+
+- **cs2cs_dms2dd** : <https://gist.github.com/aborruso/d164b9568b725b3ae99faeccff204bce>
