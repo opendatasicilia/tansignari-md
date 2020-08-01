@@ -1,5 +1,10 @@
 #!/bin/bash
 
+### autore ###
+# andrea borruso 31-07-2020
+### autore ###
+
+
 ### requisiti ###
 # miller https://github.com/johnkerl/miller
 # scrape https://github.com/aborruso/scrape-cli
@@ -87,3 +92,6 @@ mapshaper "$folder"/rawdata/Limiti01012020/Com01012020/Com01012020_WGS84.shp -pr
 
 # aggiungi codice ISTAT dei comuni al CSV degli alberi
 mapshaper "$folder"/alberi.geojson -join "$folder"/processing/comuni.shp fields=PRO_COM_T -o "$folder"/alberiMonumentaliISTAT.csv
+
+# aggiungi codice ISTAT dei comuni al geojson degli alberi
+mapshaper "$folder"/alberi.geojson -join "$folder"/processing/comuni.shp fields=PRO_COM_T -o "$folder"/alberiMonumentaliISTAT.geojson
