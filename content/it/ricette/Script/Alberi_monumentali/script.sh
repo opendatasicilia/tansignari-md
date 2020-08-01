@@ -1,32 +1,3 @@
----
-title: "Alberi Monumentali"
-linkTitle: "Alberi Monumentali"
-date: 2020-07-29
-description: >
- Come scaricare elenco degli alberi monumentali d'Italia ai sensi della Legge n. 10/2013 e del Decreto 23 ottobre 2014.
-tags:
-  - script
-  - riga di comando
-  - miller
-  - CSV/TSV
-  - pyexcel
-  - Mapshaper
-  - ogr2ogr
-  - ISTAT
-issue: [155]
-chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso"]
----
-
----
-
-L' elenco degli alberi monumentali d'Italia ai sensi della Legge n. 10/2013 e del Decreto 23 ottobre 2014 è stato _aggiornato al 24-07-2020_, in questa ricetta vedremo come scaricare i file `*.xls` presenti nel [sito](https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11260) del **Ministero delle politiche agricole alimentari e forestali** e creeremo un unico file CSV.
-
-Le difficoltà sono legati alla presenza di 21 file (da scaricare) in formato `xls`, uno per ogni regione e le Province Autonoma; le coordinate (DMS) hanno uno spazio che li rende inutilizzabili e la virgola al posto del punto decimale; per risolvere tutti questi problemi abbiamo realizzato il seguente script bash che crea un unico file CSV pronto all'uso.
-
-## Script bash
-
-```bash
 #!/bin/bash
 
 ### requisiti ###
@@ -116,21 +87,3 @@ mapshaper "$folder"/rawdata/Limiti01012020/Com01012020/Com01012020_WGS84.shp -pr
 
 # aggiungi codice ISTAT dei comuni al CSV degli alberi
 mapshaper "$folder"/alberi.geojson -join "$folder"/processing/comuni.shp fields=PRO_COM_T -o "$folder"/alberiMonumentaliISTAT.csv
-
-# aggiungi codice ISTAT dei comuni al geojson degli alberi
-mapshaper "$folder"/alberi.geojson -join "$folder"/processing/comuni.shp fields=PRO_COM_T -o "$folder"/alberiMonumentaliISTAT.geojson
-```
-
-## Visualizzazione
-
-![](alberi.png)
-
-## Dati
-
-1. file **CSV** (UTF-8, delimitatore=",") (su gdrive): [visualizza/scarica](https://docs.google.com/spreadsheets/d/1Hfmpm6yO8Ma7EfFVQSo4GAReXZAFaSlgKeeROvIEcRw/edit?usp=sharing)
-2. file **geojson** (gist) : [visualizza/scarica](https://gist.github.com/pigreco/c9e5680d7db7e6e7c405f73dce2c3c47)
-3. file **CSV** zippato : [scarica](https://gist.github.com/pigreco/e0f38a1cf6bd90b6f8258f01fda828cc/archive/d3957ba4855a729370db6117e7e5d634cf1832fe.zip)
-
-## Riferimenti
-
-- **cs2cs_dms2dd** : <https://gist.github.com/aborruso/d164b9568b725b3ae99faeccff204bce>
