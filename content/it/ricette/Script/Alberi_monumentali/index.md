@@ -59,6 +59,7 @@ curl "https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina
   # fai partire il download
   parallel --colsep '\t' wget {1} -O ./rawdata/{2}.xls
 
+# crea file CSV a partire dagli XLS scaricati
 for i in "$folder"/rawdata/*.xls; do
   #crea una variabile da usare per estrarre nome e estensione
   filename=$(basename "$i")
