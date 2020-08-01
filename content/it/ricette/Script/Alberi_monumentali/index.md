@@ -46,7 +46,7 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p ./rawdata
 mkdir -p ./processing
 
-# cancella file xls
+# cancella file
 rm -r "$folder"/rawdata/*
 rm -r "$folder"/processing/*
 
