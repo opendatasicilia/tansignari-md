@@ -49,7 +49,7 @@ for i in $(ls *.json); do
   # crea variabile e la popola con la parte geometrica del JSON
   geom=$(cat "$i" | jq -r '.[] | .[]' | sed -e "s/^\"//g" | sed -e "s/\"$//g")
   # effettua le sostituzioni e crea file file leggibile da software GIS
-  echo -e "$i1 \"$i\"\n$i2$geom\n$i3" | jq . >./out-"$i"
+  echo -e "$i1 \"$i\"\n$i2$geom\n$i3" | jq . >./rawdata/out-"$i"
 done
 ```
 ## Risultato
