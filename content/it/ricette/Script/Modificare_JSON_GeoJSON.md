@@ -6,10 +6,10 @@ description: >
  Modificare un insolito file JSON che contiene coordinate geografiche in un file GeoJSON leggibile da software GIS.
 tags:
   - jq
-  - QGIS
   - bash
   - JSON
   - GeoJSON
+  - GIS
 issue: [159]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
@@ -108,7 +108,6 @@ done
 
 - [**jq**](https://stedolan.github.io/jq/)
 - [**geojson.io**](http://geojson.io/#map=2/20.0/0.0)
-- [**QGIS**](https://qgis.org/it/site/)
 
 
 
