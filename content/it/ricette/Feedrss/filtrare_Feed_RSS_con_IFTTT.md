@@ -1,5 +1,5 @@
 ---
-title: "IFTTT: filtrare un feed RSS tramita lista di parole"
+title: "IFTTT: filtrare un feed RSS tramite una lista di parole"
 linkTitle: "Filtrare RSS con IFTTT"
 date: 2020-10-28
 description: >
