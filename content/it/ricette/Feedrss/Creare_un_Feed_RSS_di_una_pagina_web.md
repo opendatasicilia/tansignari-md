@@ -5,7 +5,7 @@ date: 2020-02-10
 description: >
   Creare un feed RSS a partire da una pagina web usando feed43.
 tags:
-  - feed RSS
+  - RSS
   - web
   - html
   - feed43
