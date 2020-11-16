@@ -5,10 +5,11 @@ date: 2019-07-28
 description: >
  Come ottenere una tabella (o più tabelle) da una pagina web, usando solo [VisiData](https://www.visidata.org/).
 tags:
-  - CURL
   - VisiData
   - bash
-  - script
+  - html
+  - web
+  - scraping
 issue: [164]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso","Totò Fiandaca"]
@@ -45,5 +46,4 @@ In output otterrò una tabella con campi inutili dovuti alla presenza di link:
 
 ## Riferimenti utili
 
-- [CURL](https://curl.haxx.se/)
 - [VisiData](https://www.visidata.org/)
