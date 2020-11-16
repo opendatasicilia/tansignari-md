@@ -32,7 +32,7 @@ dove:
 - se hai una pagina multitabella e vuoi vedere l'elenco di tutte, basta non indicarne alcuna. Ad esempio 
 
 ```
-curl -kL "https://en.wikipedia.org/wiki/Olympic_medal" | vd -f html
+vd "https://en.wikipedia.org/wiki/Olympic_medal"
 ```
 
 Questa la issue dove è stato chiesto di introdurre questa modalità https://github.com/saulpw/visidata/issues/214#issue-383997505
