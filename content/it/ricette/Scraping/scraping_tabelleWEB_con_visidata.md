@@ -23,12 +23,11 @@ guide: ["Andrea Borruso","Totò Fiandaca"]
 ## Script Bash
 
 ```bash
-curl -kL "https://www.tuttitalia.it/regioni/popolazione/" | vd -f html +:table_0::
+vd "https://www.tuttitalia.it/regioni/popolazione/" +:table_0::
 ```
 
 dove:
 
-- `-f html ` per impostare il formato di input;
 - `+:table_0::` per scegliere quale tabella, delle tante possibili in una pagina aprire. La `0` è la prima. La sintassi completa opzionale è `+:<sheet>:<row>:<col>`
 - se hai una pagina multitabella e vuoi vedere l'elenco di tutte, basta non indicarne alcuna. Ad esempio 
 
