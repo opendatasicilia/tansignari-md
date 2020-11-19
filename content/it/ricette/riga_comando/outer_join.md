@@ -1,7 +1,7 @@
 ---
 title: "Realizzare un Outer Join tra due tabelle"
 linkTitle: "Outer Join tra due tabelle"
-date: 2020-05-18
+date: 2020-11-19
 description: >
   Realizzare un Outer Join tra due file TSV senza intestazione.
 tags:
