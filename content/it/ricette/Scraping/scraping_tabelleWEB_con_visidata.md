@@ -1,7 +1,7 @@
 ---
 title: "Come ottenere una tabella da una pagina web, usando solo VisiData"
 linkTitle: "Come ottenere una tabella (o più tabelle) da una pagina web, usando solo VisiData"
-date: 2019-07-28
+date: 2019-11-15
 description: >
  Come ottenere una tabella (o più tabelle) da una pagina web, usando solo [VisiData](https://www.visidata.org/).
 tags:
