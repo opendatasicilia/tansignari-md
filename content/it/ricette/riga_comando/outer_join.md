@@ -48,7 +48,7 @@ output:
 
 ## diagramma
 
-![](https://user-images.githubusercontent.com/7631137/99720306-dff4c000-2aad-11eb-8e05-3803b827fb55.png)
+![](https://user-images.githubusercontent.com/7631137/99721647-d409fd80-2aaf-11eb-91ab-46de99b54dec.png)
 
 dove:
 
