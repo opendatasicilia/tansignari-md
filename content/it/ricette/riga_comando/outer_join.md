@@ -20,6 +20,8 @@ guide: ["Andrea Borruso"]
 
 Realizzare un [Outer Join](https://it.wikipedia.org/wiki/Join_(SQL)) tra due file TSV senza intestazione.
 
+## esempio 
+
 In input:  primo file `uno.tsv`
 ```
 1	a
@@ -37,6 +39,16 @@ Il comando per ottenere in output un altro file come Outer Join
 ```
 mlr --tsv --implicit-csv-header join --np  --ul  -j 1 -f uno.tsv then unsparsify due.tsv | tail -n +2
 ```
+
+output:
+```
+2	a
+3	b
+```
+
+## diagramma
+
+![](https://user-images.githubusercontent.com/7631137/99720306-dff4c000-2aad-11eb-8e05-3803b827fb55.png)
 
 dove:
 
