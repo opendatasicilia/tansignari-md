@@ -7,7 +7,6 @@ description: >
 tags:
   - csv/tsv
   - miller
-  - visidata
 issue: [167]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
