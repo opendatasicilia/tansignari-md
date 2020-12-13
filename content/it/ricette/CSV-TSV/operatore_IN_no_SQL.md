@@ -51,6 +51,8 @@ id|NUM_PART|foglio|prov|cod_com
 
 posizionare il focus sulla colonna `foglio`, digitare `|` (che serve a selezionare tramite regex) e come regex: `(20|21|22)`; per ottenere il file con le sole righe selezionate digitare `"` e poi `Ctrl + s` per salvare il file.
 
+**OSSERVAZIONE**: per evitare di selezionare anche valori che contenessereo 20,21 o 22 (per esempio 220,122 ecc..) occorre modificare la regex così `^(20|21|22)$`.
+
 ![](https://user-images.githubusercontent.com/7631137/101989959-17691d80-3ca4-11eb-9881-28be29929d96.gif)
 
 - con [Miller](http://johnkerl.org/miller/doc/reference-verbs.html#nest)
@@ -59,7 +61,9 @@ posizionare il focus sulla colonna `foglio`, digitare `|` (che serve a seleziona
 mlr --csv filter -S '$foglio=~"(20|21|22)"' test.csv >output.csv
 ```
 
- dove `-S` forza il dato come stringa
+ dove `-S` forza il dato come stringa.
+
+ **OSSERVAZIONE**: per evitare di estrarre righe con valori che contenessereo 20,21 o 22 (per esempio 220,122 ecc..) occorre modificare la regex così `^(20|21|22)$`.
 
 ![](https://user-images.githubusercontent.com/7631137/101990055-b8f06f00-3ca4-11eb-8b01-487a0de004ed.gif)
 
@@ -74,6 +78,9 @@ id|NUM_PART|foglio|prov|cod_com
 47|58|20|PA|Axxx
 48|61|22|PA|Axxx
 
+## Prova qui
+
+<https://regex101.com/r/adgRHj/1>
 
 ## Riferimenti utili
 
