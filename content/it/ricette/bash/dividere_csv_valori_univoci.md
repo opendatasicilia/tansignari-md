@@ -38,4 +38,5 @@ in output i 90 file con nome file uguale al fenomeno osservato:
 ## Riferimenti utili
 
 - [Repository Il SOle 24 ORE](https://github.com/IlSole24ORE/QDV)
+- [Download CSV 20201214_QDV2020_001.csv](https://rawgit.com/IlSole24ORE/QDV/main/20201214_QDV2020_001.csv)
 - [Miller](http://johnkerl.org/miller/doc/reference-verbs.html#nest)
