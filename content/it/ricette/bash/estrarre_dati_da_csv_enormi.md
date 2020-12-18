@@ -40,7 +40,7 @@ il file CSV risultante è filtrato per valori, per filtrarlo anche per campi occ
 xsv select ITTER107,Territorio,TIME,Value
 ```
 
-restituisce solo i campi elencati sopo il `select`;
+restituisce solo i campi elencati dopo il `select`;
 
 oppure, se volessimo ottenere direttamente i 4 CSV (ripartizione geografica, regioni, province e comuni), basta lanciare questo script:
 
