@@ -17,7 +17,7 @@ guide: ["Andrea Borruso"]
 
 ## Caso d'uso
 
-L'[ISTAT](https://esploradati.censimentopopolazione.istat.it/databrowser/#/it/censtest/BULKDOWNLOAD) ha pubblicato nuovi dataset e tra questi c'è quello della `popolazione residente per sesso ed età` (2018 e 2019) che persa oltre 640 MB ed ha oltre 3 milioni di righe. Vediamo come estrarre velocemente i dati che ci servono, per esempio la popolazione residente per regione geografica: ripartizione geografica, regioni, province e comuni.
+L'[ISTAT](https://esploradati.censimentopopolazione.istat.it/databrowser/#/it/censtest/BULKDOWNLOAD) ha pubblicato nuovi dataset e tra questi c'è quello della `popolazione residente per sesso ed età` (2018 e 2019) che pesa oltre 640 MB ed ha oltre 3 milioni di righe. Vediamo come estrarre velocemente i dati che ci servono, per esempio la popolazione residente per regione geografica: ripartizione geografica, regioni, province e comuni.
 
 ### Script
 
