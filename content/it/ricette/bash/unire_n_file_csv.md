@@ -1,7 +1,7 @@
 ---
 title: "Unire enne file CSV"
 linkTitle: "Unire molti file CSV con stessa struttura"
-date: 2020-12-15
+date: 2021-05-15
 description: >
   Unire molti file CSV con stessa struttura
 tags:
