@@ -44,4 +44,5 @@ Trasforma i valori dei due campi in `array` (`string_to_array(replace("fogli1",'
 1. [QGIS](https://www.qgis.org/it/site/)
 2. [HfcQGIS ](https://hfcqgis.opendatasicilia.it/)
 3. [Array in QGIS](https://hfcqgis.opendatasicilia.it/gr_funzioni/array/array_unico/)
+4. [esempio in #HfcQGIS](https://hfcqgis.opendatasicilia.it/esempi/confrontare_campi_tabella/)
 
