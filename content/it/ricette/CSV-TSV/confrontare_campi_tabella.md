@@ -33,7 +33,7 @@ array_to_string(
 ```
 
 Tradotto in linguaggio umano:<br>
-Trasforma i valori dei due campi in `array` (`string_to_array(replace("fogli1",'|',','))`) e poi concatenali (`array_cat`), cioè crea unico `array`, successivamente estrai l'array dei valori che maggiormente sono presenti (`array_majority`), infine converti l'array in stringa.
+Trasforma i valori dei due campi in `array` (`string_to_array(replace("fogli1",'|',','))`) e poi concatena (`array_cat`), cioè crea unico `array`, successivamente estrae l'array dei valori che maggiormente sono presenti (`array_majority`), infine converte l'array in stringa.
 
 ## download
 
