@@ -30,7 +30,7 @@ come si nota dalla coordinata evidenziata, ci sono 15 cifre dopo la virgola, lo 
 
 Lo standard `geojson` fissa alcune cose: una è il sistema di coordinate (EPSG:4326), l'altra la precisione (a 7 decimali).
 
-Con 'gdal'  fisso il rispetto dello standard con:
+Con `GDAL`  fisso il rispetto dello standard con:
 
 ```
  ogr2ogr -f GeoJSON output.geojson input.shp -lco RFC7946=YES
@@ -43,8 +43,6 @@ per modificare la precisione (per esempio a 5), usare:
 ```
 
 **Nota bene**: nella documentazione [GDAL](https://gdal.org/drivers/vector/geojson.html), ogni formato ha la sua pagina. Per **GeoJSON** è https://gdal.org/drivers/vector/geojson.html
-
-
 
 ---
 
