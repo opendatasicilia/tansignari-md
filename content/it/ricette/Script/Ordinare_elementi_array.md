@@ -30,7 +30,11 @@ unsparsify then sort -f den_estesa -n totoN -f totoT then cut -r -x -f "toto+" t
 nest --implode --values --across-records --nested-fs "-" -f scritta  ordinare_scritta.csv
 ```
 
-nota: utilizzando Miller 5
+ragionamento:
+
+lo script mette tutto in colonne splittando il campo `scritta` usando come delimitatore `-` e popolando due nuove colonne `totoN` (numeri) e `totoT` (testo) con la parte numerica e la parte testuale di ogni elemento; successivamente ordina usando i campi `den_estesa`, `totoN` e `totoT`, a questo punto elimina i campi in più (`toto+`) e poi torna indietro implodendo tutto.
+
+nota: con Miller 5
 
 esempio:
 
