@@ -97,6 +97,7 @@ array_foreach(
 regexp_replace( @element,'^.+\\|(.+)$','\\1'))
 )
 ```
+![](https://user-images.githubusercontent.com/7631137/149572994-80c4adbb-9d90-4894-9b6d-19eb4b178cd4.png)
 
 ## Riferimenti utili
 
