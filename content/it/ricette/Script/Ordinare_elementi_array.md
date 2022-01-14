@@ -14,7 +14,7 @@ tags:
   - field calc
 issue: [196]
 chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso" , "Giovanni Pirrotta"]
+guide: ["Andrea Borruso" , "Giovanni Pirrotta" , "Totò Fiandaca"]
 ---
 
 ---
