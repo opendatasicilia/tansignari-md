@@ -15,7 +15,7 @@ tags:
   - field calc
 issue: [196]
 chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso" , "Giovanni Pirrotta" , "Totò Fiandaca" , "korto19"]
+guide: ["Andrea Borruso" , "Giovanni Pirrotta" , "Totò Fiandaca" , "Korto19"]
 ---
 
 ---
@@ -115,14 +115,14 @@ from qgis.core import *
 from qgis.gui import *
 
 @qgsfunction(args='auto', group='Custom', referenced_columns=[])
-def array_sort_special(value1, feature, parent):'''
-
+def array_sort_special(value1, feature, parent):
+    """
     Ordina un array alfanumerico numericamente
     <h2>Example usage:</h2>
     <ul>
       <li>array_sort_special('5/A-5-4-8-3-6-9-7-1-10-7/B-2-7/A') -> ['1','2','3','4','5','5/A', '6','7','7/A','7/B','8','9','10']</li>
     </ul>
-
+    """
     data = value1.split('-')
     r = sorted(data, key=lambda item: (int(item.partition('/')[0])
     if item[0].isdigit() else float('inf'), item))
