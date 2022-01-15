@@ -79,7 +79,7 @@ def ordina(x):
 df['scritta']=df.scritta.map(ordina)   
 df.to_csv('ordina_scritta_ok.csv',index=False)
 ```
-## espressione di QGIS
+## espressione per QGIS
 
 ```py
 array_to_string(
