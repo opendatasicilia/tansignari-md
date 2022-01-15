@@ -79,7 +79,9 @@ def ordina(x):
 df['scritta']=df.scritta.map(ordina)   
 df.to_csv('ordina_scritta_ok.csv',index=False)
 ```
-## espressione per QGIS
+## QGIS
+
+### espressione per il fielc calc
 
 ```py
 array_to_string(
@@ -106,7 +108,7 @@ Crea un nuovo array con lo stesso numero di elementi, ma ogni nuovo elemento `(x
 Infine, dopo aver ordinato, estrarre il terzo valore della tripletta (x|y|z) che rappresenta il valore iniziale.
 La condizione `if` serve solo a ordinare bene il caso `7/A, 7`, altrimenti metterebbe sempre prima l'elemento alfanumerico e non il numero. 
 
-## funzione personalizzata per QGIS
+### funzione personalizzata per il field calc
 
 ```python
 from qgis.core import *
