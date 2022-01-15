@@ -32,7 +32,7 @@ unsparsify then sort -f den_estesa -n totoN -f totoT then cut -r -x -f "toto+" t
 nest --implode --values --across-records --nested-fs "-" -f scritta  ordinare_scritta.csv
 ```
 
-ragionamento:
+**ragionamento:**
 
 lo script mette tutto in colonne splittando il campo `scritta` usando come delimitatore `-` e popolando due nuove colonne `totoN` (numeri) e `totoT` (testo) con la parte numerica e la parte testuale di ogni elemento; successivamente ordina usando i campi `den_estesa`, `totoN` e `totoT`, a questo punto elimina i campi in più (`toto+`) e poi torna indietro implodendo tutto.
 
@@ -98,6 +98,12 @@ regexp_replace( @element,'^.+\\|(.+)$','\\1'))
 )
 ```
 ![](https://user-images.githubusercontent.com/7631137/149572994-80c4adbb-9d90-4894-9b6d-19eb4b178cd4.png)
+
+**ragionamento:**
+
+Crea un nuovo array con lo stesso numero di elementi, ma ogni nuovo elemento `(x|y|z)` dell'array è generato a partire dall'elemento corrente esploso (es: 5/A → 5|/A|5/A); successivamente, il primo valore del nuovo elemento (5), viene sottoposto alla funzione `lpad` in modo da avere `005` e ottenere `005|/A|5/A`, questo permette di poter ordinare gli elementi dell'array nel modo desiderato: 001,002,003....010...100. 
+Infine, dopo aver ordinato, estrarre il terzo valore della tripletta (x|y|z) che rappresenta il valore iniziale.
+La condizione `if` serve solo a ordinare bene il caso `7/A, 7`, altrimenti metterebbe sempre prima l'elemento alfanumerico e non il numero. 
 
 ## Riferimenti utili
 
