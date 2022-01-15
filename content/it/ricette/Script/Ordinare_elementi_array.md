@@ -8,13 +8,14 @@ tags:
   - script
   - bash
   - miller
+  - python
   - CSV/TSV
   - array
   - QGIS
   - field calc
 issue: [196]
 chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso" , "Giovanni Pirrotta" , "Totò Fiandaca"]
+guide: ["Andrea Borruso" , "Giovanni Pirrotta" , "Totò Fiandaca" , "korto19"]
 ---
 
 ---
@@ -104,6 +105,30 @@ regexp_replace( @element,'^.+\\|(.+)$','\\1'))
 Crea un nuovo array con lo stesso numero di elementi, ma ogni nuovo elemento `(x|y|z)` dell'array è generato a partire dall'elemento corrente esploso (es: 5/A → 5|/A|5/A); successivamente, il primo valore del nuovo elemento (5), viene sottoposto alla funzione `lpad` in modo da avere `005` e ottenere `005|/A|5/A`, questo permette di poter ordinare gli elementi dell'array nel modo desiderato: 001,002,003....010...100. 
 Infine, dopo aver ordinato, estrarre il terzo valore della tripletta (x|y|z) che rappresenta il valore iniziale.
 La condizione `if` serve solo a ordinare bene il caso `7/A, 7`, altrimenti metterebbe sempre prima l'elemento alfanumerico e non il numero. 
+
+## funzione personalizzata per QGIS
+
+```python
+from qgis.core import *
+from qgis.gui import *
+
+@qgsfunction(args='auto', group='Custom', referenced_columns=[])
+def array_sort_special(value1, feature, parent):'''
+
+    Ordina un array alfanumerico numericamente
+    <h2>Example usage:</h2>
+    <ul>
+      <li>array_sort_special('5/A-5-4-8-3-6-9-7-1-10-7/B-2-7/A') -> ['1','2','3','4','5','5/A', '6','7','7/A','7/B','8','9','10']</li>
+    </ul>
+
+    data = value1.split('-')
+    r = sorted(data, key=lambda item: (int(item.partition('/')[0])
+    if item[0].isdigit() else float('inf'), item))
+    #return (','.join(r))
+    return r
+```
+
+note: commentando l'ultima riga e decommentando la penultima restituisce una stringa.
 
 ## Riferimenti utili
 
