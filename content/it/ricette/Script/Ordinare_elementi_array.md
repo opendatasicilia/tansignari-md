@@ -100,6 +100,9 @@ array_foreach(
 regexp_replace( @element,'^.+\\|(.+)$','\\1'))
 )
 ```
+
+NB: 1) il separatore deve essere `-` ; 2) ogni elemento della lista deve iniziare con un numero;
+
 ![](https://user-images.githubusercontent.com/7631137/149572994-80c4adbb-9d90-4894-9b6d-19eb4b178cd4.png)
 
 **ragionamento:**
@@ -129,6 +132,8 @@ def array_sort_special(value1, feature, parent):
     #return (','.join(r))
     return r
 ```
+
+NB: 1) il separatore deve essere `-` ; 2) ogni elemento della lista deve iniziare con un numero;
 
 note: commentando l'ultima riga e decommentando la penultima restituisce una stringa.
 
