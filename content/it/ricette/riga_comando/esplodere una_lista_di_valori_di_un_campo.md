@@ -1,6 +1,6 @@
 ---
-title: "Esplodere una lista di valori di un campo, e poi raggruppare per questi valori"
-linkTitle: "Esplodere una lista di valori di un campo, e poi raggruppare per questi valori"
+title: "Esplodere una lista di valori di un campo, e poi raggruppare"
+linkTitle: "Esplodere una lista di valori di un campo, e poi raggruppare"
 date: 2022-02-10
 description: >
   Come esplodere una lista di valori di un campo, e poi raggruppare per questi valori.
