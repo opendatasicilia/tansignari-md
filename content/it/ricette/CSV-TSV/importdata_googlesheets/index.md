@@ -30,11 +30,11 @@ Importando il file otteniamo questo:
 
 ![](g_01.png)
 
-Ma se a me interessano **solo** alcune colonne, ordinate e rinominate in modo diverso, posso farlo? 
+Ma se a me interessano **SOLO** alcune colonne, ordinate e rinominate in modo diverso, posso farlo? 
 
 Si, si può fare, importando in uno sheet il file csv e in un secondo sheet creare una **QUERY** per selezionre e rinominare le colonne che ci interessano.
 
-Posso importare direttamente **solo** i dati che mi interessano?
+Posso importare direttamente **SOLO** i dati che mi interessano?
 
 Si, Per farlo si deve applicare una combinazione di due funzioni: QUERY e IMPORTDATA
 
