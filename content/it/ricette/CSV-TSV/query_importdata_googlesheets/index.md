@@ -1,9 +1,9 @@
 ---
-title: "Google Sheets - Come Importare SOLO un numero selezionato di colonne da un file csv"
-linkTitle: "Google Sheets | QUERY + IMPORTDATA"
+title: "Come Importare SOLO un numero selezionato di colonne da un file csv"
+linkTitle: "QUERY + IMPORTDATA"
 date: 2022-11-02
 description: >
-	È possibile selezionare il numero di colonne da importare tramite IMPORTDATA. Per farlo si deve applicare una combinazione di due funzioni: IMPORTDATA e QUERY. 
+Google Sheets |	È possibile selezionare il numero di colonne da importare tramite IMPORTDATA. Per farlo si deve applicare una combinazione di due funzioni: IMPORTDATA e QUERY. 
 tags:
   - csv
   - gsheet
