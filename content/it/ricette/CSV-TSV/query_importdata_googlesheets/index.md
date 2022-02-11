@@ -1,5 +1,5 @@
 ---
-title: "QUERY + IMPORTDATA | Google Sheets - Come Importare SOLO un numero selezionato di colonne da un file csv"
+title: "QUERY + IMPORTDATA | Google Sheets"
 linkTitle: "QUERY + IMPORTDATA | Google Sheets - Come Importare SOLO un numero selezionato di colonne da un file csv"
 date: 2019-10-01
 description: >
