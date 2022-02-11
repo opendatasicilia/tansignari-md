@@ -1,5 +1,5 @@
 ---
-title: "IMPORTDATA | Google Sheets - Importadata file csv con separatore semicolon (;)"
+title: "IMPORTDATA semicolon (;) | Google Sheets"
 linkTitle: "IMPORTDATA | Google Sheets - Importadata file csv con separatore semicolon"
 date: 2019-10-01
 description: >

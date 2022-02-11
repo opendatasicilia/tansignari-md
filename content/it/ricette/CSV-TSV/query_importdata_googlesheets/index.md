@@ -24,7 +24,7 @@ url - L'url da cui recuperare i dati in formato .csv o .tsv, incluso il protocol
 
 **IMPORTDATA("https://raw.githubusercontent.com/ondata/covid19italia/master/webservices/COVID-19Aree/processing/aree.csv")**
 
-Se il file ha un separatore diverso **da virgole** ti consiglio di dare una lettura [qui](#)
+Se il file ha un separatore diverso **da virgole** ti consiglio di dare una lettura [qui](https://tansignari.opendatasicilia.it/ricette/csv-tsv/importdata_semicoln_googlesheets/)
 
 Importando il file otteniamo questo:
 
