@@ -1,6 +1,6 @@
 ---
-title: " Google Sheets | IMPORTDATA semicolon (;)"
-linkTitle: "IMPORTDATA | Google Sheets - Importadata file csv con separatore semicolon"
+title: "Google Sheets - Importadata file csv con separatore semicolon"
+linkTitle: "Google Sheets | IMPORTDATA semicolon (;)"
 date: 2019-10-01
 description: >
   Come importare da remoto un file csv  in google sheet che usa il **semicolon** (**;**) come separatore di campo.
