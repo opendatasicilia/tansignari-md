@@ -3,7 +3,7 @@ title: "Google Sheets - Come Importare SOLO un numero selezionato di colonne da 
 linkTitle: "Google Sheets | QUERY + IMPORTDATA"
 date: 2022-11-02
 description: >
- È possibile selezionare il numero di colonne da importare tramite IMPORTDATA. Per farlo si deve applicare una combinazione di due funzioni: IMPORTDATA e QUERY. 
+	È possibile selezionare il numero di colonne da importare tramite IMPORTDATA. Per farlo si deve applicare una combinazione di due funzioni: IMPORTDATA e QUERY. 
 tags:
   - csv
   - gsheet
@@ -14,7 +14,7 @@ guide: ["Gianni Vitrano"]
 
 ---
 
-Con **IMPORTDATA**  google sheet importa i dati di un **url** specificato in formato .csv (valori **separati da virgole**) o .tsv (valori **delimitati da tabulazioni**).
+Con **IMPORTDATA** google sheet importa i dati di un **url** specificato in formato .csv (valori **separati da virgole**) o .tsv (valori **delimitati da tabulazioni**).
 
 quindi per importare un file  basta posizionarsi in cella qualsiasi e scrivere:
 
@@ -59,3 +59,4 @@ Se si desidera rinominare le colonne, basta usare **Label** nella nostra **QUERY
 Fatto...abbiamo importato in un unico sheet i dati che ci interessano...
 
 Ps... perchè la colonna **Data inizio** ha quei numeri strani...? Siamo sicuri che è una data...? 
+
