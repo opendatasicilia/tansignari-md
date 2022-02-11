@@ -58,5 +58,4 @@ Se si desidera rinominare le colonne, basta usare **Label** nella nostra **QUERY
 
 Fatto...abbiamo importato in un unico sheet i dati che ci interessano...
 
-
 Ps... perchè la colonna **Data inizio** ha quei numeri strani...? Siamo sicuri che è una data...? 
