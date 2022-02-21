@@ -9,6 +9,7 @@ tags:
   - tsv
   - csv-tsv
   - miller
+  - riga di comando
 issue: [202]
 chefs: ["Dennis Angemi"]
 guide: ["Andrea Borruso"]
