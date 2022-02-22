@@ -39,7 +39,13 @@ Divina Commedia,Dante Alighieri
 Il fu Mattia Pascal,Luigi Pirandello
 ```
 
-è possibile utilizzare la utility _miller_  lanciando `mlr --csv -S put 'for (k in $*) {$[k] = gsub($[k], "\n", " ")}' then clean-whitespace file.csv`. Questo  comando è in grado di cercare il carattere speciale `\n` _newline_
+è possibile utilizzare la utility _miller_  lanciando 
+
+```bash
+mlr --csv -S put 'for (k in $*) {$[k] = gsub($[k], "\n", " ")}' then clean-whitespace file.csv
+```
+
+Questo  comando è in grado di cercare il carattere speciale `\n` _newline_
 e di sostituirlo con " ". In seguito `clean-whitespace` rimuoverà eventuali doppi spazi.
 
 ## Riferimenti
