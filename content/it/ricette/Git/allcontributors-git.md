@@ -18,11 +18,11 @@ guide: ["Totò Fiandaca", "Andrea Borruso", "Gianni Vitrano"]
 
 1. vai in questo [sito](https://allcontributors.org/)e pigia forte sul bottone `Install the Bot`
 2. clicca forte su `Install the GitHub App`: del punto 1. Install the AllContributors GitHub App;
-3. ti porterà in una pagina github e ti chiederà dove vuoi installare il bot:
+3. ti porterà in una pagina github e ti chiederà dove vuoi installare il bot:<br>
 ![image](https://user-images.githubusercontent.com/7631137/155021425-85dff2ca-bd76-4707-9095-007ebd8e2194.png)
-4. clicca sulla freccia di destra in corrispondenza a dove vuoi installarlo:
+4. clicca sulla freccia di destra in corrispondenza a dove vuoi installarlo:<br>
 ![image](https://user-images.githubusercontent.com/7631137/155022033-bd68a9de-5174-4f76-8bab-7a6c818cea59.png)
-5. pigia fortissimo su `Install`
+5. pigia fortissimo su `Install`:<br>
 ![image](https://user-images.githubusercontent.com/7631137/155022171-89bc53c5-cd46-4035-bb41-1f024e99a758.png)
 6. vai nel repository dove hai installato il bot:
   6.1 apri una issue con oggetto: `Aggiungi all-contributors bot` e poi la chiudi;
