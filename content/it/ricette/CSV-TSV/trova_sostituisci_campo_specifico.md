@@ -60,7 +60,7 @@ Random title, Giacomo Divini
 Il comando sopra riportato restituisce in output un file CSV con le modifiche richieste. La funzione invocata è `sub` che richiede tre argomenti separati da una virgola: il nome del campo, la stringa da cercare, la stringa desiderata. Si noti che:
 
 - `sub` è in grado di sostituire solo la prima occorrenza di una cella; se si desidera modificare tutte le occorrenze di una cella, si deve utilizzare la funzione `gsub`;
-- e il nome del campo è costituito da più parole separate da uno spazio è necessario utilizzare la sintassi con le paretesi graffe `${nome campo}`.
+- se il nome del campo è costituito da più parole separate da uno spazio è necessario utilizzare la sintassi con le paretesi graffe `${nome campo}`.
 
 Per maggiori informazioni si visiti [arigadicomando - Fare un trova e sostituisci per campo](https://arigadicomando.it/miller/ricette/#fare-un-trova-e-sostituisci-per-campo)
 
