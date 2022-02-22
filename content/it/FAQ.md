@@ -35,7 +35,7 @@ Puoi scrivere la tua ricetta seguendo questo **[template](/ricette/tansignari/co
 
 6. **Cosa occorre per scrivere una ricetta.**
 
-Puoi scrivere una ricetta se hai un account Github, altrimenti devi crearlo. È necessario utilizzare un Editor di testi avanzato (Visual Studio Code, Sublime Text, Atom, Notepad++, ecc...).
+Puoi scrivere una ricetta se hai un account Github, altrimenti devi crearlo. È necessario utilizzare un Editor di testi avanzato (Visual Studio Code, Sublime Text, Atom, Notepad++, ecc...) oppure l'editor che mette a disposizione GitHub.
 
 7. **Cosa significa l'immagine di copertina?**
 
