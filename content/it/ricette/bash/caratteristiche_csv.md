@@ -4,6 +4,7 @@ linkTitle: "Caratteristiche di un CSV"
 date: 2022-02-16
 description: >
   Come conoscere rapidamente le caratteristiche di un CSV.
+tags:
   - bash
   - csv/tsv
   - script
