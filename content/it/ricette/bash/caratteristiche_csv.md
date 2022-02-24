@@ -21,7 +21,7 @@ Alcune volte nasce l'esigenza di conoscere rapidamente, e senza dovere necessari
 
 ## Soluzioni
 
-### heat/tail
+### head/tail
 
 per visualizzare le prime o ultime 10 righe usando la bash di linux
 
