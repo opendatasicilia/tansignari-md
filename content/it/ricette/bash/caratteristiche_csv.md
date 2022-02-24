@@ -1,7 +1,7 @@
 ---
 title: "Caratteristiche di un CSV"
 linkTitle: "Caratteristiche di un CSV"
-date: 2020-12-18
+date: 2022-02-16
 description: >
   Come conoscere rapidamente le caratteristiche di un CSV.
   - bash
