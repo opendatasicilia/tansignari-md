@@ -61,4 +61,4 @@ output:
 
 ### Approfondimenti
 
-- [a riga di comando](https://arigadicomando.it/dati/esplora/) by [onData](https://www.getrevue.co/profile/ondata)
+- [a riga di comando](https://arigadicomando.it/dati/esplora/) by [Andrea Borruso](https://twitter.com/aborruso)
