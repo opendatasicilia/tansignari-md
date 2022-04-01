@@ -5,7 +5,7 @@ date: 2022-03-31
 description: >
   Scaricare tutte le Tiles incluse all'interno di una Bounding Box.
 tags:
-  - Open Street Map
+  - OSM
   - bounding box
   - GDAL
   - mappa
