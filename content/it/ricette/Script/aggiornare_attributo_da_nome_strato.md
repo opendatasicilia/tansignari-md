@@ -9,6 +9,9 @@ tags:
   - bash
   - SQLite
   - SQL
+  - gdal/ogr
+  - find
+  - sed
 issue: [212]
 chefs: ["Totò Fiandaca"]
 guide: ["Totò Fiandaca"]
