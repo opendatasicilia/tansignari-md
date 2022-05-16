@@ -109,4 +109,4 @@ per utilizzare lo script bash occorre installare:
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
-- Blog post su Pigrecoinfinito : xxx
+- Blog post su Pigrecoinfinito : <https://pigrecoinfinito.com/2022/05/16/aggiornare-attributo-di-uno-shapefile-che-dipende-dal-nome-dello-stesso-strato/>
