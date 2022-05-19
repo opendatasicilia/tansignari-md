@@ -40,6 +40,7 @@ Rimuoviamo le prime due righe con
 <Enna.csv tail -n +3
 ```
 e otteniamo un file simile a questo
+
 |Codice comune|Denominazione|Età   |Maschi celibi|Maschi coniugati|Maschi divorziati|Maschi vedovi|Maschi uniti civilmente|Maschi già in unione civile (per scioglimento)|Maschi già in unione civile (per decesso del partner)|Totale Maschi|Femmine nubili|Femmine coniugate|Femmine divorziate|Femmine vedove|Femmine unite civilmente|Femmine già in unione civile (per scioglimento)|Femmine già in unione civile (per decesso del partner)|Totale Femmine|
 |-------------|-------------|------|-------------|----------------|-----------------|-------------|-----------------------|----------------------------------------------|-----------------------------------------------------|-------------|--------------|-----------------|------------------|--------------|------------------------|-----------------------------------------------|------------------------------------------------------|--------------|
 |086001       |Agira        |0     |40           |0               |0                |0            |                       |                                              |                                                     |40           |20            |0                |0                 |0             |                        |                                               |                                                      |20            |
