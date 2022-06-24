@@ -31,7 +31,7 @@ Obbiettivo: Ottenere **N** *colonne* dalla **colonna X**
 |  età e/o dimensioni   |                       |                     |                    |            |                         |                      |
 |  età e/o dimensioni   |                       |                     |                    |            |                         |                      |
 
-Usare il classico **Split** o **Converti il testo in colonne** rende il tutto molto complicato e non sempre il risultato finale e garantito
+Usare il classico **Split** o **Converti il testo in colonne** rende il tutto molto complicato e non sempre il risultato finale è garantito
 
 # Soluzione 1 Visidata
 
@@ -40,20 +40,20 @@ Basta aprire il file, spostarsi sulla colonna da **splittare** pigiare i tasti *
 
 ![](clip_02.png)
 
-e come per *magia* in pochi istanti la nostra colonna e il suo contenuto viene suddivisa in **N** 
+e come per *magia* in pochi istanti la nostra colonna, e il suo contenuto, viene suddivisa in **N** 
 
-In questo caso [Visidata](https://www.visidata.org/) ha usato come separatore per le colonne la regola `[a-z]\)` ovvero ha usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo **)**
+In questo caso [Visidata](https://www.visidata.org/) ho usato come separatore per le colonne la regola `[a-z]\)`, ovvero, ho usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo **)**
 
 ![](clip_03.png)
 
-Domanda: Se non so usare [Visidata](https://www.visidata.org/) e le *regex* c'è un altra soluzione?
+Domanda: Se non so usare [Visidata](https://www.visidata.org/) e le *regex*, c'è un altra soluzione?
 Risposta: Impara ad utilizzarli, ti rendono la vita più semplice... 😊 
 
 # Soluzione 2 EmEditor
 
 Per chi è poco pratico di [Visidata](https://www.visidata.org/) e regex può usare [EmEditor](https://www.emeditor.com/) un ottimo strumento per manipolare file csv e non solo.
 
-Apriamo il file con [EmEditor](https://www.emeditor.com/), il contenuto della nostra colnna è un po **sporco** l'elnco puntato non sempre è scritto tutto nello stesso modo,
+Apriamo il file con [EmEditor](https://www.emeditor.com/), il contenuto della nostra colonna è un po' **sporco**, l'elenco puntato non sempre è scritto tutto nello stesso modo,
 troviamo:
 
 - a) oppure a )
@@ -70,7 +70,7 @@ Come prima cosa dobbiamo sostititure questi elenchi con un simbolo **univoco**
 
 ![](clip_05.png)
 
-Con una semplice operazione *batch* di **cerca e sosttituisci**  sostituiamo tutti i simboli degli elenchi con il simbolo **+** (o altro simbolo)
+Con una semplice operazione *batch* di **cerca e sosttituisci** sostituiamo tutti i simboli degli elenchi con il simbolo **+** (o altro simbolo)
 
 ![](clip_06.png)
 
@@ -78,7 +78,7 @@ Adesso basta selezionare la colonna che si vuole *suddividere* e pigiare il tast
 
 ![](clip_07.png)
 
-Si aprirà unn popup che permette di selezionare diverse opzioni e il **separatore** da utilizzare
+Si aprirà un popup che permette di selezionare diverse opzioni e il **separatore** da utilizzare
 
 ![](clip_08.png)
 
