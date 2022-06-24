@@ -84,6 +84,8 @@ Si aprirà unn popup che permette di selezionare diverse opzioni e il **separato
 
 Adesso non resta che pigiare **invio** e anche [EmEditor](https://www.emeditor.com/) aggiungerà le varie colonne 😊
 
+![](clip_09.png)
+
 Ps: Anche in [EmEditor](https://www.emeditor.com/) si possono usare le regex, ma non sono riuscito ad usarle per definire il **separatore** 😊
 
 ## Riferimenti utili
