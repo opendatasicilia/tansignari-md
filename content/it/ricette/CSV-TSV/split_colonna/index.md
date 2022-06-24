@@ -57,12 +57,12 @@ Apriamo il file con [EmEditor](https://www.emeditor.com/), il contenuto della no
 troviamo:
 
 - a) oppure a )
-- b)		b )
-- c)		c )
-- d)		d )
-- e)		e )
-- f)		f )
-- g)		g )
+- b) oppure	b )
+- c) oppure	c )
+- d) oppure	d )
+- e) oppure	e )
+- f) oppure	f )
+- g) oppure	g )
 
 ![](clip_04.png)
 
