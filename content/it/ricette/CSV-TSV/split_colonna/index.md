@@ -42,7 +42,7 @@ Basta aprire il file, spostarsi sulla colonna da **splittare** pigiare i tasti *
 
 e come per *magia* in pochi istanti la nostra colonna e il suo contenuto viene suddivisa in **N** 
 
-In questo caso [Visidata](https://www.visidata.org/) ha usato come separatore per le colonne la regola `[a-z]\)` ovvero ha usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo**)**
+In questo caso [Visidata](https://www.visidata.org/) ha usato come separatore per le colonne la regola `[a-z]\)` ovvero ha usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo **)**
 
 ![](clip_03.png)
 
