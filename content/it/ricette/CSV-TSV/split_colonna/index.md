@@ -40,7 +40,7 @@ Basta aprire il file, spostarsi sulla colonna da **splittare** pigiare i tasti *
 
 ![](clip_02.png)
 
-e come per *magia* in pochi istanti la nostra colonna, e il suo contenuto, viene suddivisa in **N** 
+e come per *magia* in pochi istanti la nostra colonna, e il suo contenuto, viene suddivisa in **N** colonne
 
 In questo caso [Visidata](https://www.visidata.org/) ho usato come separatore per le colonne la regola `[a-z]\)`, ovvero, ho usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo **)**
 
