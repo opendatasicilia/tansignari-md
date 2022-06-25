@@ -14,7 +14,7 @@ guide: ["Andrea Borruso"]
 ---
 
 ---
-Come si può sudividere velocemente in più *colonne* una **colonna** che in ogni cella, il più delle volte ha un elenco puntato?
+Come si può suddividere velocemente in più *colonne* una **colonna** che in ogni cella, il più delle volte ha un elenco puntato?
 
 Esempio:
 
@@ -36,11 +36,11 @@ Usare il classico **Split** o **Converti il testo in colonne** rende il tutto mo
 # Soluzione 1 Visidata
 
 Utilizzando [Visidata](https://www.visidata.org/) e le espressioni regolari, **[esempio di regex](https://regex101.com/r/ZKPWol/1)** si ricavano le nuove colonne in pochi istanti.
-Basta aprire il file, spostarsi sulla colonna da **splittare** pigiare i tasti **shift** + **.** im modo da ottenere il comando  `:` ed inserire la stringa *regex*  `[a-z]\)` e pigare **invio**
+Basta aprire il file, spostarsi sulla colonna da **splittare** pigiare i tasti **shift** + **.** in modo da ottenere il comando  `:` ed inserire la stringa *regex*  `[a-z]\)` e pigare **invio**
 
 ![](clip_02.png)
 
-e come per *magia* in pochi istanti la nostra colonna, e il suo contenuto, viene suddivisa in **N** colonne
+Come per *magia* in pochi istanti la nostra colonna, e il suo contenuto, viene suddivisa in **N** colonne
 
 In questo caso [Visidata](https://www.visidata.org/) ho usato come separatore per le colonne la regola `[a-z]\)`, ovvero, ho usato i simboli dalla **a** alla **z** che sono seguiti dal simbolo **)**
 
