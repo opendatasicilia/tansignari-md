@@ -1,7 +1,7 @@
 ---
 title: "Come realizzare una multi-join"
 linkTitle: "Come fare una JOIN Tabellare con 70 shapefile"
-date: 2020-11-19
+date: 2022-07-02
 description: >
   A partire da 70 shapefile idendici, come unirli orizzontalmente e aggiungere lo stesso attributo.
 tags:
