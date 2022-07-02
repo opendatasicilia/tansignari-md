@@ -136,4 +136,3 @@ for f in files[1:]:
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
 - [blog post su Pigrecoinfinito]()
-- 
