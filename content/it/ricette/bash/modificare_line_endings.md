@@ -17,6 +17,7 @@ guide: ["Andrea Borruso"]
 ---
 
 A volte, quando si creano file a partire da [script `bash`](https://tansignari.opendatasicilia.it/ricette/bash/), può capitare di osservare strani simboli nel nome dei file di output
+
 ![image](https://user-images.githubusercontent.com/77018886/178977928-8fca30d2-a990-4d63-8df0-31df45b4dbef.png)
 
 Questo è dovuto al differente modo in cui i sistemi operativi gestiscono i caratteri di fine riga o _line endings_ (CR vs LF) e si può facilmente ovviare al problema agendo da [CLI](https://tansignari.opendatasicilia.it/ricette/riga_comando/) o dall'editor con il quale lavoriamo.
