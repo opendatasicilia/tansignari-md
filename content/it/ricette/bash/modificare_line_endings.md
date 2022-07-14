@@ -1,5 +1,5 @@
 ---
-title: "Modificare line endings (EOL)'"
+title: "Modificare line endings (EOL)"
 linkTitle: "Modificare line endings'"
 date: 2022-07-14
 description: >
