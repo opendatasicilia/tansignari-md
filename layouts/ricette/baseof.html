@@ -5,8 +5,8 @@
     <meta name="twitter:image" content="{{ .Permalink }}{{ .Params.featured_image }}"/>
     <meta property="og:image" content="{{ .Permalink }}{{ .Params.featured_image }}">
     {{ else }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}imgs/t'ansignari opengraph.png">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}imgs/t'ansignari twitter social card.png">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/imgs/tansignari-opengraph.png">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/imgs/tansignari-twitter-social-card.png">
     {{ end }}
     {{ partial "head.html" . }}
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
