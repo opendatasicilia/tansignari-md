@@ -1,15 +1,15 @@
 ---
 title: "Come scrivere una ricetta"
-linkTitle: "Come scrivere una ricetta"
-date: 2020-03-03
+linkTitle: "Come scrivere ricetta"
+date: 2022-07-30
 description: >
-  Come scrivere una ricetta su Tansignari.
+  Come scrivere una ricetta su T'ansignari dopo aver risolto un problema.
 tags:
   - ricetta
   - vs code
   - tansignari
 issue: [120]
-chefs: ["Totò Fiandaca"]
+chefs: ["Totò Fiandaca","Dennis Angemi"]
 guide: ["Andrea Borruso"]
 ---
 
@@ -17,87 +17,84 @@ guide: ["Andrea Borruso"]
 
 ## Introduzione
 
-In questa nuova piattaforma `Docsy` la redazione e pubblicazione di una ricetta viene fatta usando solo il linguaggio `Markdown` semplificando notevolemente i vari processi.
+Dopo aver posto una **domanda** (tramite issue in [opendatasicilia/tansignari](https://github.com/opendatasicilia/tansignari/issues)) e aver ricevuto una *buona risposta*, si consiglia di scrivere una _ricetta_ che sintetizzi il **problema** e le possibili **soluzioni**. La *ricetta* va scritta in formato `.md` ovvero `Markdown`; se non sai di cosa si tratta, non preoccuparti! Dai un'occhiata a [questa guida](https://www.markdownguide.org/). Cominciamo!
 
-## Corpo ricetta
+1. Apri il tuo editor di testo preferito
+2. Crea un nuovo file a cui dare l'estensione `.md` (e.g. `ciao_mondo.md`)
 
-Le nuove ricette vanno aggiunte in `content/it/ricette` che contiene tante cartelle quante sono le categorie di ricette (`Mappe`, `Bash`, `Utilities`, ecc..);
+Adesso siamo prontə per cominciare a scrivere la ricetta
 
-### le fasi da rispettare sono:
+## Front Matter
+Le primissime righe del file contenente la ricetta sono dedicate al *Front Matter*: una serie di informazioni codificate in linguaggio `YAML`. Ancora una volta, non preoccuparti se non hai mai sentito parlare di questo formato; ti basterà semplicemente copiare e incollare il template fornito qui sotto e modificare le informazioni secondo le tue necessità
 
-- in presenza di categoria:
-  - se nella ricetta fossero previste immagini è obbligatorio creare una **_cartella_**  (`content/it/ricette/nuova-cartella`) con nome simile al titolo della ricetta, all'interno mettere tutte le immagini e il file `index.md` che rappresenta la vera ricetta scritta in `markdown`;
-  - l'indice interno della ricetta è creata in automatico dal sistema qualora si utilizzassero i livelli (`#` primo livello; `##` secondo livello, ecc...);
-  - se la ricetta non prevedesse immagini non occorre creare cartelle, basta il solo file `nome-ricetta.md` scritto sempre in `markdown`;
-- in assenza di categoria:
-  - va creata una **_cartella_** per ogni nuova categoria di ricette (`Mappe`, `Bash`, `Utilities`, ecc..), all'interno va creato in file `_index.md`;
-
-### file `index.md`
-
-Ogni cartella rappresenta una nuova ricetta, all'interno troveremo le immagini e un file `index.md` che contiene la descrizione della ricetta. Ogni nuovo file `index.md` deve iniziare con il `front matter`:
-
-```
+```yaml
 ---
-title: "Come usare la matrice del pendolarismo ISTAT 2011"
-linkTitle: "Come usare la matrice del pendolarismo ISTAT 2011"
-date: 2020-03-03
+title: "Come rimuovere righe con 'Totale'"
+linkTitle: "Rimuovere righe con 'Totale'"
+date: 2022-05-19
 description: >
-  Come usare la matrice del pendolarismo ISTAT 2011.
+  Rimuovere da un CSV fastidiose righe contenenti il 'Totale'
 tags:
   - csv
-  - tsv
-  - csv-tsv
   - miller
-  - visidata
-  - sqlite
-issue: [105]
-chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso"]
+  - istat
+issue: [213]
+chefs: ["Dennis Angemi"]
+guide: ["Andrea Borruso","Totò Fiandaca","Gabriele Scalici"]
 ---
-riga vuota
+
 ---
-riga vuota
 ```
 
-subito sotto, il corpo della ricetta (vedi template).
+I dati così inseriti saranno compilati in questo modo:
 
-#### elementi del front matter del file index.md
+![frontmatter](https://user-images.githubusercontent.com/77018886/181913764-a1c52256-af6e-4f1a-90e6-32f1941ea182.JPG)
 
-- `title:` il titolo della ricetta tra doppi apici "";
-- `linkTitle:` quello che compare nel menu a destra del `Docsy`, quindi puo' essere uguale al titolo, meglio se più corto.
-- `date:` data nel formato `YYYY-mm-dd` della ricetta;
-- `description: >` descrizione della ricetta, utile per semplificare il titolo della stessa;
-- `tags:` parole chiave utilizzate nella ricetta, una sotto l'altra;
-- `issue:` numero della issue di riferimento, scritte dentro parentesi quadre e separate da virgola [1,2];
-- `autori:` autore della ricetta, scritte dentro parentesi quadre e separate da virgola ["a","b"];
-- `guide:` fornitore della ricetta, scritte dentro parentesi quadre e separate da virgola ["c","d"]
+Di seguito alcune linee guida
 
-### file `_index.md`
+### `title`
+Si tratta del titolo della ricetta. Consigliamo di evitare titoli troppo lunghi; maggiori informazioni potranno essere inserite nella `description` o nel corpo della ricetta.
 
-Ogni cartella che rappresenta una categoria deve contenere, oltre tutte le altre cartelle/ricette, il file `_index.md`, questo file inizia con il `front matter`:
+### `date`
+Data da inserire nel formato `YYYY-MM-DD`.
 
+### `description`
+È la sezione in cui poter aggiungere informazioni alle poche parole del titolo.
+
+### `tags`
+È un elenco puntato di tag. Se non sai quale inserire, dai un'occhiata a [questa pagina](https://tansignari.opendatasicilia.it/tags/) in cui sono raccolti tutti i tag utilizzati almeno una volta in T'ansignari.
+
+### `issue`
+È l'id dell'issue che hai aperto in [opendatasicilia/tansignari](https://github.com/opendatasicilia/tansignari/issues) per porre la tua domanda. Come capire qual è l'id della tua issue? Basta aprirla e osservare il numero che segue l'hashtag `#` di fianco al titolo della issue. Vediamo un esempio
+
+![issue](https://user-images.githubusercontent.com/77018886/181913730-440af89f-93c9-4f29-bf06-92e89dbb6d73.jpg)
+
+In questo caso la issue di riferimento è la numero `213`, quindi nel *front matter* della ricetta sarà sufficiente scrivere 
 ```
----
-title: "Nome cartella categoria"
-linkTitle: "Nome cartella categoria"
-weight: 11
-description: >
-  Una descrizione della categoria. [Fonte](https://it.wikipedia.org/wiki/xxxx)
----
-riga vuota
+issue: [213]
 ```
 
-Elenco Ricette
+### `chefs`
+È il nome di chi ha posto la domanda e scrive la ricetta.
 
-(verranno aggiunte automaticamente le ricette della categoria)
+### `guide`
+È il nome di chi ha fornito una buona risposta alla tua domanda. Nel caso in cui ci fossero più risposte utili, potrai indicare più nomi separati da virgole in questo modo
+```
+guide: ["Andrea Borruso","Totò Fiandaca","Gabriele Scalici"]
+```
 
-#### elementi del front matter file _index.md
+## Corpo della ricetta
+Siamo prontə per il nucleo della ricetta. Scrivila in formato `.md` subito sotto i caratteri `---` contenuti nel *front matter* e sentiti libero/a di inserire immagini, tabelle, riferimenti esterni. Se vuoi vedere qualche esempio, puoi aprire uno dei file `.md` contenuti in [questa cartella](https://github.com/opendatasicilia/tansignari-md/tree/master/content/it/ricette/CSV-TSV).
 
-- `title:` il titolo della categoria "";
-- `linkTitle:` quello che compare nel menu a destra del `Docsy`, quindi puo' essere uguale al titolo, meglio se più corto.
-- `weight:` è un numero che rappesenta il peso della categoria, più è altro è piì si trova in basso nell'elenco complessivo;
-- `description: >` descrizione della categoria, utile per semplificare il titolo della categoria;
+## Pubblicazione
+Adesso la tua ricetta è pronta! Dovrai solo pubblicarla in T'ansignari. Puoi farlo in molti modi, di seguito ne suggeriamo uno abbastanza intuitivo che non presuppone una conoscenza approfondita di Git.
 
-## Riferimenti utili
+1. [Accedi](https://github.com/login) a [GitHub](https://github.com/) o [registrati](https://github.com/signup) se non hai un account;
+2. Apri il repository [opendatasicilia/tansignari-md](https://github.com/opendatasicilia/tansignari-md);
+3. Carica la tua ricetta in una delle cartelle contenute in [content/it/ricette](https://github.com/opendatasicilia/tansignari-md/tree/master/content/it/ricette) sulla base della categoria che vuoi assengarle. Puoi fare click su `Add file` e scegliere se creare un nuovo file (*Create new file*) o caricare un file esistente (*Upload file*);
+4. Completare la procedura di caricamento (*commit*) assegnando un titolo, una descrizione e facendo click su *Create a new branch for this commit and start a pull request*;
+5. Fai click sul tasto verde e fai la stessa cosa anche nella pagina che si aprirà.
 
-1. [Docsy](https://www.docsy.dev/)
+![pull](https://user-images.githubusercontent.com/77018886/181913746-6fc91765-e582-4583-9a32-3ee5830d869d.JPG)
+
+La tua ricettà verrà revisionata dai membri della community di [Open Data Sicilia](https://opendatasicilia.it) e sarà presto online! Grazie mille per il tuo tempo ;)
