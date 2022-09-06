@@ -128,5 +128,4 @@ il valore dell'identificativo univoco del valore massimo e aggiunto direttamente
 
 - **SpatiaLite**: <https://www.gaia-gis.it/fossil/libspatialite/index>
 - **SQLite**: <https://sqlite.org/index.html>
-- Fuzione aggregazione max: <https://www.sqlitetutorial.net/sqlite-max/>
-- 
+- **Fuzione aggregazione max**: <https://www.sqlitetutorial.net/sqlite-max/>
