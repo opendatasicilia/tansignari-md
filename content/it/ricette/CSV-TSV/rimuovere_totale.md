@@ -16,7 +16,7 @@ tags:
   - istat
 issue: [213]
 chefs: ["Dennis Angemi"]
-guide: ["Andrea Borruso"]
+guide: ["Andrea Borruso","Totò Fiandaca","Gabriele Scalici"]
 ---
 
 ---

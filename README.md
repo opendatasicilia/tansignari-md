@@ -14,8 +14,8 @@ Questo spazio nasce per evitare tutto questo e mettere a **fattor comune** **sca
 Per punti:
 
 - se non lo hai già fatto, [**leggi il galateo**](https://festive-bohr-4ac225.netlify.com/galateo/);
-- fai la tua [**domanda qui**](https://github.com/opendatasicilia/tansignari/issues/new) (se non hai un account github, createlo);
-- se sei **soddisfatta/o** della risposta, sei **invitata/o a rimborsare**, **creando** un testo, una **ricetta**, in cui descrivere il problema/dubbio che avevi e come si possa risolvere.
+- fai la tua domanda [**aprendo issue sul repo opendatasicilia/tansignari**](https://github.com/opendatasicilia/tansignari/issues/new) (se non hai un account github, createlo);
+- se sei **soddisfatta/o** della risposta, sei **invitata/o a rimborsare**, **creando** un testo, una **ricetta**, in cui descrivere il problema/dubbio che avevi e come si possa risolvere. Il file `.md` contenente la ricetta dovrà essere importato in questo repo.
 
 
 ## Glossario minimo di T'ansignari

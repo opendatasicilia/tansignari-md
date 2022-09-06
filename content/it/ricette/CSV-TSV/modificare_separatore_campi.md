@@ -1,5 +1,5 @@
 ---
-title: "Come modificare separatore di campo e rimuovere eventuali virgolette ridondanti in un CSV"
+title: "Modificare separatore di campo e rimuovere virgolette ridondanti in un CSV"
 linkTitle: "Modificare delimiter e rimuovere virgolette"
 date: 2022-04-22
 description: >
