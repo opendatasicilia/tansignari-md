@@ -39,6 +39,8 @@ GROUP BY
 
 il quesito diventa più interessante se volessimo determinare gli identificativi univoci dei punti in cui la misurazione risultasse la più alta: ed è questo il quesito della ricetta.
 
+## Prima soluzione
+
 La soluzione proposta è la seguente query:
 
 ```sql
@@ -96,6 +98,8 @@ questo permetterà di localizzare, con precisione, quale degli enne punti è car
 ![](https://user-images.githubusercontent.com/7631137/188599426-bbfeed08-dc84-424f-ad84-467d00b4b572.png)
 
 **NB:** Se il valore massimo fosse presente in più punti, la query di sopra restituirebbe una riga per ogni valore massimo uguale.
+
+## Seconda soluzione
 
 Una alternativa più veloce ma più complicata da gestire è quella di utilizzare le espressioni SQLite dentro la [funzione di aggregazione](https://www.sqlitetutorial.net/sqlite-max/) `max`
 
