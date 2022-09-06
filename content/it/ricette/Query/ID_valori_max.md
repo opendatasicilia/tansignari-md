@@ -122,7 +122,7 @@ NOME|lg_max|ln_max
 7307|45.0-16|38.4-8
 7724|58.1-17|49.5-17
 
-il valore dell'identificativo univoco del valore massimo e aggiunto direttamente nella stessa cella: `45.0-16` e `38.4-8`, dove il primo valore è il valore massimo, il secondo, separato da `-` è l'identificativo.
+il valore dell'identificativo univoco del valore massimo è aggiunto direttamente nella stessa cella: `45.0-16` e `38.4-8`, dove il primo valore è il valore massimo, il secondo, separato da `-` è l'identificativo.
 
 ## RIFERIMENTI
 
