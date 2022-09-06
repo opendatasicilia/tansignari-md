@@ -97,7 +97,32 @@ questo permetterà di localizzare, con precisione, quale degli enne punti è car
 
 **NB:** Se il valore massimo fosse presente in più punti, la query di sopra restituirebbe una riga per ogni valore massimo uguale.
 
+Una alternativa più veloce ma più complicata da gestire è quella di utilizzare le espressioni SQLite dentro la [funzione di aggregazione](https://www.sqlitetutorial.net/sqlite-max/) `max`
+
+```sql
+SELECT
+  nome,
+  max(lg||'-'||pk_uid) AS lg_max,
+  max(ln||'-'||pk_uid) AS ln_max
+FROM
+  dataset_test
+GROUP BY
+  1
+```
+
+output
+
+NOME|lg_max|ln_max
+----|------|-----    
+4791|47.9-0|41.9-4
+7307|45.0-16|38.4-8
+7724|58.1-17|49.5-17
+
+il valore dell'identificativo univoco del valore massimo e aggiunto direttamente nella stessa cella: `45.0-16` e `38.4-8`, dove il primo valore è il valore massimo, il secondo, separato da `-` è l'identificativo.
+
 ## RIFERIMENTI
 
 - **SpatiaLite**: <https://www.gaia-gis.it/fossil/libspatialite/index>
 - **SQLite**: <https://sqlite.org/index.html>
+- Fuzione aggregazione max: <https://www.sqlitetutorial.net/sqlite-max/>
+- 
