@@ -49,3 +49,5 @@ dove:
 ## Riferimenti utili
 
 - [ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
+- [JOINs](https://gdal.org/user/ogr_sql_dialect.html#joins)
+- 
