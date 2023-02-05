@@ -10,6 +10,8 @@ tags:
   - ogr
   - database
   - filegdb
+  - Miller
+  - jq
 issue: [236]
 chefs: ["Totò Fiandaca"]
 guide: ["Andrea Borruso"]
@@ -73,5 +75,5 @@ done <lista_demain.csv
 
 - ogr2ogr: <https://gdal.org/programs/ogr2ogr.html>
 - jq: <https://stedolan.github.io/jq/>
-- mlr: <http://johnkerl.org/miller/doc/reference.html>
+- Miller (mlr): <http://johnkerl.org/miller/doc/reference.html>
 
