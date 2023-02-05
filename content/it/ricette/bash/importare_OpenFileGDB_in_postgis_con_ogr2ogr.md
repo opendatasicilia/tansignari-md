@@ -9,6 +9,7 @@ tags:
   - ogr2ogr
   - ogr
   - database
+  - filegdb
 issue: [232]
 chefs: ["Totò Fiandaca"]
 guide: ["Totò Fiandaca"]
