@@ -40,6 +40,33 @@ una riga per ogni dominio:
 
 ![](https://user-images.githubusercontent.com/7631137/213261431-2c2e62a7-547a-42de-9f3a-52eda67b1392.png)
 
+script bash:
+
+```sh
+#!/bin/bash
+
+set -x
+set -e
+set -u
+set -o pipefail
+
+folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# dbgt10k_fc_domain.json ottenuto: 'ogrinfo -json DBGT_10K_22_V01.gdb'
+# lista_demain.csv ottenuto da: 'ogrinfo -json DBGT_10K_22_V01.gdb | jq -r '.domains|keys[]''
+
+# crea cartella per i dati, se non esiste
+mkdir -p "$folder"/data
+
+# rimuovi i file csv, se esistono
+find "$folder"/data -type f -name '*.csv' -delete
+
+while IFS="" read -r domain; do
+  jq -r '.domains.'"$domain"'.codedValues' dbgt10k_fc_domain.json |
+  mlr --j2c reshape -r '.' -o k,v >"$folder"/data/"$domain".csv
+done <lista_demain.csv
+```
+
 ## Dati
 
 - [download](https://www.sardegnageoportale.it/index.php?xsl=2420&s=40&v=9&c=95645&es=6603&na=1&n=100&esp=1&tb=14401) file pesante +5 GB
