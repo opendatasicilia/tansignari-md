@@ -173,7 +173,7 @@ do
 	fi
 done
 
-# ripulisce il file dalla presenza di tab \t
+# ripulire il file jsonl dalla presenza di tab \t
 sed -i 's/\t//g' "$folder"/toto.jsonl
 
 # converte da jsonl a CSV
