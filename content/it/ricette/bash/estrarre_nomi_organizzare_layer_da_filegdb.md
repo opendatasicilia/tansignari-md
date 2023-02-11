@@ -1,7 +1,7 @@
 ---
 title: "Estrarre i nomi dei layer presenti in un filegdb"
 linkTitle: "Estrarre i nomi dei layer presenti in un filegdb e suddividerli per tipologia"
-date: 2023-01-18
+date: 2023-02-11
 description: >
   Come estrarre i nomi dei layer presenti in un filegdb e suddividerli per geometry type.
   - bash
@@ -11,7 +11,7 @@ description: >
   - filegdb
 issue: [242]
 chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso"]
+guide: ["Andrea Borruso" "Totò Fiandaca"]
 ---
 
 ---
