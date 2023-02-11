@@ -6,6 +6,7 @@ description: >
   Come e  estrarre dati da un file json usando ogr2ogr.
   - bash
   - json
+  - jq
   - Miller
   - filegdb
 issue: [237]
