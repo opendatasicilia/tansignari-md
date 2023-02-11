@@ -42,7 +42,7 @@ dove:
 - `$geom_type` richiamo l'attributo del file csv e che contiene i valori con cui filtrare;
 - `=~"^.{0,}Pont.{0,}$"` espressione regolare, dove:
   - `^` parti dall'inizio del valore
-  - `.{0,}` qualsiasi carattere, presente 0 o infinite volte, prima della parola in esame
+  - `.{0,}` qualsiasi carattere, presente 0 o infinite volte, prima della parola in esame (è equivalente `.*`)
   - `$` fine valore
 - `out2.csv` file di input 
 
