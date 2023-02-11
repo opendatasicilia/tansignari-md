@@ -38,11 +38,11 @@ mlr --csv filter '$geom_type=~"^.{0,}Line.{0,}$"' out2.csv
 mlr --csv filter '$geom_type=~"^.{0,}none.{0,}$"' out2.csv
 ```
 dove:
-- `filter` è un verdo
+- `filter` è un verbo di Miller
 - `$geom_type` richiamo l'attributo del file csv e che contiene i valori con cui filtrare;
 - `=~"^.{0,}Pont.{0,}$"` espressione regolare, dove:
   - `^` parti dall'inizio del valore
-  - `.{0,}` qualsiasi lettera, presente 0 o infinite volte, prima della parola in esame
+  - `.{0,}` qualsiasi carattere, presente 0 o infinite volte, prima della parola in esame
   - `$` fine valore
 - `out2.csv` file di input 
 
