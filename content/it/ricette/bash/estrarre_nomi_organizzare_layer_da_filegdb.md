@@ -11,7 +11,7 @@ description: >
   - filegdb
 issue: [242]
 chefs: ["Totò Fiandaca"]
-guide: ["Andrea Borruso" "Totò Fiandaca"]
+guide: ["Andrea Borruso","Totò Fiandaca"]
 ---
 
 ---
