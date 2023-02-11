@@ -4,6 +4,7 @@ linkTitle: "Estrarre i nomi dei layer presenti in un filegdb e suddividerli per 
 date: 2023-02-11
 description: >
   Come estrarre i nomi dei layer presenti in un filegdb e suddividerli per geometry type.
+tags:
   - bash
   - json
   - jq
