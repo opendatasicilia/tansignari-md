@@ -4,6 +4,7 @@ linkTitle: "Da enne righe ad una usando Miller"
 date: 2023-02-12
 description: >
   Come ottenere una sola riga a partire da un file txt con enne righe
+tags:
   - bash
   - csv
   - Miller
