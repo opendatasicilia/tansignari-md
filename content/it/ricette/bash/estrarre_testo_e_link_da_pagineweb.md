@@ -52,6 +52,7 @@ Poi occorre guardare la struttura della pagina, capire se c'è qualche elemento 
 
 Come tool uso **scrape** (per le query **XPATH**), **Miller**, e **xq**.
 
+(vedi questa [ricetta](https://tansignari.opendatasicilia.it/ricette/bash/tabelle_in_pagine_web_estrarre_autore_e_nro_righe/) per maggiori dettagli su XPATH)
 
 ```bash
 #!/bin/bash
