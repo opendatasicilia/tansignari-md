@@ -50,50 +50,6 @@ Per questo tipo di task, occorre imparare a fare query **XPATH** o **CSS Selecto
 
 Poi occorre guardare la struttura della pagina, capire se c'è qualche elemento utile per distinguere la parte di tuo interesse da tutto il resto.
 
-La parte di interesse è dentro un tag `section` con `id="notable-fixes"`.
-
-La query **XPATH** per selezionare quella parte è `//section[@id="notable-fixes"]`, che vuol dire: trova un tag `section` ovunque nella pagina, ma che abbia come `id` il valore `notable-fixes`.
-Queste query possono essere testare anche nel browser:
-
-![image](https://user-images.githubusercontent.com/30607/194418291-328022d9-6f52-41f7-bfb8-46095c159771.png)
-
-Un altro elemento interessante di questa struttura **HTML** è che per ogni user, c'è una sub sezione con id uguale al nome dell'user:
-
-![image](https://user-images.githubusercontent.com/30607/194418892-c742d92c-fa45-45ee-9591-54aa851a7c63.png)
-
-Sotto uno script bash, che per grandi linee fa questo:
-
-- scarica la pagina;
-- scarica l'elenco degli id degli user
-
-```
-bug-fixes-by-even-rouault
-bug-fixes-by-alessandro-pasotti
-bug-fixes-by-alex-bruy
-bug-fixes-by-sandro-santilli
-bug-fixes-by-nyall-dawson
-```
-- per ognuno di questi **id**:
-  - estrae il nome dello user;
-  - conta il numero di righe di ogni tabella;
-  - estrare la frase sul chi ha finanziato;
-  - crea una linea in formato JSON;
-
-```JSON
-{"nome":"Even Rouault   ","numeroRighe":"16","funded":"These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)"}
-```
-
-- e infine converte il tutto in **CSV**:
-
-```
-nome,numeroRighe,funded
-Even Rouault,15,These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)
-Alessandro Pasotti,18,These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)
-Alex Bruy,11,These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)
-Sandro Santilli,11,These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)
-Nyall Dawson,38,These bugfixes were funded byQGIS.ORG (through donations and sustaining memberships)
-```
-
 Come tool uso **scrape** (per le query **XPATH**), **Miller**, e **xq**.
 
 
