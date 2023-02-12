@@ -1,6 +1,6 @@
 ---
-title: "Determinare ID elementi corrispondenti ai valori risultanti della funzione di aggregazione max"
-linkTitle: "ID elementi risultanti della funzione max"
+title: "Determinare ID dei valori max"
+linkTitle: "ID elementi risultanti della funzione di aggregazione max"
 date: 2022-09-05
 description: >
  Determinare gli identificativi univoci (ID) degli elementi corrispondenti ai valori risultanti della funzione di aggregazione max.
