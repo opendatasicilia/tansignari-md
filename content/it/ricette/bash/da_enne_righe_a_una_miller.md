@@ -1,9 +1,9 @@
 ---
 title: "Da enne righe ad una usando Miller"
 linkTitle: "Da enne righe ad una usando Miller"
-date: 2023-01-18
+date: 2023-02-12
 description: >
-  Come e ottenere una sola riga a partire da un file txt con enne righe
+  Come ottenere una sola riga a partire da un file txt con enne righe
   - bash
   - csv
   - Miller
