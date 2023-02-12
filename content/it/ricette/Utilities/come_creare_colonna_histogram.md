@@ -100,7 +100,7 @@ then put '$histo=gsub($histo,"[^*]","")' input.txt
 
 ## Riferimenti utili
 
-- [**Miller**](http://johnkerl.org/miller/doc/reference.html)
+- [**Miller**](https://miller.readthedocs.io/)
 - [**bash**](https://it.wikipedia.org/wiki/Bash)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione

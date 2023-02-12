@@ -168,6 +168,6 @@ dove:
 ## Riferimenti utili
 
 - ogr2ogr: <https://gdal.org/programs/ogr2ogr.html>
-- Miller (mlr): <http://johnkerl.org/miller/doc/reference.html>
+- Miller (mlr): <https://miller.readthedocs.io/>
 - paste: <https://linuxize.com/post/paste-command-in-linux/>
 
