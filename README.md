@@ -10,6 +10,7 @@ Questo spazio nasce per evitare tutto questo e mettere a **fattor comune** **sca
 **Non su tutto**, ma su temi vicini a quelli che esplora la comunità **OpenDataSicilia**: i dati aperti, la trasparenza amministrativa, il *civic tech*.
 
 ## Come funziona
+👉 Usa questo repo per pubblicare la tua ricetta
 
 Per punti:
 
