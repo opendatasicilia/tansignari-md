@@ -55,3 +55,4 @@ Nel mio caso, si ottiene una cosa del tipo
 | Tizio | author | tizio@test.it |
 | Caio | maintainer | caio@test.it |
 ```
+
