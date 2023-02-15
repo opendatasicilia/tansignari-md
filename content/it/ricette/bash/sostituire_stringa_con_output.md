@@ -56,3 +56,15 @@ Nel mio caso, si ottiene una cosa del tipo
 | Caio | maintainer | caio@test.it |
 ```
 
+## Soluzione alternativa
+Puoi anche utilizzare `sed` creando un file temporaneo
+```bash
+<datapackage.yaml yq '[.contributors[] | {Name: .title, Role: .role, Email: .email}]' | mlr --j2m cat >temp.txt
+
+sed -i -e '/{{{contributors}}}/r temp.txt' -e '//d' metadata.md
+
+# if file exists, delete it
+if [ -f temp.txt ]; then
+    rm temp.txt
+fi
+```
