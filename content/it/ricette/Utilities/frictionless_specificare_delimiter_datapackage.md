@@ -8,6 +8,7 @@ tags:
   - csv
   - frictionless
   - metadata
+  - alias
 issue: [249]
 chefs: ["Dennis Angemi"]
 guide: ["Andrea Borruso"]
