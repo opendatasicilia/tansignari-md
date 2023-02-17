@@ -4,6 +4,7 @@ linkTitle: "Estrarre dati da un file json usando ogr2ogr"
 date: 2023-01-18
 description: >
   Come e  estrarre dati da un file json usando ogr2ogr.
+tags:
   - bash
   - json
   - jq

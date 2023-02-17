@@ -4,6 +4,7 @@ linkTitle: "Estrarre le chiavi e i valori di un dominio di campo utilizzate"
 date: 2023-01-27
 description: >
   Come estrarre le chiavi e i valori di un dominio di campo utilizzate in un database.
+tags:
   - bash
   - json
   - Miller
