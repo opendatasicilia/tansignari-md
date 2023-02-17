@@ -4,6 +4,7 @@ linkTitle: "Eliminare tabelle da un FileGDB usando ogrinfo"
 date: 2023-02-15
 description: >
   Come eliminare tabelle da un FileGDB usando ogrinfo.
+tags:
   - bash
   - ogrinfo
   - ogr
