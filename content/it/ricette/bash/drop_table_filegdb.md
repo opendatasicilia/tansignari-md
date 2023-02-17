@@ -6,6 +6,7 @@ description: >
   Come eliminare tabelle da un FileGDB usando ogrinfo.
 tags:
   - bash
+  - batch
   - ogrinfo
   - ogr
   - filegdb
