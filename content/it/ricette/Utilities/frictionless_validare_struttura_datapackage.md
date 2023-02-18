@@ -94,6 +94,9 @@ Se in output otteniamo:
 - `false` allora l'array è vuoto e quindi il datapackage non è valido;
 - `true` allora l'array non è vuoto e quindi il datapackage è valido.
 
+### Osservazione
+L'espressione di `jq` che consente di verificare l'esistenza di elementi all'interno di un array è `has(0)`.
+
 ## Riferimenti 
 - [Standard di Frictionless Data](https://specs.frictionlessdata.io/)
 - [jq](https://stedolan.github.io/jq/)
