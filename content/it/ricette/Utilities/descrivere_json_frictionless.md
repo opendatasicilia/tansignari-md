@@ -1,5 +1,5 @@
 ---
-title: "Come descrivere un .json con frictionless"
+title: "Come descrivere un json con frictionless"
 linkTitle: "Descrivere json con fricionless"
 date: 2023-02-08
 description: >
