@@ -41,7 +41,7 @@ A questo punto sei nelle condizioni di porre la tua domanda: [fai click qui](htt
 ![image](https://user-images.githubusercontent.com/77018886/221439702-9c5c50f3-0c0e-4e69-96b7-dbd75dab1da7.png)
 
 ## Le risposte?
-Se le persone che fanno parte di [Open Data Sicilia](https://opendatasicilia.it) sanno rispondere alla tua domanda, proveranno ad aggiungere un **commento** alla tua issue (al tuo post) in cui ti indirizzeranno verso una direzione che riteniamo possa tornarti utile. Le **notifiche** delle nuove risposte ti arriveranno per **email**!
+Se le persone che leggono tansignari sanno rispondere alla tua domanda, proveranno ad aggiungere un **commento** alla tua issue (al tuo post) in cui ti indicheranno una direzione che riteniamo possa tornarti utile. Le **notifiche** delle nuove risposte ti arriveranno per **email**!
 
 ## Scrivi una ricetta
 Se hai ricevuto una risposta che ti è tornata utile, [Tansignari](https://tansignari.opendatasicilia.it) prevede che tu scriva una "ricetta" ovvero un tutorial in cui sintetizzare il tuo **problema** e la **soluzione** trovata. Questa ricetta verrà pubblicata su tansignari e alimenterà così il nostro progetto di condivisione di conoscenza. Se vuoi sapere come scrivere una ricetta, ecco [qui una guida](https://tansignari.opendatasicilia.it/ricette/tansignari/come_scrivere_una_ricetta/) ;)
