@@ -77,5 +77,5 @@ Non otteniamo nessun errore. Possiamo continuare a lavorarci essendo consapevoli
 
 ## Riferimenti
 - [RFC 4180](https://datatracker.ietf.org/doc/html/rfc4180)
-- [`miller`](https://miller.readthedocs.io/en/6.7.0/)
+- [Documentazione Miller](https://miller.readthedocs.io/en/6.7.0/)
 - [Formati file supportati da Miller](https://miller.readthedocs.io/en/6.7.0/file-formats/#csvtsvasvusvetc:~:text=Miller%27s%20%2D%2Dcsv%20flag%20supports%20RFC%2D4180%20CSV.)
