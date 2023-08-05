@@ -1,9 +1,9 @@
 ---
-title: "Come descrivere un .json con frictionless"
-linkTitle: "Descrivere json con fricionless"
+title: "Come descrivere un JSON con frictionless"
+linkTitle: "Descrivere JSON con fricionless"
 date: 2023-02-08
 description: >
-  Con frictionless è possibile descrivere anche un file json; farlo non è immediato come per un csv. 
+  Con frictionless è possibile descrivere anche un file JSON; farlo non è immediato come per un csv. 
 tags:
   - json
   - frictionless
@@ -48,4 +48,4 @@ frictionless describe --path glossary.json
 
 ### Riferimenti
 - [Frictionless data](https://frictionlessdata.io/)
-- https://arigadicomando.it/frictionless/ricette/#validare-un-file-json
+- [Validare un JSON | arigadicomando.it](https://arigadicomando.it/frictionless/ricette/#validare-un-file-json)
