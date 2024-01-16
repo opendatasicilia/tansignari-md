@@ -8,7 +8,7 @@ tags:
   - OSM
   - Overpass turbo
   - api
-issue:
+issue: [35]
 chefs: ["Gabriele Francescotto"]
 guide: ["Gabriele Francescotto"]
 ---
