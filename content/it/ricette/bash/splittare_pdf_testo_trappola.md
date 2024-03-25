@@ -101,3 +101,8 @@ NB: per PDF di alta qualità e numero elevato di pagine, lo script può impiegar
 - pdftk: <https://wiki.ubuntu-it.org/Ufficio/Pdftk>
 - jq: <https://jqlang.github.io/jq/>
 - QGIS: <https://www.qgis.org/it/site/>
+
+## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
+
+- Blog Pigreconfinito: <https://pigrecoinfinito.com/2024/03/25/splittare-un-pdf-usando-un-testo-trappola/>
+

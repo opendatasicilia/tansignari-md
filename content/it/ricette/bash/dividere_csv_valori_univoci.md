@@ -41,6 +41,3 @@ in output i 90 file con nome file uguale al fenomeno osservato:
 - [Download CSV 20201214_QDV2020_001.csv](https://cdn.jsdelivr.net/gh/IlSole24ORE/QDV@main/20201214_QDV2020_001.csv)
 - [Miller](http://johnkerl.org/miller/doc/reference-verbs.html#nest)
 
-## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
-
-- Blog Pigreconfinito: <https://pigrecoinfinito.com/2024/03/25/splittare-un-pdf-usando-un-testo-trappola/>
