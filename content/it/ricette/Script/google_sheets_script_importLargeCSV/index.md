@@ -18,10 +18,10 @@ guide: ["Andrea Borruso"]
 La funzione [IMPORTDATA()](https://support.google.com/docs/answer/3093335?hl=en) di Google sheet consente di importare file CSV con um massimo di 20.000 righe, per superare il limite bisognerebbe suddividere in più file il CSV. E se non possubile suddividere il file come supero il limite delle 20.000 righe?
 
 ## Errore durate l'importazione di un file CSV
-Supponiamo di voler importare i dati di un file .csv da remoto, in questo caso i dati del [PUN](https://www.piattaformaunicanazionale.it/) Piattaforma Unica Nazionale dei punti di ricarica per i veicoli elettrici, resi disponibili dall'associazione [onData](https://github.com/ondata/rete_ricarica_veicoli_elettrici).
+Supponiamo di voler importare i dati di un file .csv da remoto, in questo caso i dati del [PUN](https://www.piattaformaunicanazionale.it/) Piattaforma Unica Nazionale dei punti di ricarica per i veicoli elettrici, resi disponibili dall'associazione [onData](https://github.com/ondata/rete_ricarica_veicoli_elettrici). <br>
 Ci posizioniamo nella  cella **A1** del nostro foglio di lavoro scriviamo la seguente funzione:<br><br>
 ```=IMPORTDATA("https://raw.githubusercontent.com/ondata/rete_ricarica_veicoli_elettrici/main/data/rete_ricarica_veicoli_elettrici.csv")```
-dopo qualche secondo ci verrà restituito l'errore <br><br>
+dopo qualche secondo ci verrà restituito l'errore. <br><br>
 **I contenuti della risorsa all'URL specificato hanno superato la dimensione massima**
 
 ![](errore.png)
@@ -92,7 +92,7 @@ Ecco come funziona:
 Questo approccio ti permette di superare i limiti di dimensione dei file CSV che possono essere importati direttamente in Google Sheets. Ricorda di adattare i riferimenti al file CSV e alle impostazioni in base alle tue esigenze specifiche.
 
 ## Lo script
-Ora non rimane che mettere in pratica tutto.
+Ora non rimane che mettere in pratica tutto.<br>
 Dal menù **strumenti**  cliccare su **Editor di script** 
 
 ![](script.png)
