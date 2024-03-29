@@ -133,4 +133,5 @@ Anche questa soluzione è valida e i dati vengono caricati più rapidamente.
 ![](gpirrotta_01.png)
 
 
+
 Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i prezziosi consigli
