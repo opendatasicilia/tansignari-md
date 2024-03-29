@@ -115,7 +115,7 @@ Per personalizzare i valori del **Trigger**, bisogna cliccare su **Attivatori** 
 ![](trigger.png)
 
 ## Altra soluzione con script
-[Giovanni Pirrotta](https://twitter.com/gpirrotta) ha consigliato di usare uno script più semplice 
+[Giovanni Pirrotta](https://twitter.com/gpirrotta) consiglia di usare un'altro script più semplice.
 
 ```
 function getBigCSV() {
@@ -127,7 +127,7 @@ function getBigCSV() {
 }
 ```
 
-Anche questa soluzione è valida e i dati vengono caricati più rapidamente.
+Anche questa soluzione è valida e i dati vengono caricati più rapidamente. Giovanni Pirrotta batte AI 🙂
 
 ![](gpirrotta_02.png)
 
