@@ -115,7 +115,7 @@ Per personalizzare i valori del **Trigger**, bisogna cliccare su **Attivatori** 
 ![](trigger.png)
 
 ## Altra soluzione con script
-[Giovanni Pirrotta](https://twitter.com/gpirrotta) ha consigliato di usare questo script più semplice 
+[Giovanni Pirrotta](https://twitter.com/gpirrotta) ha consigliato di usare uno script più semplice 
 
 ```
 function getBigCSV() {
@@ -126,12 +126,11 @@ function getBigCSV() {
   sheet.getRange(1, 1, data.length, data[0].length).setValues(data);
 }
 ```
+
 Anche questa soluzione è valida e i dati vengono caricati più rapidamente.
 
 ![](gpirrotta.png)
 
 ![](gpirrotta_01.png)
 
-
-
-Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i prezziosi consigli
+Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i prezziosi consigli.
