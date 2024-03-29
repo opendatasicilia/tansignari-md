@@ -27,7 +27,7 @@ dopo qualche secondo ci verrà restituito l'errore <br><br>
 
 Come forzare il caricamento del file CSV?
 
-Seguendo un cosiglio di [@aborruso](https://twitter.com/aborruso) cerco una soluzione usando AI, ad essere precisi uno [#PerplexityAI](https://www.perplexity.ai/), un chatbot AI e motore di ricerca conversazionale che si appoggia a ChatGPT-3.5-turbo combinandolo a un LLM molto sofisticato che, sfruttando l’elaborazione del linguaggio naturale e alcune funzioni per l’apprendimento automatico, è in grado di rispondere a qualsiasi domanda gli venga posta.<br><br>
+Seguendo un cosiglio di [@aborruso](https://twitter.com/aborruso) cerco una soluzione usando AI, ad essere precisi uso [#PerplexityAI](https://www.perplexity.ai/), un chatbot AI e motore di ricerca conversazionale che si appoggia a ChatGPT-3.5-turbo combinandolo a un LLM molto sofisticato che, sfruttando l’elaborazione del linguaggio naturale e alcune funzioni per l’apprendimento automatico, è in grado di rispondere a qualsiasi domanda gli venga posta.<br><br>
 Qui un [webinar](https://www.youtube.com/watch?v=s63f90pUu0Y) di [@aborruso](https://twitter.com/aborruso) sull'uso di [#PerplexityAI](https://www.perplexity.ai/)
 
 ## PerplexityAI
