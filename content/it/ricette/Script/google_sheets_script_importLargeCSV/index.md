@@ -3,7 +3,7 @@ title: "Google sheet script importLargeCSV()"
 linkTitle: "script in Google Apps Script che ti permette di importare un file CSV che supera il limite di dimensione in Google Sheets"
 date: 2024-03-29
 description: >
- La funzione IMPORTDATA() di Google sheet e il suo aggiornamento in tempo reale.
+ cript in Google Apps Script che ti permette di importare un file CSV che supera il limite di dimensione in Google Sheets.
 tags:
   - gsheet
   - script
@@ -108,7 +108,5 @@ Come si può notare nelle script non c’è nessun riferimento al tempo. L’int
 Per personalizzare i valori del **Trigger**, bisogna cliccare su **Attivatori** e selezionare quello dedicato allo script appena creato *Punti di ricarica* funzione *importLargeCSV* e modificarne i valori. In questa modo lo script attiverà una verifica di nuovi dati (dalla fonte CSV pre impostata nel trigger) con una frequenza temporale di 12 ore.
 
 ![](trigger.png)
-
-
 
 Grazie ad [@aborruso](https://twitter.com/aborruso) per i prezziosi consigli
