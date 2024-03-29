@@ -3,7 +3,7 @@ title: "Google sheet script importLargeCSV()"
 linkTitle: "script in Google Apps Script che ti permette di importare un file CSV che supera il limite di dimensione in Google Sheets"
 date: 2024-03-29
 description: >
- cript in Google Apps Script che ti permette di importare un file CSV che supera il limite di dimensione in Google Sheets.
+Script in Google Apps Script che ti permette di importare un file CSV che supera il limite di dimensione in Google Sheets.
 tags:
   - gsheet
   - script
