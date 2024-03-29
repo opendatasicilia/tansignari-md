@@ -114,4 +114,23 @@ Per personalizzare i valori del **Trigger**, bisogna cliccare su **Attivatori** 
 
 ![](trigger.png)
 
-Grazie ad [@aborruso](https://twitter.com/aborruso) per i prezziosi consigli
+## Altra soluzione con script
+[Giovanni Pirrotta](https://twitter.com/gpirrotta) ha consigliato di usare questo script più semplice 
+
+```
+function getBigCSV() {
+  const sheet = SpreadsheetApp.getActive().getSheetByName('Foglio1');
+  const url = 'https://raw.githubusercontent.com/ondata/rete_ricarica_veicoli_elettrici/main/data/rete_ricarica_veicoli_elettrici.csv';
+  const csv = UrlFetchApp.fetch(url);
+  const data = Utilities.parseCsv(csv);
+  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);
+}
+```
+Anche questa soluzione è valida e i dati vengono caricati più rapidamente.
+
+![](gpirrotta.png)
+
+![](gpirrotta_01.png)
+
+
+Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i prezziosi consigli
