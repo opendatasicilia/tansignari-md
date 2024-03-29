@@ -99,6 +99,10 @@ Dal menù **strumenti**  cliccare su **Editor di script**
 ## Come attivare lo script…?
 Si attiva semplicemente cliccando su **esegui** (icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è sicura etc etc… per bypassare tutto questo, cliccare su applicazione avanzate e confermare i permessi per poter lavorare…
 
+Come si può notare dall'immagine lo script funziona, sono state importate 32.008 righe
+
+![](import.png)
+
 ## Come aggiornare i dati...?
 
 Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da **Trigger**
