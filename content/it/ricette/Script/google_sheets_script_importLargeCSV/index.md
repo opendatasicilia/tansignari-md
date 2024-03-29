@@ -10,7 +10,7 @@ tags:
   - trigger
 issue: [260]
 chefs: ["Gianni Vitrano"]
-guide: ["Andrea Borruso"]
+guide: ["Andrea Borruso","Giovanni Pirrotta"]
 ---
 
 ---
