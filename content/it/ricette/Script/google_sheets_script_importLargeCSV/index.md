@@ -129,7 +129,7 @@ function getBigCSV() {
 
 Anche questa soluzione è valida e i dati vengono caricati più rapidamente.
 
-![](gpirrotta.png)
+![](gpirrotta_02.png)
 
 ![](gpirrotta_01.png)
 
