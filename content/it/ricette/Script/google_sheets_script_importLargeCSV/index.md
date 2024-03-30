@@ -15,7 +15,7 @@ guide: ["Andrea Borruso","Giovanni Pirrotta"]
 
 ---
 
-La funzione [IMPORTDATA()](https://support.google.com/docs/answer/3093335?hl=en) di Google sheet consente di importare file CSV con um massimo di 20.000 righe, per superare il limite bisognerebbe suddividere in più file il CSV. E se non possubile suddividere il file come supero il limite delle 20.000 righe?
+La funzione [IMPORTDATA()](https://support.google.com/docs/answer/3093335?hl=en) di Google sheet consente di importare file CSV con um massimo di 20.000 righe, per superare il limite bisognerebbe suddividere in più file il CSV. E se non possibile suddividere il file come supero il limite delle 20.000 righe?
 
 ## Errore durate l'importazione di un file CSV
 Supponiamo di voler importare i dati di un file .csv da remoto, in questo caso i dati del [PUN](https://www.piattaformaunicanazionale.it/) Piattaforma Unica Nazionale dei punti di ricarica per i veicoli elettrici, resi disponibili dall'associazione [onData](https://github.com/ondata/rete_ricarica_veicoli_elettrici). <br>
@@ -133,4 +133,4 @@ Anche questa soluzione è valida e i dati vengono caricati più rapidamente. Gio
 
 ![](gpirrotta_01.png)
 
-Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i prezziosi consigli.
+Grazie ad [@aborruso](https://twitter.com/aborruso) e [Giovanni Pirrotta](https://twitter.com/gpirrotta) per i preziosi consigli.
