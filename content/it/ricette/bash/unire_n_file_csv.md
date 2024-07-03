@@ -57,7 +57,7 @@ Estrarre la prima riga con `head -n 1` e metterla in un file, poi in for loop co
 
 ### Soluzione con Miller
 
-Oppure usare una utility che tinga conto del formato (quindi sa che c'è una riga di intestazione), come `Miller`, il comando è:
+Oppure usare una utility che tenga conto del formato (quindi sa che c'è una riga di intestazione), come `Miller`, il comando è:
 
 ```
 mlr --csv cat ./*.csv >./output.csv
