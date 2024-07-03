@@ -51,7 +51,7 @@ in questo caso `!d` non fa cancellare le righe che corrispopndono alla ricerca, 
 <input.csv grep -P '^feature-'
 ```
 
-in questo caso conserva le righe che corrispopndono alla ricerca.
+in questo caso conserva le righe che corrispondono alla ricerca.
 
 dove:
 
