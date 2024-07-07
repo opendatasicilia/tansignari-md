@@ -91,7 +91,7 @@ Adesso la tua ricetta è pronta! Dovrai solo pubblicarla in T'ansignari. Puoi fa
 
 1. [Accedi](https://github.com/login) a [GitHub](https://github.com/) o [registrati](https://github.com/signup) se non hai un account;
 2. Apri il repository [opendatasicilia/tansignari-md](https://github.com/opendatasicilia/tansignari-md);
-3. Carica la tua ricetta in una delle cartelle contenute in [content/it/ricette](https://github.com/opendatasicilia/tansignari-md/tree/master/content/it/ricette) sulla base della categoria che vuoi assengarle. Puoi fare click su `Add file` e scegliere se creare un nuovo file (*Create new file*) o caricare un file esistente (*Upload file*);
+3. Carica la tua ricetta in una delle cartelle contenute in [content/it/ricette](https://github.com/opendatasicilia/tansignari-md/tree/master/content/it/ricette) sulla base della categoria che vuoi assegnarle. Puoi fare click su `Add file` e scegliere se creare un nuovo file (*Create new file*) o caricare un file esistente (*Upload file*);
 4. Completare la procedura di caricamento (*commit*) assegnando un titolo, una descrizione e facendo click su *Create a new branch for this commit and start a pull request*;
 5. Fai click sul tasto verde e fai la stessa cosa anche nella pagina che si aprirà.
 
