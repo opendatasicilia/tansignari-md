@@ -66,4 +66,4 @@ mlr --csv cat ./*.csv >./output.csv
 ### Riferimenti utili
 
 - [cat](https://it.wikipedia.org/wiki/Cat_(Unix))
-- [Miller](http://johnkerl.org/miller/doc/reference-verbs.html#nest)
+- [Miller](https://miller.readthedocs.io/en/latest/reference-verbs/#nest)
