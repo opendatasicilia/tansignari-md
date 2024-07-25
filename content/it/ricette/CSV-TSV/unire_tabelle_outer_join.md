@@ -79,7 +79,7 @@ In VisiData è possibile fare tutti i tipi di join tabellare e a noi serve la ou
 
 più facile a farsi che a descriverlo!
 
-## Miller
+### Miller
 
 Ho rinominato il campo in entrambe le tabelle in _Cls_Liv_ e rinominato tabelle in A e B, il comando Miller da lanciare è:
 
