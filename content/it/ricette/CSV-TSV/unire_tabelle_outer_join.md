@@ -102,6 +102,8 @@ Questo è insieme join left e right (`--ul --ur`) e quindi è un full outer.
 | 090003 | 5 | 2.986054141487481 | 3.072883214239986 |
 | 090003 | 4 |  | 11.76167918463312 |
 
+NB: `sort -t` è valido per Miller > 6.0; 
+
 ### DuckDB
 
 SQL standard
