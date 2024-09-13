@@ -51,7 +51,7 @@ npm install gatsby react react-dom
 ### 3. Struttura del progetto
 Gatsby è un framework _magico_, che integra strumenti come [React](https://reactjs.org/), [GraphQL](https://graphql.org/) e [Webpack](https://webpack.js.org/), per facilitare lo sviluppo di pagine web e ottimizzarne i contenuti. Esistono alcune [convenzioni che vanno rispettate](https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/) per sfruttare a pieno le sue capacità. Una di queste è la struttura delle cartelle, e alcuni files essenziali che andremo a modificare in seguito.  
 
-> #### /src/pages
+#### `/src/pages`
 
 La cartella `/src` sarà quella che terrà tutto il codice sorgente della nostra applicazione, al suo interno possiamo creare altre cartelle a nostro piacimento, ma in ogni caso, la sottocartella `/pages` sarà quella in cui Gatsby andrà a cercare le nostre pagine. Questa è una bella rivoluzione già cominciata da [Next.js](https://nextjs.org/), altro framework molto potente.
 Quindi prima di tutto creiamo la cartella `/src/pages` e magari inseriamo la nostra homepage all'interno: `src/pages/index.js`.
@@ -66,13 +66,13 @@ Se andiamo adesso a lanciare il comando `gatsby develop` dal terminale, all'inte
 
 Queste cartelle vanno incluse all'interno del file `.gitignore`, che andremo a creare, che comunicherà a git quali files e quali cartelle non andranno inseriti all'interno del repository.
 
-> #### /src/components
+#### `/src/components`
 All'interno di questa cartella creeremo dei componenti riutilizzabili che hanno una specifica funzione. I componenti non sono nient'altro che funzioni che possiamo esportare e importare in diverse pagine, magari modificandone i parametri, e quindi i risultati. Ad esempio come un frullatore è un componente, può ricevere arance e fare un succo d'arancia, o mirtilli per il succo al mirtillo. A seconda di cosa ci serve prendiamo il frullatore e lo mettiamo in una pagina particolare, così da poterne riutilizzare le funzionalità. Il nome della cartella è una convenzione che viene principalmente da [React](https://reactjs.org/docs/components-and-props.html), su cui Gatbsy è basato.
 
-> #### /src/templates
+#### `/src/templates`
 Qui andremo a creare delle strutture di design predefinite (ma customizzabili) per ogni tipo di contenuto che vogliamo mostrare in maniera coerente e ripetibile. Ad esempio, potremo creare un template per ogni articolo di _blog_, un template per ogni tipo di _evento_ e così via.
 
-> #### .gitignore
+#### `.gitignore`
 Aggiungiamo al .gitignore le cartelle che non vogliamo portarci sul repository.
 ```
 node_modules
